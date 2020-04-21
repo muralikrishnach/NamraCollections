@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00abff"
+    
+    android:orientation="vertical" >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.00"
+          android:gravity="center"
+          android:orientation="vertical"
+          android:paddingLeft="5dp" >
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="316dp"
+            android:layout_height="38dp"
+            android:gravity="center"
+            android:hint="LOGIN"
+            android:textSize="15dp" 
+            android:typeface="monospace"
+            android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="5dp" >
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            android:background="#00abff"
+            android:gravity="center"
+            android:hint="Username"
+            android:textSize="15dp"
+            android:typeface="monospace" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="15dp"
+android:background="#00abff"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="125dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="Log In"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+    </LinearLayout>
+    
+</LinearLayout>

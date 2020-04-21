@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\PPFM-13-4-20Sqliteissuecode\\pplcollections\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\administrator_pc\\.gradle\\caches\\transforms-2\\files-2.1\\f5bdf8930f5b0dade80802408310dda6\\appcompat-1.1.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,784,888",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,883,999"
+                    }
+                },
+                {
+                    "source": "E:\\PPFM-13-4-20Sqliteissuecode\\pplcollections\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,8,10,11",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "92,151,384,443,486",
+                        "endColumns": "57,55,55,41,39",
+                        "endOffsets": "145,202,435,480,521"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "532,590,646,702,744",
+                        "endColumns": "57,55,55,41,39",
+                        "endOffsets": "585,641,697,739,779"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\administrator_pc\\.gradle\\caches\\transforms-2\\files-2.1\\38d0b14110c3b6afe3e598d06dbd20df\\material-1.1.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,177",
+                        "endColumns": "121,133",
+                        "endOffsets": "172,306"
+                    },
+                    "to": {
+                        "startLines": "16,17",
+                        "startColumns": "4,4",
+                        "startOffsets": "1004,1126",
+                        "endColumns": "121,133",
+                        "endOffsets": "1121,1255"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:orientation="vertical" >
+
+         <TextView
+             android:layout_width="115dp"
+             android:layout_height="wrap_content"
+             android:paddingBottom="10dip"
+             android:paddingTop="10dip"
+             android:text="Remarks on OD"
+             android:textColor="#000000"
+             android:textStyle="bold"
+              android:id="@+id/tvremarks" />
+
+        <EditText
+            android:id="@+id/etremarksonOD"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:hint="Enter Reason"
+            android:imeOptions="actionNext"
+            />
+
+    </LinearLayout>
+    
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:text="Enter Demise Date"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+             android:id="@+id/tvdate"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:hint="Enter Demise Date" 
+            android:id="@+id/etdemisedate"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:maxLines="1"/>
+    </LinearLayout>
+     <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnftodconfirm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Next" />
+
+               
+            </LinearLayout>
+</LinearLayout>

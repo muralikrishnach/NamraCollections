@@ -1,0 +1,135 @@
+package com.jayam.impactapp.adapters;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.util.Log;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.jayam.impactapp.DisplayRoute;
+import com.jayam.impactapp.GroupDetails;
+import com.jayam.impactapp.LateGroupMembers;
+import com.jayam.impactapp.LateMemeberDetails;
+import com.jayam.impactapp.R;
+import com.jayam.impactapp.database.RegularDemandsBL;
+import com.jayam.impactapp.objects.BaseDO;
+import com.jayam.impactapp.objects.RegularDemandsDO;
+import com.jayam.impactapp.utils.DialogUtils;
+
+import java.util.List;
+
+public class LateGroupsAdapter extends GenericAdapter {
+    String cno;
+    public String langitude, latitude;
+    public	String dlatitude, dlangitude;
+    public LateGroupsAdapter(Context context, List<? extends BaseDO> listItems, String cno, String latitude, String langitude) {
+        super(context, listItems);
+        this.cno = cno;
+        this.langitude=langitude;
+        this.latitude=latitude;
+    }
+
+    @Override
+    public View getView(final int position, View convertView, ViewGroup parent) {
+        RegularDemandsDO regularDemandsDO = (RegularDemandsDO) getList().get(position);
+        convertView = getLayoutInflater().inflate(R.layout.center_cell, null);
+        TextView tvCenterName = (TextView) convertView.findViewById(R.id.tvCenterName);
+        TextView demandamount = (TextView) convertView.findViewById(R.id.tvdmamt);
+        TextView maetingdate = (TextView) convertView.findViewById(R.id.tvmdate);
+        ImageView imgConfirmed = (ImageView) convertView.findViewById(R.id.imgConfirmed);
+
+        ImageView Location = (ImageView) convertView.findViewById(R.id.location);
+
+//        demandamount.setVisibility(View.GONE);
+//        maetingdate.setVisibility(View.GONE);
+//        imgConfirmed.setVisibility(View.GONE);
+//        Location.setVisibility(View.GONE);
+        imgConfirmed.setVisibility(View.INVISIBLE);
+
+
+        RegularDemandsBL bl = new RegularDemandsBL();
+//        String fullpaymnet = bl.CheckForFullpayMent(regularDemandsDO.GNo);
+//        if (fullpaymnet != null && fullpaymnet.equalsIgnoreCase("0")) {
+//            imgConfirmed.setVisibility(View.VISIBLE);
+//        } else {
+//            imgConfirmed.setVisibility(View.GONE);
+//        }
+        tvCenterName.setText("" + regularDemandsDO.GroupName + "-" + regularDemandsDO.GNo);
+        demandamount.setText( regularDemandsDO.GroupAmt);
+        maetingdate.setText( regularDemandsDO.GroupMeeting);
+        dlangitude=regularDemandsDO.LongitudeGroup;
+        dlatitude=regularDemandsDO.LatitudeGroup;
+        Log.v("","dlangitude"+dlangitude);
+        Log.v("","dlatitude"+dlatitude);
+
+        Log.e("position", "" + position);
+
+        Location.setTag(regularDemandsDO);
+        Location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(langitude!=null && !langitude.isEmpty() && latitude!=null && !latitude.isEmpty()) {
+
+                    if(langitude!=null && !langitude.isEmpty())
+                    {
+                        langitude=langitude.trim();
+                    }
+
+                    if(latitude!=null && !latitude.isEmpty())
+                    {
+                        latitude=latitude.trim();
+                    }
+                    Intent intent = new Intent(mContext, DisplayRoute.class);
+                    intent.putExtra("Lognitude", langitude);
+                    intent.putExtra("Latitude", latitude);
+                    intent.putExtra("DESLognitude", dlangitude);
+                    intent.putExtra("DESLatitude", dlatitude);
+                    ((Activity) (mContext)).startActivity(intent);
+                }
+                else
+                {
+                    DialogUtils.showAlert(mContext,"Latitude and Longitude not capture wait");
+                }
+
+            }
+        });
+
+
+        convertView.setTag(regularDemandsDO);
+        convertView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                RegularDemandsBL bl = new RegularDemandsBL();
+
+//                String count = bl.getDistinctCount(cno);
+//                Boolean b = false;
+//                if (count.equals("1") || getList().size() == 1) {
+//                    b = true;
+//                    Log.d("mfimo", "last group");
+//                } else {
+//                    Log.d("mfimo", "groups remain" + count);
+//                }
+//                RegularDemandsDO regularDemandsDO = (RegularDemandsDO) v.getTag();
+//                Intent intent = new Intent(mContext, LateMemeberDetails.class);
+//                intent.putExtra("groupnumber", regularDemandsDO.GNo);
+//                if (b) {
+//                    Log.d("mfimo", position + "true" + (getList().size() - 1));
+//                    intent.putExtra("position", "last");
+//                }
+//                ((Activity) (mContext)).startActivityForResult(intent, 0);
+
+                Intent intent = new Intent(mContext, LateGroupMembers.class);
+                intent.putExtra("groupnumber", regularDemandsDO.GNo);
+
+                ((Activity) (mContext)).startActivityForResult(intent, 0);
+
+
+            }
+        });
+        return convertView;
+    }
+
+}

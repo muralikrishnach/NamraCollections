@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whiteshadsed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <AutoCompleteTextView
+            android:layout_weight="0"
+            android:layout_marginTop="20dp"
+            android:id="@+id/AutocenterCrocpv"
+            style="@style/SpinnerBackgrond"
+            android:background="@color/blue_shadow"
+            android:drawableRight="@null"
+            android:hint="Center"
+            android:inputType="number"
+            android:singleLine="true" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/saparetor" />
+
+        <AutoCompleteTextView
+            android:visibility="visible"
+            android:layout_weight="0"
+            android:layout_marginTop="20dp"
+            android:id="@+id/payment"
+            style="@style/SpinnerBackgrond"
+            android:background="@color/blue_shadow"
+            android:drawableRight="@null"
+            android:hint="Group"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_weight="1"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="LinearLayoutManager"
+            >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+</LinearLayout>

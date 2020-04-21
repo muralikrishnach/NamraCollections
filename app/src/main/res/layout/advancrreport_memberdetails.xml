@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="Receipt No From: "
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvrecptNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="Receipt No To: "
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvrecptNumberTo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="Center Name"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" 
+                android:id="@+id/ADVCenterName"/>
+            <View
+                 android:layout_width="1dip"
+                 android:layout_height="fill_parent"
+                 android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvRCenterName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"                
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="1234235325"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+		<LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="Group Name"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" 
+                android:id="@+id/ADVCenterName1"/>
+            <View
+                 android:layout_width="1dip"
+                 android:layout_height="fill_parent"
+                 android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvRGroupName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"                
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="1234235325"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="Member Name"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" 
+                android:id="@+id/ADVCenterNamed"/>
+            <View
+                 android:layout_width="1dip"
+                 android:layout_height="fill_parent"
+                 android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvRMemberName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"                
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="1234235325"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="DemandDate"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+            <View
+                 android:layout_width="1dip"
+                 android:layout_height="fill_parent"
+                 android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvDemandDate"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="Total OSAmt"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+			<View
+                 android:layout_width="1dip"
+                 android:layout_height="fill_parent"
+                 android:background="@drawable/saparetor" />
+            <TextView
+                android:id="@+id/tvTotalOSAmt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:text="1234235325"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+		<View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:textStyle="bold"
+                android:text="Total PreclosureIntrest"
+                android:textColor="@android:color/black" />
+			<View
+                 android:layout_width="1dip"
+                 android:layout_height="fill_parent"
+                 android:background="@drawable/saparetor" />
+            <TextView
+                android:id="@+id/tvTotalPreclosureIntrest"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+		<View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+        
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="5dip"
+                android:gravity="center"
+                android:text="Collected Amount"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+			<View
+                 android:layout_width="1dip"
+                 android:layout_height="fill_parent"
+                 android:background="@drawable/saparetor" />
+            <TextView
+                android:id="@+id/tvCollectedAmount"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+          <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="Amount to be Collected"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+			<View
+                 android:layout_width="1dip"
+                 android:layout_height="fill_parent"
+                 android:background="@drawable/saparetor" />
+            <TextView
+                android:id="@+id/tvAmounttobeCollected"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+		<View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnPrint"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="Print" />
+            <Button
+                android:id="@+id/btnMenu"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="Main Menu" />
+
+            
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

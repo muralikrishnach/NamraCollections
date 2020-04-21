@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal">
+       <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <Button
+
+              android:visibility="gone"
+                android:id="@+id/btnprtDownLoad"
+                style="@style/ButtonManuvalupdate"
+                android:layout_gravity="center"
+                android:layout_margin="10dip"
+                android:text="@string/pdDownload" />
+
+            <Button
+
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        style="@style/ButtonManuvalupdate"
+        android:text="@string/Download" 
+        android:layout_gravity="center"
+        android:id="@+id/btnDownLoad"/>
+
+    <Button
+        android:visibility="gone"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:text="@string/Upload" 
+        android:layout_gravity="center"
+        android:id="@+id/btnUpload"/>
+
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:text="LUC Download" 
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/btnLUCDownLoad"/>
+
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:text="LUC Upload" 
+         android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/btnLUCUpload"/>
+
+            <Button
+        android:visibility="gone"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:text="@string/ODUpload" 
+        android:layout_gravity="center"
+        android:id="@+id/btnUploadODDemand"/>
+
+    <Button
+
+        android:layout_height="wrap_content"
+        style="@style/ButtonManuvalupdate"
+        android:layout_margin="10dip"
+        android:text="UploadImage" 
+        android:layout_gravity="center"
+        android:id="@+id/btnUploadImage"/>
+    <Button
+
+
+        style="@style/ButtonManuvalupdate"
+        android:layout_margin="10dip"
+        android:layout_gravity="center"
+        android:text="@string/AdvanceDownload" 
+        android:id="@+id/btnAdvDownload"/>
+
+            <Button
+
+
+                android:id="@+id/btnODDemand"
+                style="@style/ButtonManuvalupdate"
+                android:layout_gravity="center"
+                android:layout_margin="10dip"
+                android:text="@string/ODDemandDownload" />
+
+            <Button
+                android:visibility="gone"
+                android:id="@+id/btnAdvUpload"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dip"
+                android:text="@string/Advanceupload" />
+
+
+            <Button
+
+
+                style="@style/ButtonManuvalupdate"
+                android:layout_margin="10dip"
+                android:layout_gravity="center"
+                android:text="@string/regUpload"
+                android:id="@+id/btnregupdate"/>
+
+            <Button
+
+                android:layout_height="wrap_content"
+                style="@style/ButtonManuvalupdate"
+                android:layout_margin="10dip"
+                android:layout_gravity="center"
+                android:text="@string/odUpload"
+                android:id="@+id/btnodupdate"/>
+
+
+            <Button
+
+                android:layout_height="wrap_content"
+                style="@style/ButtonManuvalupdate"
+                android:layout_margin="10dip"
+                android:layout_gravity="center"
+                android:text="@string/advUpload"
+                android:id="@+id/btnadvupdate"/>
+    
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+         android:visibility="gone"
+        android:layout_gravity="center"
+        android:text="@string/NPSDownload" 
+        android:id="@+id/btnNPSDownload"/>
+    
+     <Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_gravity="center"
+        android:text="@string/NPSupload" 
+        android:visibility="gone"
+        android:id="@+id/btnNPSUpload"/>
+     </LinearLayout>
+    </ScrollView>
+</LinearLayout>

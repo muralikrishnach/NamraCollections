@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center">
+
+    <Button
+        android:visibility="gone"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="Administration" 
+        android:layout_margin="10dip"
+        android:id="@+id/btnAdmin"/>
+
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="Transactions" 
+         android:layout_margin="10dip"
+         android:id="@+id/btnTransaction"/>
+	<Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="NPS Transactions" 
+        android:visibility="gone"
+        android:layout_margin="10dip"
+        android:id="@+id/btnNPSTransaction"/>
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_gravity="center"
+        android:text="@string/repdetails"
+        android:id="@+id/btnrepay"/>
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_gravity="center"
+        android:text="@string/dashboard"
+        android:id="@+id/btndash"/>
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="Data Sync"
+         android:layout_margin="10dip" 
+         android:id="@+id/btndataSync"/>
+
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="Reports"
+         android:layout_margin="10dip"
+         android:id="@+id/btnReports" />
+
+    <Button
+        android:visibility="gone"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="Utilities"
+         android:layout_margin="10dip"
+         android:id="@+id/btnUtilities" />
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="Last Receipt Print"
+         android:layout_margin="10dip" 
+         android:id="@+id/btnLastreceiptprint"/>
+
+
+    <Button
+        android:visibility="gone"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="Regular Demand Cashless"
+        android:layout_margin="10dip"
+        android:id="@+id/btnregularstaus"/>
+    <Button
+        android:visibility="gone"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="OD Demand Cashless"
+        android:layout_margin="10dip"
+        android:id="@+id/btnodstatus"/>
+    <Button
+        android:visibility="gone"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="Advance Demand Cashless"
+        android:layout_margin="10dip"
+        android:id="@+id/btnadvancedstatus"/>
+
+
+
+</LinearLayout>

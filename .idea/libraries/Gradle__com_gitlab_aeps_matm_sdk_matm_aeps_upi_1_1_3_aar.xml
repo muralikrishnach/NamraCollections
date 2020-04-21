@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb9d12db0987b7f158490e1ede5f0b9e/jetified-matm_aeps_upi-1.1.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb9d12db0987b7f158490e1ede5f0b9e/jetified-matm_aeps_upi-1.1.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb9d12db0987b7f158490e1ede5f0b9e/jetified-matm_aeps_upi-1.1.3/jars/libs/EasyLinkSdk_V2.00.00_20190111.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb9d12db0987b7f158490e1ede5f0b9e/jetified-matm_aeps_upi-1.1.3/jars/libs/EcrProtocol_V1.01.00_20190115.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb9d12db0987b7f158490e1ede5f0b9e/jetified-matm_aeps_upi-1.1.3/jars/libs/GLComm_ V1.03.02_20181030.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb9d12db0987b7f158490e1ede5f0b9e/jetified-matm_aeps_upi-1.1.3/jars/libs/GLImgProcessing_V1.01.00_20181030.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb9d12db0987b7f158490e1ede5f0b9e/jetified-matm_aeps_upi-1.1.3/jars/libs/GLUtils_V1.00.00_20180309.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb9d12db0987b7f158490e1ede5f0b9e/jetified-matm_aeps_upi-1.1.3/jars/libs/simple-xml-2.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gitlab.aeps_matm_sdk/matm_aeps_upi/1.1.3/d909a629df013da552aeebcd3f2ef3d50bd5484c/matm_aeps_upi-1.1.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

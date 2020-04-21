@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:tag="cards main container">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="20dp"
+
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="RtlCompat">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:layout_weight="3"
+                            android:gravity="left"
+                            android:text="Sno:"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textSize="16sp" />
+
+                        <TextView
+                          android:id="@+id/memberid"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text=""
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textSize="16sp" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3"
+                            android:text="Paid Date:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+
+                        <TextView
+android:id="@+id/membername"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3"
+                            android:text="Principal:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/Spousename"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3"
+                            android:text="Interest:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/AAmount"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3"
+                            android:text="Total:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/Eamount"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            card_view:cardCornerRadius="20dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="RtlCompat">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:layout_weight="3"
+                            android:gravity="left"
+                            android:text="Address type:"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textSize="16sp" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text="Permanent Address"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textSize="16sp" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3"
+                            android:text="Address:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:text="Ananthavaram"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3"
+                            android:text="postal code:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:text="522410"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3"
+                            android:text="city:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:text="Guntur"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3"
+                            android:text="state:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:text="Andra Pradesh"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3"
+                            android:text="state:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:text="Andra Pradesh"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3"
+                            android:text="state:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:text="Andra Pradesh"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3"
+                            android:text="state:"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:text="Andra Pradesh"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

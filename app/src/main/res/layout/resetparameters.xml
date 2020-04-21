@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dip"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvworkmode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Work Mode:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <EditText
+                android:id="@+id/txtworkmode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvTerminalID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Terminal ID:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <EditText
+                android:id="@+id/txtterminalid"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="number"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvmac"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="MAC ID:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <EditText
+                android:id="@+id/txtmac"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvheader"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Receipt Header:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <EditText
+                android:id="@+id/txtheader"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                 android:textSize="13dip" />
+
+            <CheckBox
+                android:id="@+id/chkacopy"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Agent Copy"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvfooter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Receipt Footer:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <EditText
+                android:id="@+id/txtfooter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvBTAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Printer BT Address:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <EditText
+                android:id="@+id/txtBTAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvoffset"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Days Offset:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <EditText
+                android:id="@+id/txtoffset"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="13dip" />
+
+            <CheckBox
+                android:id="@+id/chkmtime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Meeting Time"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvtimeout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="TimeOut:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <EditText
+                android:id="@+id/txttimeout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvurl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Server Url:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <EditText
+                android:id="@+id/txturl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvmaxtxns"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Max Transactions:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <EditText
+                android:id="@+id/txtmaxtxns"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvmaxamt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Maximum Amount:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <EditText
+                android:id="@+id/txtmaxamt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvusername"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="UserName:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <EditText
+                android:id="@+id/txtusername"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvtxnid"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Last Generated Receipt No:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <EditText
+                android:id="@+id/txttxnid"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:textSize="13dip" />
+
+            <CheckBox
+                android:id="@+id/chkpartial"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Partial Payment"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <CheckBox
+                android:id="@+id/chkadv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Advance Payment"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvadvdemands"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Advance Demand Dwds:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <EditText
+                android:id="@+id/txtadvdemands"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="13dip" />
+
+            <CheckBox
+                android:id="@+id/chkattn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Attendance"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <CheckBox
+                android:id="@+id/chkindividual"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Individual Receipt"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <CheckBox
+                android:id="@+id/chkgli"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="GLI"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+
+            <CheckBox
+                android:id="@+id/chklateness"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Lateness"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+            
+             <CheckBox
+                android:id="@+id/chkPhotoCapture"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Photo Capture"
+                android:textColor="@android:color/black"
+                android:textSize="13dip" />
+        </LinearLayout>
+    </ScrollView>
+
+    <requestFocus />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="Submit" />
+
+</LinearLayout>

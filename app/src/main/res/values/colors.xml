@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bg">#EDEDED</color>
+    <color name="header_color">#DC0015</color>
+    <color name="btn_pressed">#AC484B</color>
+    <color name="theme_light">#fbe1c4</color>
+    <color name="colorPrimary">#4b3f6f</color>
+    <color name="gray_light">#FDFDFD</color>
+    <color name="gray">#999999</color>
+    <color name="blue_shadow">#ccccff</color>
+    <color name="black">#000000</color>
+    <color name="merron">#800000</color>
+    <color name="blue">#0645AD</color>
+
+    <color name="darkred">#c62828</color>
+    <color name="darkpurple">#6a1b9a</color>
+    <color name="cyan">#00838f</color>
+    <color name="orangedash">#f9a825</color>
+
+    <color name="greendash">#689f38</color>
+    <color name="bludash">#01579b</color>
+    <color name="lime">#afb42b</color>
+    <color name="yellow">#ffc400</color>
+
+    <color name="bluecoll">#1565c0</color>
+    <color name="dark_gray">#3d454c</color>
+    <color name="dark_gray_pressed">#373e44</color>
+    <color name="darker_gray">#1f2226</color>
+    <!--<color name="theme_blue_dark">#2d5a91</color>-->
+
+    <color name="theme_blue_dark">#263238</color>
+
+
+    <color name="background">#A7FFEB</color>
+    <color name="actionbar">#00ACC1</color>
+    <color name="light_gray">#E5E5E6</color>
+    <color name="blue_light">#7fa6dd</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue_light_bg">#9CBCD8</color>
+    <color name="darkblueg">#FF1300C1</color>
+
+    <color name="mycolour">#c8a2c8</color>
+
+    <color name="btcolor">#7361b1</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="dearkgreen">#006400</color>
+
+
+
+
+
+</resources>

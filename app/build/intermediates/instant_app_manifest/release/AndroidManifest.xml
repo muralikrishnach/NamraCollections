@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jayam.impactapp"
+    android:targetSandboxVersion="2" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SDCARD_WRITE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.hardware.camera" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name="com.jayam.impactapp.common.MfimoApp"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:icon="@drawable/mfimo_icon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeone"
+        android:usesCleartextTraffic="true" >
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.jayam.impactapp.loginActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.jayam.impactapp.NavigationActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppFullScreenTheme" />
+        <activity
+            android:name="com.jayam.impactapp.Administration"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.TransactionHistoryMemberwise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.LateCenters"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.LateGroupMembers"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.LateGroups"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.LateMemeberDetails"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.TransactionHistory"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Transactions"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.MemberViewCycle"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.DemandDates"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.ProductSynch"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.BorrowerSearch"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.NewDemands"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.RegularCollections"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.CollectionDashbord"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.NewDataSync"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.GroupsAndCenters"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Centers"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.CenterDetails"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.DisplayRoute"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Groups"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.GroupDetails"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.GroupMembers"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.MemeberDetails"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Paymentconfiramtion"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Attendense"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.MeetingTime"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.ConfirmationScreen"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.TransactionACK"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.printer.BluetoothChatActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.printer.DeviceListActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.ODDemands"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Centers_OD"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Groups_OD"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Members_OD"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.MemberDetails_OD"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.TransactionACK_OD"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Reports"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.ReportDates_Regular"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.ReportList"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.CollectionReport"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.CollectionReportSummary"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.CollectionReport_Groups"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Utilities"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.ChangePassword"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Collections_Reports_members"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.CollectionReportSummary_Groups"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.CollectionReport_MemberSummery"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.SummaryReports_Regular"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.ReportSummaryForRegular"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.ReportDetailSummaryForRegular"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.ReportList_For_OD"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.CollectionReports_Centers_OD"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.CollectionReports_Groups_OD"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.CollectionReports_Members_OD"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.CollectionReport_MemberDetails_OD"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.SummaryReport_OD"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Groups_For_attendense"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Attendense_Centerwise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.MeetingTime_Centerwise"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.ConfirmationScreen_Centerwise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.TransactionACK_Centerwise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Groups_Centerwise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.GroupDetails_Centerwise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.ResetParameters"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvanceDemands"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvGroupsAndCenters"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvCenters"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvCenterDetails"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvGroups_centerwise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvGroupDetails_Centerwise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvGroupMembers"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvMemeberDetails"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvanceGroups"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvanceGroupDetails"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvancePaymentconfiramtion"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvanceConfirmationScreen_Centerwise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvanceConfirmationScreen"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvTxnack"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvTxnack_CenterWise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvanceReports"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvanceReports_center"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Advancereports_CenterDetails"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Advancereports_GroupDetails"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvanceReport_GroupsSummary"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvanceReports_Members"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Advancereports_MemberDetails"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvanceReports_Summary"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.NPSConfirmationScreen_Centerwise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.NPSConfirmation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Ftodreasons"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Ftodconfirmation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Ftodreasonscenterwise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.FtodCenterWiseConfirmation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.FtodGroupWiseConfirmation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.LastReceiptPrintMenu"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.ProbInCenterCW"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.GroupDisciplineGW"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.CollExperianceGW"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.GroupDisciplineCW"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.CollExperianceCW"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.CollExpRmel"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.CollectionPlace"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.RepaymentMadeBy"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.QomCenters"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.QomCenterWise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.QomGroupWise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.RenewCenterWise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.RenewCenters"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.RenewGroupWise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.ProbInCenterGW"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.Group_Members"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.CollExperianceMW"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.QomMemberWise"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.LocationUtil.MyLocationUsingHelper"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.RegularCbCheck"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.ODCASHLESSPending"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jayam.impactapp.AdvanceCashLessPending"
+            android:label="@string/app_name" />
+
+        <service
+            android:name="com.jayam.impactapp.webacceslayer.RegularScheduleService"
+            android:enabled="true" />
+        <service
+            android:name="com.jayam.impactapp.webacceslayer.ODRegularScheduleService"
+            android:enabled="true" />
+        <service
+            android:name="com.jayam.impactapp.webacceslayer.ADVRegularScheduleService"
+            android:enabled="true" />
+        <service
+            android:name="com.jayam.impactapp.webacceslayer.LateSchedilerService"
+            android:enabled="true" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity android:name="com.matm.matmsdk.Dashboard.DashBoardActivity" />
+        <activity android:name="com.matm.matmsdk.DemoActivity" />
+        <activity
+            android:name="com.matm.matmsdk.Dashboard.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.matm.matmsdk.Bluetooth.BluetoothActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.matm.matmsdk.ChooseCard.ChooseCardActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.matm.matmsdk.Dashboard.FileDownLoadActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.matm.matmsdk.UserProfile.UserProfileActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.matm.matmsdk.transaction_report.TransactionStatusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.MPOS.PosActivity"
+            android:label="MPOS"
+            android:noHistory="true"
+            android:theme="@style/ThemePoS" >
+
+            <!--
+                <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.matm.matmsdk.Error.ErrorActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.matm.matmsdk.upitransaction.UPIHomeActivity" />
+        <activity android:name="com.matm.matmsdk.aepsmodule.AEPSHomeActivity" />
+        <activity android:name="com.matm.matmsdk.aepsmodule.bankspinner.BankNameListActivity" />
+        <activity android:name="com.matm.matmsdk.aepsmodule.transactionstatus.TransactionStatusActivity" />
+        <activity android:name="com.matm.matmsdk.aepsmodule.AEPS2HomeActivity" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.jayam.impactapp.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.jayam.impactapp.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

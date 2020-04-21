@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="Center Name"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor" />
+
+        <TextView
+            android:id="@+id/tvCenterName"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="Center Name"
+            android:textColor="#006699"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/saparetor" 
+        android:id="@+id/vgroup"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:id="@+id/llGroup" >
+
+        <TextView
+            android:id="@+id/tvGName"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="Group Name"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor" />
+
+        <TextView
+            android:id="@+id/tvgroupname"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="Center Name"
+            android:textColor="#006699"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/saparetor" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="Collected Amount"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor" />
+
+        <TextView
+            android:id="@+id/tvCollectedAmts"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="Center Name"
+            android:textColor="#006699"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/saparetor" />
+
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="Attendance"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor" />
+
+        <TextView
+            android:id="@+id/tvAttendense"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="Center Name"
+            android:textColor="#006699"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/saparetor" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="Meeting Start Time"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor" />
+
+        <TextView
+            android:id="@+id/tvMeetingStartTime"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="Center Name"
+            android:textColor="#006699"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/saparetor" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="Meeting End Time"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor" />
+
+        <TextView
+            android:id="@+id/tvMeetingEndTime"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="Center Name"
+            android:textColor="#006699"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/saparetor" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="CONFIRM"
+        android:textStyle="bold"
+        android:layout_margin="10dip"
+        android:id="@+id/btnConfirm" />
+
+</LinearLayout>

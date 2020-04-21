@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+          <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Center Name"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" 
+            android:id="@+id/tvCenterName_label"/>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor"/>
+
+        <TextView
+            android:id="@+id/tvAdvConCenterName"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Center Name"
+            android:textColor="#006699"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/saparetor" />
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Collection Amount"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:id="@+id/tvCenterCode_label" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor" />
+
+        <TextView
+            android:id="@+id/tvAdvConCollAmt"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="14568296"
+            android:textColor="#006699"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/saparetor" />
+           <Button
+                android:id="@+id/btnAdvConfirmation"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CONFIRM"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+       
+    
+</ScrollView>
+
+</LinearLayout>

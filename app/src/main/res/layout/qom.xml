@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/llBaseMiddle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/tvproblems"
+                android:layout_width="wrap_content"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="*Rating to be entered between 0 to 10" />
+            <ScrollView android:layout_width="match_parent"
+       			android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/llmembers"
+                android:layout_width="match_parent"
+       			android:layout_height="wrap_content"
+       			android:layout_marginTop="10dp"
+        		android:orientation="vertical">
+        	</LinearLayout>
+        	</ScrollView>
+        </LinearLayout>
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Next" />
+    
+</LinearLayout>

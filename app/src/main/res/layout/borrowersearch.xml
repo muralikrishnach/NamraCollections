@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/VisitLayoutForTextLableAndEditText" >
+
+                <TextView
+                    style="@style/VisitTextLables"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="Loan Search" />
+                <EditText
+                    android:id="@+id/loanid"
+                    style="@style/SpinnerBackgrond"
+                    android:layout_weight="1"
+
+                    android:background="@color/blue_light_bg"
+                    android:hint="Loan Search"
+
+                    android:drawableRight="@null"
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/VisitLayoutForTextLableAndEditText" >
+
+                <TextView
+                    style="@style/VisitTextLables"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:text="Product Search " />
+                <TextView
+                    android:id="@+id/payment"
+                    style="@style/SpinnerBackgrond"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_border"
+                    android:hint="Select Product" />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                style="@style/VisitLayoutForTextLableAndEditText" >
+
+                <TextView
+                    android:visibility="invisible"
+                    style="@style/VisitTextLables"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:text="Product Search " />
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:text="View"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <View
+                        style="@style/SeperatorGrayHorizontal"
+                        android:layout_height="1dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/blue_light"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+
+                        <View
+                            style="@style/SeperatorGrayVertical"
+                            android:layout_width="1dp"/>
+
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sno"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+
+                        <View
+                            style="@style/SeperatorGrayVertical"
+                            android:layout_width="1dp"/>
+
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Paid Date"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+                        <View
+                            style="@style/SeperatorGrayVertical"
+                            android:layout_width="1dp"/>
+
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Principal"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+                        <View
+                            style="@style/SeperatorGrayVertical"
+                            android:layout_width="1dp"/>
+
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Intrest"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+                        <View
+                            style="@style/SeperatorGrayVertical"
+                            android:layout_width="1dp"/>
+
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Total"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+                        <View
+                            style="@style/SeperatorGrayVertical"
+                            android:layout_width="1dp"/>
+
+
+
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/llvill"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/whiteshadsed"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="20dp"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:src="@drawable/namraicon"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:text="User ID"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:hint="Enter User ID" 
+            android:id="@+id/etuserId"
+            android:imeOptions="actionNext"
+            style="@style/SpinnerBackgrond1"
+            android:drawableRight="@null"
+            android:singleLine="true"
+            android:maxLines="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:orientation="vertical" 
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:text="Password"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:hint="Enter Password Here"
+            android:inputType="textPassword"
+            android:id="@+id/etPassword"
+            android:imeOptions="actionDone"
+            style="@style/SpinnerBackgrond1"
+            android:drawableRight="@null"
+            android:singleLine="true"
+            android:maxLines="1"/>
+    </LinearLayout>
+    
+      <Button
+       style="@style/ButtonManuval"
+            android:text="Login"
+          android:layout_marginTop="30dp"
+            android:id="@+id/btnLogin"/>
+    </LinearLayout>
+
+</LinearLayout>

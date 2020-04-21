@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/saparetor"
+        />
+
+    <LinearLayout
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/saparetor"
+            />
+        <TextView
+            android:id="@+id/today"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textheight"
+            android:layout_weight="1"
+            android:background="@color/btcolor"
+
+            android:text="@string/tday"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/text_size" />
+        <View
+            android:layout_width="2dip"
+            android:layout_height="fill_parent"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/saparetor"
+          />
+        <TextView
+            android:id="@+id/yeday"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textheight"
+
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/yday"
+
+            android:background="@color/btcolor"
+            android:textSize="@dimen/text_size"
+            />
+        <View
+            android:layout_width="2dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor"
+            android:backgroundTint="@color/white"/>
+        <TextView
+            android:id="@+id/sdat"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textheight"
+            android:layout_weight="1"
+            android:text="@string/sdate"
+
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="@color/btcolor"
+            />
+        <View
+            android:layout_width="2dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor"
+            android:backgroundTint="@color/white"/>
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/saparetor"
+        />
+    <LinearLayout
+        android:id="@+id/ttype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/display">
+        <View
+            android:layout_width="5dip"
+            android:layout_height="fill_parent"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/saparetor"
+            />
+
+        <TextView
+            android:id="@+id/aep"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textheight"
+
+            android:layout_weight="1"
+            android:background="@color/btcolor"
+
+            android:text="@string/aeps"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/text_size"  />
+        <View
+            android:layout_width="5dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor" />
+
+        <TextView
+            android:id="@+id/mat"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textheight"
+            android:layout_weight="1"
+            android:text="@string/matm"
+            android:textColor="@color/white"
+
+            android:gravity="center"
+            android:background="@color/btcolor"
+            android:textSize="@dimen/text_size"
+
+           />
+        <View
+            android:layout_width="5dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor" />
+        <TextView
+            android:id="@+id/pgt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textheight"
+            android:layout_weight="1"
+
+            android:text="@string/pg"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="@color/btcolor"
+             />
+        <View
+            android:layout_width="5dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor" />
+        <TextView
+            android:id="@+id/upi"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textheight"
+            android:layout_weight="1"
+
+            android:text="@string/upi"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="@color/btcolor"
+           />
+        <View
+            android:layout_width="5dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/amlayout"
+        android:layout_below="@id/ttype"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@color/transparent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textheight"
+            android:gravity="right"
+            android:text="Total :"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            android:layout_weight="1">
+        </TextView>
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textheight"
+            android:textColor="@color/black"
+            android:gravity="left"
+            android:textSize="@dimen/text_size"
+            android:text=" 100"
+            android:textStyle="bold"
+            android:layout_weight="1">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/amlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_weight="1"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="LinearLayoutManager"
+
+         >
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+</RelativeLayout>

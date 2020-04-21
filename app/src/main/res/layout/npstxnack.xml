@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    android:id="@+id/tvCenterName_label"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Receipt No"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNPSreceiptno"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="123456"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tvCenterCode_label"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Center Name"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNPSCenterName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="14568296"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:id="@+id/llGroup" >
+
+                <TextView
+                    android:id="@+id/tvCenterCode_label1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Group Name"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNPSGroupName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="14568296"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tvCenterCode_label11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Total Renewal Amt"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNPSRenewalAmt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="14568296"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tvCollection"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Collection"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNPSCollAmt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="14568296"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+            
+              <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_weight="0">
+
+        <Button
+            android:id="@+id/btnadvPrint"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Print" />
+
+        <Button
+            android:id="@+id/btnadvMenu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Main Menu" />
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

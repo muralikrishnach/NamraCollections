@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnAdmin"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnbackground"
+            android:text="Administration"
+            android:textColor="@android:color/white" 
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnTransaction"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnbackground"
+            android:text="Transactions"
+            android:textColor="@android:color/white" 
+             android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btndataSync"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnbackground"
+            android:text="Data Sync"
+            android:textColor="@android:color/white"
+             android:textStyle="bold" />
+
+        <Button
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnbackground"
+            android:text="Reports"
+            android:textColor="@android:color/white"
+             android:textStyle="bold" />
+    </LinearLayout>
+
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgreen"
+        android:text="Utilities"
+        android:textColor="@android:color/white"
+        android:layout_gravity="bottom|center" 
+        android:layout_marginTop="20dip"
+         android:textStyle="bold"/>
+
+</LinearLayout>

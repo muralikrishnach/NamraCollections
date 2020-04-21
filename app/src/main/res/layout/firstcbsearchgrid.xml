@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/llfirstgrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/clintnme"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="5dip"
+            android:text="Client Name"
+            android:textColor="#a20859"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/aadhrid"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="5dip"
+            android:text="AADHAAR ID"
+            android:textColor="#a20859" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/village"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="5dip"
+            android:text="Village/Locality"
+            android:textColor="#a20859" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/centerno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="5dip"
+            android:text="Center No."
+            android:textColor="#a20859" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="5dip"
+            android:text="Group"
+            android:textColor="#a20859" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <Button
+            android:id="@+id/cbsummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="5dip"
+            android:text="CB Output"
+            android:textColor="#a20859" />
+    </LinearLayout>
+
+</LinearLayout>

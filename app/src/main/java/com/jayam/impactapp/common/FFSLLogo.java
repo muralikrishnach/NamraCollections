@@ -1,0 +1,212 @@
+package com.jayam.impactapp.common;
+
+public class FFSLLogo {
+	public static byte [] Packet1={
+	(byte)0x7E,(byte)0xB5,(byte)0xB8,(byte)0x66,(byte)0X4,(byte)0X5E,(byte)0X18,(byte)0X25,(byte)0X1,(byte)0X5E,
+	(byte)0X3,(byte)0X24,(byte)0X3,(byte)0X03,(byte)0XFF,(byte)0XE0,(byte)0X5E,(byte)0X3,(byte)0X24,(byte)0X2,
+	(byte)0X07,(byte)0XE0,(byte)0X5E,(byte)0XD,(byte)0X25,(byte)0X1,(byte)0X5E,(byte)0X3,(byte)0X24,(byte)0X8,
+	(byte)0X0F,(byte)0XFF,(byte)0XF9,(byte)0X80,(byte)0X00,(byte)0X00,(byte)0X0F,(byte)0XF0,(byte)0X5E,(byte)0XD,
+	(byte)0X25,(byte)0X1,(byte)0X5E,(byte)0X3,(byte)0X24,(byte)0X8,(byte)0X3F,(byte)0XFF,(byte)0XFD,(byte)0X80,
+	(byte)0X00,(byte)0X00,(byte)0X0C,(byte)0X70,(byte)0X5E,(byte)0XD,(byte)0X25,(byte)0X1,(byte)0X5E,(byte)0X3,
+	(byte)0X24,(byte)0X8,(byte)0X7F,(byte)0XFF,(byte)0XFF,(byte)0XC0,(byte)0X00,(byte)0X00,(byte)0X1C,(byte)0X70,
+	(byte)0X5E,(byte)0XD,(byte)0X25,(byte)0X1,(byte)0X5E,(byte)0X3,(byte)0X24,(byte)0X8,(byte)0Xff,(byte)0X40,
+	(byte)0XFF,(byte)0XC0,(byte)0X00,(byte)0X00,(byte)0X38,(byte)0X70,(byte)0X5E,(byte)0XD,(byte)0X25,(byte)0X1,
+	(byte)0X24,(byte)0XB,(byte)0X00,(byte)0X00,(byte)0X01,(byte)0XFC,(byte)0X41,(byte)0X1F,(byte)0XC0,(byte)0X00,
+	(byte)0X00,(byte)0X38,(byte)0X70,(byte)0X5E,(byte)0XD,(byte)0X25,(byte)0x04,(byte)0x5A
+	};
+	public static byte [] Packet2={
+	(byte)0x7E,(byte)0xB5,(byte)0xB8,(byte)0x68,(byte)0X1,(byte)0X24,(byte)0XB,(byte)0X00,(byte)0X00,(byte)0X03,
+	(byte)0XF0,(byte)0XE3,(byte)0X07,(byte)0XE0,(byte)0X00,(byte)0X00,(byte)0X38,(byte)0X70,(byte)0X5E,(byte)0XD,
+	(byte)0X25,(byte)0X1,(byte)0X24,(byte)0XB,(byte)0X00,(byte)0X00,(byte)0X07,(byte)0XE0,(byte)0XE7,(byte)0X07,
+	(byte)0XE0,(byte)0X00,(byte)0X00,(byte)0X70,(byte)0X20,(byte)0X5E,(byte)0XD,(byte)0X25,(byte)0X1,(byte)0X24,
+	(byte)0XA,(byte)0X00,(byte)0X00,(byte)0X07,(byte)0XC0,(byte)0XE6,(byte)0X07,(byte)0XE0,(byte)0X00,(byte)0X00,
+	(byte)0X70,(byte)0X5E,(byte)0XE,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0XA,(byte)0X00,(byte)0X00,(byte)0X0F,
+	(byte)0X81,(byte)0XEE,(byte)0X07,(byte)0XE0,(byte)0X00,(byte)0X00,(byte)0X70,(byte)0X5E,(byte)0XE,(byte)0X25,
+	(byte)0X1,(byte)0X24,(byte)0X6,(byte)0X00,(byte)0X00,(byte)0X1F,(byte)0X01,(byte)0XFC,(byte)0X18,(byte)0X5E,
+	(byte)0X3,(byte)0X24,(byte)0X3,(byte)0XE0,(byte)0X00,(byte)0X0C,(byte)0X5E,(byte)0XC,(byte)0X25,(byte)0X1,
+	(byte)0X24,(byte)0X6,(byte)0X00,(byte)0X00,(byte)0X1E,(byte)0X01,(byte)0XF8,(byte)0X38,(byte)0X5E,(byte)0X3,
+	(byte)0X24,(byte)0X3,(byte)0XE0,(byte)0X00,(byte)0X0C,(byte)0X5E,(byte)0XC,(byte)0X25,(byte)0x04,(byte)0xD
+	};
+	public static byte [] Packet3={
+	(byte)0x7E,(byte)0xB5,(byte)0xB8,(byte)0x63,(byte)0X1,(byte)0X24,(byte)0X6,(byte)0X00,(byte)0X00,(byte)0X3C,
+	(byte)0X01,(byte)0XF9,(byte)0XB8,(byte)0X5E,(byte)0X3,(byte)0X24,(byte)0X3,(byte)0XE0,(byte)0X00,(byte)0X0C,
+	(byte)0X5E,(byte)0XC,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0XC,(byte)0X00,(byte)0X00,(byte)0X3C,(byte)0X01,
+	(byte)0XFF,(byte)0XF0,(byte)0X00,(byte)0X00,(byte)0X01,(byte)0XE0,(byte)0X00,(byte)0X1C,(byte)0X5E,(byte)0XC,
+	(byte)0X25,(byte)0X1,(byte)0X24,(byte)0XC,(byte)0X00,(byte)0X00,(byte)0X78,(byte)0X03,(byte)0XFF,(byte)0XF0,
+	(byte)0X00,(byte)0X00,(byte)0X01,(byte)0XE0,(byte)0X00,(byte)0X1C,(byte)0X5E,(byte)0XC,(byte)0X25,(byte)0X1,
+	(byte)0X24,(byte)0X10,(byte)0X00,(byte)0X00,(byte)0X78,(byte)0X03,(byte)0XDF,(byte)0XF0,(byte)0X00,(byte)0X00,
+	(byte)0X01,(byte)0XE0,(byte)0X80,(byte)0X3C,(byte)0X20,(byte)0X04,(byte)0X40,(byte)0XE0,(byte)0X5E,(byte)0X8,
+	(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X10,(byte)0X00,(byte)0X00,(byte)0XF0,(byte)0X03,(byte)0XC0,(byte)0X70,
+	(byte)0X00,(byte)0X00,(byte)0X03,(byte)0XC1,(byte)0X86,(byte)0X3E,(byte)0X70,(byte)0XDE,(byte)0X61,(byte)0XF0,
+	(byte)0X5E,(byte)0X8,(byte)0X25,(byte)0x04,(byte)0x19
+	};
+	public static byte [] Packet4={
+	0x7E,(byte)0xB5,(byte)0xB8,(byte)0x6E,(byte)0X1,(byte)0X24,(byte)0X10,(byte)0X00,(byte)0X00,(byte)0XF0,
+	(byte)0X01,(byte)0XE0,(byte)0X60,(byte)0X00,(byte)0X00,(byte)0X03,(byte)0XC3,(byte)0XC6,(byte)0X3C,
+	(byte)0X70,(byte)0XDE,(byte)0XE3,(byte)0XF0,(byte)0X5E,(byte)0X8,(byte)0X25,(byte)0X1,(byte)0X24,
+	(byte)0X10,(byte)0X00,(byte)0X00,(byte)0XE0,(byte)0X01,(byte)0XF7,(byte)0XE0,(byte)0X00,(byte)0X00,
+	(byte)0X03,(byte)0XC3,(byte)0XC6,(byte)0X3C,(byte)0X71,(byte)0XCC,(byte)0XE3,(byte)0X30,(byte)0X5E,
+	(byte)0X8,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X10,(byte)0X00,(byte)0X01,(byte)0XE0,(byte)0X01,
+	(byte)0XFF,(byte)0XE0,(byte)0X00,(byte)0X00,(byte)0X07,(byte)0XC3,(byte)0XC6,(byte)0X18,(byte)0XF1,
+	(byte)0XCC,(byte)0XE7,(byte)0X30,(byte)0X5E,(byte)0X8,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X10,
+	(byte)0X00,(byte)0X01,(byte)0XC0,(byte)0X03,(byte)0XFF,(byte)0XF8,(byte)0X00,(byte)0X00,(byte)0X3F,
+	(byte)0XF1,(byte)0X86,(byte)0X38,(byte)0X71,(byte)0XCD,(byte)0XE6,(byte)0X30,(byte)0X5E,(byte)0X8,
+	(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X10,(byte)0X00,(byte)0X01,(byte)0XC0,(byte)0X03,(byte)0XCD,
+	(byte)0XF8,(byte)0X00,(byte)0X00,(byte)0X3F,(byte)0XF9,(byte)0X86,(byte)0X38,(byte)0X71,(byte)0X8D,
+	(byte)0X46,(byte)0X30,(byte)0X5E,(byte)0X8,(byte)0X25,(byte)0x04,(byte)0xA0
+	};
+	public static byte [] Packet5={
+	(byte)0x7E,(byte)0xB5,(byte)0xB8,(byte)0x6E,(byte)0X1,(byte)0X24,(byte)0X10,(byte)0X00,(byte)0X03,(byte)0XC0,
+	(byte)0X03,(byte)0XCC,(byte)0XF8,(byte)0X00,(byte)0X00,(byte)0X3F,(byte)0XF9,(byte)0X8E,(byte)0X38,(byte)0X71,
+	(byte)0X8F,(byte)0X0E,(byte)0X30,(byte)0X5E,(byte)0X8,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X10,(byte)0X00,
+	(byte)0X03,(byte)0X80,(byte)0X03,(byte)0XFD,(byte)0XDC,(byte)0X00,(byte)0X00,(byte)0X3F,(byte)0XF1,(byte)0X8E,
+	(byte)0X30,(byte)0X71,(byte)0X8E,(byte)0X0C,(byte)0X70,(byte)0X5E,(byte)0X8,(byte)0X25,(byte)0X1,(byte)0X24,
+	(byte)0X10,(byte)0X00,(byte)0X03,(byte)0X80,(byte)0X03,(byte)0XFF,(byte)0XDC,(byte)0X00,(byte)0X00,(byte)0X07,
+	(byte)0X81,(byte)0X8E,(byte)0X30,(byte)0X71,(byte)0X8E,(byte)0X0C,(byte)0X60,(byte)0X5E,(byte)0X8,(byte)0X25,
+	(byte)0X1,(byte)0X24,(byte)0X10,(byte)0X00,(byte)0X03,(byte)0X80,(byte)0X07,(byte)0XFF,(byte)0X9C,(byte)0X00,
+	(byte)0X00,(byte)0X07,(byte)0X83,(byte)0X8E,(byte)0X30,(byte)0X63,(byte)0X8E,(byte)0X0C,(byte)0XE0,(byte)0X5E,
+	(byte)0X8,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X10,(byte)0X00,(byte)0X03,(byte)0X80,(byte)0X07,(byte)0XFF,
+	(byte)0X9E,(byte)0X00,(byte)0X00,(byte)0X07,(byte)0X83,(byte)0X8E,(byte)0X30,(byte)0X63,(byte)0X9C,(byte)0X1D,
+	(byte)0XC0,(byte)0X5E,(byte)0X8,(byte)0X25,(byte)0x04,(byte)0x1E
+	};
+	public static byte [] Packet6={
+	(byte)0x7E,(byte)0xB5,(byte)0xB8,(byte)0x6B,(byte)0X1,(byte)0X24,(byte)0X10,(byte)0X00,(byte)0X07,(byte)0X80,
+	(byte)0X07,(byte)0X03,(byte)0X8E,(byte)0X00,(byte)0X00,(byte)0X07,(byte)0X83,(byte)0X8C,(byte)0X30,(byte)0X63,
+	(byte)0X9C,(byte)0X1F,(byte)0XC0,(byte)0X5E,(byte)0X8,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X10,(byte)0X00,
+	(byte)0X07,(byte)0X00,(byte)0X07,(byte)0X03,(byte)0X8E,(byte)0X00,(byte)0X00,(byte)0X07,(byte)0X83,(byte)0X9C,
+	(byte)0X70,(byte)0X63,(byte)0X9C,(byte)0X1F,(byte)0X80,(byte)0X5E,(byte)0X8,(byte)0X25,(byte)0X1,(byte)0X24,
+	(byte)0XF,(byte)0X00,(byte)0X07,(byte)0X00,(byte)0X0F,(byte)0X03,(byte)0X8F,(byte)0X00,(byte)0X00,(byte)0X07,
+	(byte)0X83,(byte)0X1C,(byte)0X70,(byte)0XE3,(byte)0X1C,(byte)0X1E,(byte)0X5E,(byte)0X9,(byte)0X25,(byte)0X1,
+	(byte)0X24,(byte)0XF,(byte)0X00,(byte)0X07,(byte)0X00,(byte)0X0F,(byte)0XFF,(byte)0X07,(byte)0X00,(byte)0X00,
+	(byte)0X07,(byte)0X03,(byte)0X1C,(byte)0X70,(byte)0XE7,(byte)0X18,(byte)0X1C,(byte)0X5E,(byte)0X9,(byte)0X25,
+	(byte)0X1,(byte)0X24,(byte)0XF,(byte)0X00,(byte)0X07,(byte)0X00,(byte)0X0F,(byte)0XFF,(byte)0X07,(byte)0X00,
+	(byte)0X00,(byte)0X0F,(byte)0X03,(byte)0X1C,(byte)0X60,(byte)0XE7,(byte)0X18,(byte)0X18,(byte)0X5E,(byte)0X9,
+	(byte)0X25,(byte)0x04,(byte)0x3B
+	};
+	public static byte [] Packet7={
+	(byte)0x7E,(byte)0xB5,(byte)0xB8,(byte)0x6C,(byte)0X1,(byte)0X24,(byte)0XF,(byte)0X00,(byte)0X07,(byte)0X00,
+	(byte)0X0E,(byte)0XFF,(byte)0X07,(byte)0X80,(byte)0X00,(byte)0X0F,(byte)0X03,(byte)0X1C,(byte)0X60,(byte)0XE7,
+	(byte)0X18,(byte)0X18,(byte)0X5E,(byte)0X9,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0XF,(byte)0X00,(byte)0X07,
+	(byte)0X00,(byte)0X1E,(byte)0X07,(byte)0X03,(byte)0X80,(byte)0X00,(byte)0X0F,(byte)0X03,(byte)0X3C,(byte)0X60,
+	(byte)0XCF,(byte)0X18,(byte)0X18,(byte)0X5E,(byte)0X9,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X10,(byte)0X00,
+	(byte)0X07,(byte)0X00,(byte)0X1E,(byte)0X06,(byte)0X03,(byte)0X80,(byte)0X00,(byte)0X0F,(byte)0X07,(byte)0X5C,
+	(byte)0X60,(byte)0XCF,(byte)0X38,(byte)0X18,(byte)0X20,(byte)0X5E,(byte)0X8,(byte)0X25,(byte)0X1,(byte)0X24,
+	(byte)0X10,(byte)0X00,(byte)0X07,(byte)0X00,(byte)0X1F,(byte)0XFE,(byte)0X03,(byte)0X80,(byte)0X00,(byte)0X0F,
+	(byte)0X07,(byte)0X58,(byte)0X60,(byte)0XCF,(byte)0XB8,(byte)0X1C,(byte)0X60,(byte)0X5E,(byte)0X8,(byte)0X25,
+	(byte)0X1,(byte)0X24,(byte)0X10,(byte)0X00,(byte)0X07,(byte)0X00,(byte)0X1F,(byte)0XFE,(byte)0X01,(byte)0XC0,
+	(byte)0X00,(byte)0X0F,(byte)0X07,(byte)0XDC,(byte)0X78,(byte)0XF7,(byte)0XB0,(byte)0X1C,(byte)0X60,(byte)0X5E,
+	(byte)0X8,(byte)0X25,(byte)0x04,(byte)0x4E
+	};
+	public static byte [] Packet8={
+	(byte)0x7E,(byte)0xB5,(byte)0xB8,(byte)0x66,(byte)0X1,(byte)0X24,(byte)0X10,(byte)0X00,(byte)0X07,(byte)0X00,
+	(byte)0X3B,(byte)0XFE,(byte)0X01,(byte)0XC0,(byte)0X00,(byte)0X0F,(byte)0X07,(byte)0XDC,(byte)0X78,(byte)0XF7,
+	(byte)0XB0,(byte)0X1F,(byte)0XC0,(byte)0X5E,(byte)0X8,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X10,(byte)0X00,
+	(byte)0X07,(byte)0X00,(byte)0X7B,(byte)0X8E,(byte)0X01,(byte)0XC0,(byte)0X00,(byte)0X1E,(byte)0X07,(byte)0X9C,
+	(byte)0X70,(byte)0XF7,(byte)0X30,(byte)0X0F,(byte)0XC0,(byte)0X5E,(byte)0X8,(byte)0X25,(byte)0X1,(byte)0X24,
+	(byte)0X10,(byte)0X00,(byte)0X07,(byte)0X00,(byte)0X7A,(byte)0X0C,(byte)0X00,(byte)0XE0,(byte)0X00,(byte)0X1E,
+	(byte)0X03,(byte)0X9C,(byte)0X70,(byte)0XE3,(byte)0X30,(byte)0X0F,(byte)0X80,(byte)0X5E,(byte)0X8,(byte)0X25,
+	(byte)0X1,(byte)0X24,(byte)0XF,(byte)0X00,(byte)0X07,(byte)0X00,(byte)0X7C,(byte)0X0C,(byte)0X00,(byte)0XE0,
+	(byte)0X60,(byte)0X1E,(byte)0X03,(byte)0X08,(byte)0X60,(byte)0X42,(byte)0X00,(byte)0X07,(byte)0X5E,(byte)0X9,
+	(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X9,(byte)0X00,(byte)0X07,(byte)0X00,(byte)0X7E,(byte)0XDC,(byte)0X00,
+	(byte)0XE0,(byte)0X70,(byte)0X1E,(byte)0X5E,(byte)0XF,(byte)0X25,(byte)0x04,(byte)0x0
+	};
+	public static byte [] Packet9={
+	(byte)0x7E,(byte)0xB5,(byte)0xB8,(byte)0x56,(byte)0X1,(byte)0X24,(byte)0X9,(byte)0X00,(byte)0X07,(byte)0X00,
+	(byte)0X7F,(byte)0XFF,(byte)0XFF,(byte)0XF0,(byte)0XF0,(byte)0X1E,(byte)0X5E,(byte)0XF,(byte)0X25,(byte)0X1,
+	(byte)0X24,(byte)0X9,(byte)0X00,(byte)0X07,(byte)0X00,(byte)0XF7,(byte)0XFF,(byte)0XFF,(byte)0XF0,(byte)0XF0,
+	(byte)0X1E,(byte)0X5E,(byte)0XF,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X9,(byte)0X00,(byte)0X07,(byte)0X80,
+	(byte)0XF0,(byte)0X1F,(byte)0XFF,(byte)0XF0,(byte)0XE0,(byte)0X1E,(byte)0X5E,(byte)0XF,(byte)0X25,(byte)0X1,
+	(byte)0X24,(byte)0X9,(byte)0X00,(byte)0X03,(byte)0X80,(byte)0XF8,(byte)0X1F,(byte)0XFF,(byte)0XF0,(byte)0XE0,
+	(byte)0X1C,(byte)0X5E,(byte)0XF,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X9,(byte)0X00,(byte)0X03,(byte)0X98,
+	(byte)0XFC,(byte)0X3F,(byte)0XFF,(byte)0XF8,(byte)0XE0,(byte)0X3C,(byte)0X5E,(byte)0X4,(byte)0X24,(byte)0X2,
+	(byte)0X20,(byte)0XE0,(byte)0X5E,(byte)0X4,(byte)0X24,(byte)0X1,(byte)0X08,(byte)0X5E,(byte)0X4,(byte)0X25,
+	(byte)0x04,(byte)0xC2
+	};
+	public static byte [] Packet10={
+	(byte)0x7E,(byte)0xB5,(byte)0xB8,(byte)0x56,(byte)0X1,(byte)0X24,(byte)0X3,(byte)0X00,(byte)0X03,(byte)0X99,
+	(byte)0X40,(byte)0X3,(byte)0X24,(byte)0X12,(byte)0XF8,(byte)0XE0,(byte)0X3C,(byte)0XC0,(byte)0X00,(byte)0X00,
+	(byte)0X60,(byte)0X30,(byte)0XE0,(byte)0X00,(byte)0X18,(byte)0X00,(byte)0X00,(byte)0X1C,(byte)0X60,(byte)0X0C,
+	(byte)0X00,(byte)0X20,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X3,(byte)0X00,(byte)0X03,(byte)0X9D,(byte)0X40,
+	(byte)0X3,(byte)0X24,(byte)0X12,(byte)0XF8,(byte)0XE0,(byte)0X3C,(byte)0XC0,(byte)0X00,(byte)0X00,(byte)0X60,
+	(byte)0X31,(byte)0XF0,(byte)0X00,(byte)0X18,(byte)0X00,(byte)0X00,(byte)0X1C,(byte)0X60,(byte)0X0C,(byte)0X00,
+	(byte)0X20,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X18,(byte)0X00,(byte)0X01,(byte)0XFD,(byte)0XF7,(byte)0X7F,
+	(byte)0XFF,(byte)0XFD,(byte)0XC0,(byte)0X3C,(byte)0X80,(byte)0X00,(byte)0X00,(byte)0X60,(byte)0X31,(byte)0XA0,
+	(byte)0X00,(byte)0X18,(byte)0X00,(byte)0X00,(byte)0X1C,(byte)0X20,(byte)0X04,(byte)0X00,(byte)0X20,(byte)0X25,
+	(byte)0x04,(byte)0xA9
+	};
+	public static byte [] Packet11={
+	(byte)0x7E,(byte)0xB5,(byte)0xB8,(byte)0x70,(byte)0X1,(byte)0X24,(byte)0X9,(byte)0X00,(byte)0X01,(byte)0XFD,
+	(byte)0XE2,(byte)0X7F,(byte)0XFF,(byte)0XFD,(byte)0XC0,(byte)0X3C,(byte)0X5E,(byte)0X4,(byte)0X24,(byte)0X2,
+	(byte)0X21,(byte)0XA0,(byte)0X5E,(byte)0X4,(byte)0X24,(byte)0X5,(byte)0X18,(byte)0X00,(byte)0X00,(byte)0X80,
+	(byte)0X20,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X9,(byte)0X00,(byte)0X01,(byte)0XF9,(byte)0XE2,(byte)0X7F,
+	(byte)0XFF,(byte)0XFF,(byte)0XC0,(byte)0X38,(byte)0X5E,(byte)0X4,(byte)0X24,(byte)0X2,(byte)0X61,(byte)0X80,
+	(byte)0X5E,(byte)0X4,(byte)0X24,(byte)0X5,(byte)0X18,(byte)0X00,(byte)0X01,(byte)0X80,(byte)0X60,(byte)0X25,
+	(byte)0X1,(byte)0X24,(byte)0X18,(byte)0X00,(byte)0X01,(byte)0XF9,(byte)0XE3,(byte)0X7F,(byte)0XFF,(byte)0XFF,
+	(byte)0XC0,(byte)0X38,(byte)0X9C,(byte)0X31,(byte)0XC6,(byte)0X46,(byte)0X61,(byte)0X83,(byte)0X30,(byte)0X11,
+	(byte)0X84,(byte)0XC6,(byte)0X18,(byte)0X47,(byte)0X09,(byte)0X8C,(byte)0X60,(byte)0X25,(byte)0X1,(byte)0X24,
+	(byte)0X18,(byte)0X00,(byte)0X00,(byte)0XFD,(byte)0XFF,(byte)0XE0,(byte)0X00,(byte)0X0F,(byte)0X80,(byte)0X39,
+	(byte)0X9E,(byte)0X73,(byte)0XC6,(byte)0X47,(byte)0X61,(byte)0XC3,(byte)0X33,(byte)0XB1,(byte)0X8C,(byte)0XCE,
+	(byte)0X18,(byte)0X4F,(byte)0XCD,(byte)0X8C,(byte)0XE0,(byte)0X25,(byte)0x04,(byte)0x7C
+	};
+	public static byte [] Packet12={
+	(byte)0x7E,(byte)0xB5,(byte)0xB8,(byte)0x70,(byte)0X1,(byte)0X24,(byte)0X18,(byte)0X00,(byte)0X00,(byte)0XFF,
+	(byte)0XFF,(byte)0XE0,(byte)0X00,(byte)0X0F,(byte)0X80,(byte)0X79,(byte)0X9E,(byte)0X73,(byte)0XCE,(byte)0X4F,
+	(byte)0X60,(byte)0XC7,(byte)0X33,(byte)0XB3,(byte)0X9C,(byte)0XCC,(byte)0X18,(byte)0X4F,(byte)0XCD,(byte)0X9C,
+	(byte)0XE0,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X18,(byte)0X00,(byte)0X00,(byte)0XFB,(byte)0XDC,(byte)0XC0,
+	(byte)0X00,(byte)0X07,(byte)0X80,(byte)0X79,(byte)0X9E,(byte)0X73,(byte)0XCE,(byte)0X4E,(byte)0X60,(byte)0XC7,
+	(byte)0X33,(byte)0XB3,(byte)0X9D,(byte)0X8C,(byte)0X18,(byte)0X4F,(byte)0XCD,(byte)0X9C,(byte)0XE0,(byte)0X25,
+	(byte)0X1,(byte)0X24,(byte)0X18,(byte)0X00,(byte)0X0C,(byte)0XFB,(byte)0X80,(byte)0XC0,(byte)0X00,(byte)0X07,
+	(byte)0X00,(byte)0X71,(byte)0X9E,(byte)0XF3,(byte)0XCC,(byte)0XCE,(byte)0X60,(byte)0XC7,(byte)0X73,(byte)0X32,
+	(byte)0X1D,(byte)0X8C,(byte)0X18,(byte)0X4F,(byte)0XC9,(byte)0X99,(byte)0XE0,(byte)0X25,(byte)0X1,(byte)0X24,
+	(byte)0X18,(byte)0X00,(byte)0X1E,(byte)0X79,(byte)0X80,(byte)0XC0,(byte)0X00,(byte)0X0F,(byte)0X00,(byte)0X71,
+	(byte)0X9E,(byte)0XF3,(byte)0XD8,(byte)0XCE,(byte)0X60,(byte)0XEE,(byte)0X63,(byte)0X32,(byte)0X38,(byte)0XCC,
+	(byte)0X38,(byte)0XCF,(byte)0XC9,(byte)0XB9,(byte)0XE0,(byte)0X25,(byte)0x04,(byte)0x66
+	};
+	public static byte [] Packet13={
+	(byte)0x7E,(byte)0xB5,(byte)0xB8,(byte)0x56,(byte)0X1,(byte)0X24,(byte)0X18,(byte)0X00,(byte)0X1E,(byte)0X38,
+	(byte)0X00,(byte)0X80,(byte)0X00,(byte)0X1E,(byte)0X00,(byte)0X71,(byte)0X9C,(byte)0XF3,(byte)0XD8,(byte)0XDE,
+	(byte)0X60,(byte)0X6C,(byte)0X63,(byte)0X36,(byte)0X38,(byte)0XCC,(byte)0X30,(byte)0XCF,(byte)0XC9,(byte)0X31,
+	(byte)0XC0,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X3,(byte)0X00,(byte)0X1E,(byte)0X3C,(byte)0X5E,(byte)0X3,
+	(byte)0X24,(byte)0X12,(byte)0X1E,(byte)0X00,(byte)0X71,(byte)0XBC,(byte)0XF3,(byte)0XD8,(byte)0XDE,(byte)0X62,
+	(byte)0X6C,(byte)0X63,(byte)0X36,(byte)0X30,(byte)0XCE,(byte)0X30,(byte)0XCF,(byte)0XD9,(byte)0X31,(byte)0XC0,
+	(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X3,(byte)0X00,(byte)0X1C,(byte)0X3E,(byte)0X5E,(byte)0X3,(byte)0X24,
+	(byte)0X12,(byte)0X3C,(byte)0X00,(byte)0X71,(byte)0XBC,(byte)0XF3,(byte)0XD8,(byte)0XDE,(byte)0X62,(byte)0X6C,
+	(byte)0X63,(byte)0X36,(byte)0X30,(byte)0XCE,(byte)0X30,(byte)0XCF,(byte)0XD9,(byte)0X31,(byte)0XE0,(byte)0X25,
+	(byte)0x04,(byte)0x8F
+	};
+	public static byte [] Packet14={
+	(byte)0x7E,(byte)0xB5,(byte)0xB8,(byte)0x64,(byte)0X1,(byte)0X24,(byte)0X3,(byte)0X00,(byte)0X1C,(byte)0X3F,
+	(byte)0X5E,(byte)0X3,(byte)0X24,(byte)0X12,(byte)0X7C,(byte)0X00,(byte)0XE1,(byte)0XBE,(byte)0XF7,(byte)0XDC,
+	(byte)0XDE,(byte)0XE3,(byte)0X4E,(byte)0X63,(byte)0X37,(byte)0X39,(byte)0XCC,(byte)0X3E,(byte)0XCF,(byte)0XD9,
+	(byte)0X39,(byte)0XE0,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X18,(byte)0X00,(byte)0X0E,(byte)0X0F,(byte)0X80,
+	(byte)0X00,(byte)0X00,(byte)0X78,(byte)0X00,(byte)0XE1,(byte)0XBC,(byte)0XF7,(byte)0XCC,(byte)0XCE,(byte)0X43,
+	(byte)0XCE,(byte)0X62,(byte)0X33,(byte)0X39,(byte)0XCC,(byte)0X3E,(byte)0XCE,(byte)0XD9,(byte)0X39,(byte)0XC0,
+	(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X18,(byte)0X00,(byte)0X0E,(byte)0X07,(byte)0XC0,(byte)0X00,(byte)0X00,
+	(byte)0XF0,(byte)0X00,(byte)0XE1,(byte)0X00,(byte)0X62,(byte)0X0C,(byte)0X8E,(byte)0X43,(byte)0XC6,(byte)0X40,
+	(byte)0X33,(byte)0X19,(byte)0X88,(byte)0X3C,(byte)0XCA,(byte)0X09,(byte)0X18,(byte)0XC0,(byte)0X25,(byte)0X1,
+	(byte)0X24,(byte)0X9,(byte)0X06,(byte)0X1B,(byte)0X07,(byte)0XE0,(byte)0X00,(byte)0X03,(byte)0XF0,(byte)0X00,
+	(byte)0XC0,(byte)0X5E,(byte)0XF,(byte)0X25,(byte)0x04,(byte)0x4C
+	};
+	public static byte [] Packet15={
+	(byte)0x7E,(byte)0xB5,(byte)0xB8,(byte)0x66,(byte)0X1,(byte)0X24,(byte)0X9,(byte)0X07,(byte)0X18,(byte)0X03,
+	(byte)0XF0,(byte)0X00,(byte)0X07,(byte)0XE0,(byte)0X00,(byte)0XC0,(byte)0X5E,(byte)0XF,(byte)0X25,(byte)0X1,
+	(byte)0X24,(byte)0X9,(byte)0X0F,(byte)0X10,(byte)0X01,(byte)0XF8,(byte)0X00,(byte)0X0F,(byte)0XC0,(byte)0X61,
+	(byte)0XC0,(byte)0X5E,(byte)0XF,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X9,(byte)0X0E,(byte)0X30,(byte)0X00,
+	(byte)0XFF,(byte)0X00,(byte)0X7F,(byte)0X80,(byte)0X71,(byte)0X80,(byte)0X5E,(byte)0XF,(byte)0X25,(byte)0X1,
+	(byte)0X24,(byte)0X9,(byte)0X0C,(byte)0X30,(byte)0X00,(byte)0X7F,(byte)0XC1,(byte)0XFF,(byte)0X00,(byte)0XF1,
+	(byte)0X80,(byte)0X5E,(byte)0XF,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X8,(byte)0X0E,(byte)0X00,(byte)0X00,
+	(byte)0X3F,(byte)0XFF,(byte)0XFE,(byte)0X00,(byte)0XF3,(byte)0X5E,(byte)0X10,(byte)0X25,(byte)0X1,(byte)0X24,
+	(byte)0X8,(byte)0X06,(byte)0X00,(byte)0X00,(byte)0X0F,(byte)0XFF,(byte)0XFC,(byte)0X00,(byte)0XF7,(byte)0X5E,
+	(byte)0X10,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X8,(byte)0X06,(byte)0X00,(byte)0X00,(byte)0X07,(byte)0XFF,
+	(byte)0XF0,(byte)0X00,(byte)0XFE,(byte)0X5E,(byte)0X10,(byte)0X25,(byte)0x04,(byte)0x67
+	};
+	public static byte [] Packet16={
+	(byte)0x7E,(byte)0xB5,(byte)0xB8,(byte)0x34,(byte)0X1,(byte)0X24,(byte)0X8,(byte)0X0C,(byte)0X00,(byte)0X00,
+	(byte)0X01,(byte)0XFF,(byte)0XC0,(byte)0X00,(byte)0X7C,(byte)0X5E,(byte)0X10,(byte)0X25,(byte)0X1,(byte)0X24,
+	(byte)0X1,(byte)0X0C,(byte)0X5E,(byte)0X3,(byte)0X24,(byte)0X4,(byte)0X1C,(byte)0X00,(byte)0X00,(byte)0X38,
+	(byte)0X5E,(byte)0X10,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X1,(byte)0X08,(byte)0X5E,(byte)0X6,(byte)0X24,
+	(byte)0X1,(byte)0X10,(byte)0X5E,(byte)0X10,(byte)0X25,(byte)0X1,(byte)0X24,(byte)0X1,(byte)0X08,(byte)0X5E,
+	(byte)0X17,(byte)0X25,(byte)0X14,(byte)0X5E,(byte)0X18,(byte)0X25,(byte)0x04,(byte)0x32
+	};
+
+}

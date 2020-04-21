@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tvCenterName"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5dip"
+        android:text="Centers"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tvdmamt"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="5dip"
+        android:text="1244 "
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvmdate"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5dip"
+        android:gravity="center"
+        android:text="22-13-2020"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1.2"
+        android:background="@drawable/location"
+        android:backgroundTint="#696969" />
+
+    <ImageView
+        android:id="@+id/imgConfirmed"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.2"
+        android:padding="5dip"
+        android:src="@drawable/right"
+        android:visibility="invisible"/>
+
+</LinearLayout>

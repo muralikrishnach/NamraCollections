@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MFIMOActivity!</string>
+    <string name="app_name">Namra Collections</string>
+
+    <!-- <string name="app_name">Chetana</string> -->
+    <string name="enteruserid">Please Enter your UserID.</string>
+    <string name="enterpassword">Please Enter your password.</string>
+    <string name="login">Login</string>
+    <string name="MainMenu">Main Menu</string>
+    <string name="ResetParameters">Reset Parameters</string>
+    <string name="PurgeUploadData">Purge Upload Data</string>
+    <string name="PurgeODData">Purge OD Data</string>
+    <string name="regularcollection">Regular Collection</string>
+    <string name="latecollection">Late Collection</string>
+    <string name="odcollection">OD Collection</string>
+    <string name="advcollection">Advance Collection</string>
+    <string name="npscollection">NPS Reports</string>
+    <string name="Download">Regular Download</string>
+    <string name="pdDownload">Product Download</string>
+    <string name="Upload">Upload</string>
+    <string name="ODDemandDownload">OD Demand Download</string>
+    <string name="AdvanceDownload">Advance Download</string>
+    <string name="Advanceupload">Advance Upload</string>
+    <string name="repdetails">Repayment Details</string>
+    <string name="NPSDownload">Dwd–NPS Rnwls Due</string>
+    <string name="NPSupload">Upd-NPS Rnwls Coll</string>
+    <string name="ODUpload">OD Upload</string>
+    <string name="datasync">Data Sync</string>
+    <string name="transactions">Transactions</string>
+    <string name="administration">Administration</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="nonetwork">No Network Available.</string>
+
+
+    <!-- BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Scan.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+    <!-- DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <!-- Options Menu -->
+    <!-- Options Menu -->
+    <string name="insecure_connect">Connect a device</string>
+    <string name="secure_connect">Connect a device-secure</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="actMain_name">Pride Demo App</string>
+    <string name="actMain_link_device_info_title">Selected Device :</string>
+    <string name="actMain_device_info">%1$s</string>
+    <string name="actMain_btn_pair">Pair</string>
+    <string name="actMain_btn_comm">Connect</string>
+    <string name="actMain_tv_hint_service_uuid_not_bond">Please pair with the Device.</string>
+    <string name="actMain_msg_does_not_support_uuid_service">Application BT version does not support this Mobile.</string>
+    <string name="actMain_msg_bluetooth_Bonding">Pairing&#8230;</string>
+    <string name="actMain_msg_device_connecting">Connecting device&#8230;</string>
+    <string name="actMain_msg_device_connect_fail">Communication failure</string>
+    <string name="actMain_msg_bluetooth_Bond_Success">Pairing successful</string>
+    <string name="actMain_msg_bluetooth_Bond_fail">Pairing failed</string>
+    <string name="actMain_msg_pair_pwd_error">Password for Pairing must be 4 digits</string>
+    <string name="actMain_menu_rescan">Rescan</string>
+    <string name="actDiscovery_msg_select_device">Select the device you need to connect</string>
+    <string name="actDiscovery_msg_not_find_device">Devices not found</string>
+    <string name="actDiscovery_msg_scaning_device">Searching for Bluetooth devices, Please wait&#8230;</string>
+    <string name="actDiscovery_msg_starting_device">Bluetooth is turned on&#8230;</string>
+    <string name="actDiscovery_msg_start_bluetooth_fail">Bluetooth turn on failed</string>
+    <string name="actDiscovery_msg_bluetooth_not_start">Bluetooth is not enabled</string>
+    <string name="actDiscovery_menu_scan">Scan</string>
+    <string name="actDiscovery_bond_bonded">Bonded</string>
+    <string name="actDiscovery_bond_nothing">Nothing</string>
+    <string name="actByteStream_btn_send_desc">Send button</string>
+    <string name="actByteStream_tv_receive_text">Data receive</string>
+    <string name="protocol">General Protocol</string>
+    <string name="escprotocol">Esc Sequence Protocol</string>
+    <string name="device_type_bredr">BR/EDR Bluetooth</string>
+    <string name="device_type_ble">Bluetooth Communication Speed is Low</string>
+    <string name="msg_msg_bt_connect_lost">Device is in offline / Communication failure</string>
+    <string name="Connect">Connect</string>
+    <string name="not_connected1">Mobile is not connected with device</string>
+    <string name="bt_not_enabled_leaving1">Bluetooth was not enabled. Exiting Application.</string>
+    <string name="title_connecting1">Connecting...</string>
+    <string name="title_not_connected1">Not connected</string>
+    <string name="hello_world">Hello</string>
+    <!-- DeviceListActivity -->
+    <string name="scanning1">Scanning for devices...</string>
+    <string name="select_device1">Select a device to connect</string>
+    <string name="none_paired1">No devices have been paired</string>
+    <string name="none_found1">No devices found</string>
+    <string name="title_paired_devices1">Paired Devices</string>
+    <string name="title_other_devices1">Available Devices</string>
+    <string name="button_scan1">Scan for devices</string>
+    <string name="note">Note</string>
+    <!-- Options Menu -->
+    <string name="information">This application has been designed to work with Evolute Systems Pride thermal printer.\n\nProwess Pride SDK is available from Evolute Systems as per your request.</string>
+    <string name="btn_display">Continue</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- FING PAY -->
+
+    <string name="merch_id">Merchant Id</string>
+    <string name="merch_pin">Password</string>
+    <string name="aadhaar_number">Aadhaar Number</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="amount">Amount</string>
+    <string name="remarks">Remarks</string>
+    <string name="launch">LAUNCH FINGPAY</string>
+    <string name="history">TRANSACTION HISTORY</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyACEDWATBMBrhOTzQZxfyddPYCvPaO3JQ8</string>
+    :
+    <string name="colstage">Collections Type</string>
+    <string name="coltotaldownaload">Pending Loans count/Total Amt</string>
+    <string name="coltotalpaid">Total Loans/Paid Amt </string>
+    <string name="coltotalupload">Total Groups Uploaded</string>
+
+
+    <string name="Rdemand">Regular Demand</string>
+    <string name="oddemand">OD Demand</string>
+    <string name="advdemand">Advance Demand</string>
+    <string name="holidemand">Holiday Demand</string>
+    <string name="latedemand">Late Demand</string>
+
+    <string name="regUpload">Regular Demand Update</string>
+    <string name="lateUpload">Late Demand Update</string>
+    <string name="odUpload">OD Demand Update</string>
+    <string name="advUpload">Advance Demand Update</string>
+    <string name="title_activity_navigatio">NavigatioActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+
+    <string name="Open">Open</string>
+    <string name="Close">Open</string>
+
+    <string name="reports">Reports</string>
+    <string name="lrp">Receipts</string>
+    <string name="logout">Logout</string>
+
+    <string name="thistory">Payment Status</string>
+    <string name="transhistory">Transactions History</string>
+
+
+    <string name="tday">Today</string>
+    <string name="yday">Yesterday</string>
+    <string name="sdate">Select a Date</string>
+
+    <string name="total">Total</string>
+
+
+    <string name="aeps">AEPS</string>
+    <string name="matm">mATM</string>
+    <string name="pg">PG</string>
+    <string name="upi">UPI</string>
+
+
+    <string name="fconame">FCO Name</string>
+    <string name="brancname">Branch Name</string>
+
+
+
+</resources>

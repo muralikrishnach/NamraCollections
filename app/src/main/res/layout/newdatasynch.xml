@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btnDownLoad"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/blue"
+                android:background="@drawable/download"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/Download" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btnODDemand"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/actionbar"
+                android:background="@drawable/download"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/ODDemandDownload"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btnAdvDownload"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btcolor"
+                android:background="@drawable/download"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/AdvanceDownload" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btnUploadImage"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/bluecoll"
+                android:background="@drawable/upload"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="UploadImage"  />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btnregupdate"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btcolor"
+                android:background="@drawable/refresh"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/regUpload"  />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btnodupdate"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/actionbar"
+                android:background="@drawable/refresh"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/odUpload" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btnadvupdate"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/blue"
+                android:background="@drawable/refresh"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/advUpload" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btncolupdate"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btcolor"
+                android:background="@drawable/refresh"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/lateUpload"  />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

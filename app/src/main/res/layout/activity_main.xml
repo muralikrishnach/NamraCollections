@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/aeps_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_39sdp"
+                android:text="AEPS"
+                android:textSize="@dimen/_16sdp"
+                android:gravity="center"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:background="#3D9C15"
+                android:id="@+id/aepsTabline"/>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/micro_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_39sdp"
+            android:layout_weight="1"
+            android:text="mATM"
+            android:textSize="@dimen/_16sdp"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>-->
+    <ImageView
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:src="@drawable/logo"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/_22sdp"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:background="#ffffff"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginRight="@dimen/_16sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_small"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_8sdp"/>
+
+        <RadioGroup
+            android:id="@+id/rg_trans_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_margin="10dp">
+            <RadioButton
+                android:id="@+id/rb_cw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/MATM_CASH_WIHDRAWAL" />
+            <RadioButton
+                android:id="@+id/rb_be"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/balanceenquiry" />
+
+        </RadioGroup>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/loan_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:text="loanID"
+            android:visibility="gone"
+            android:padding="@dimen/_8sdp"
+            android:textSize="@dimen/_15sdp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/amnt_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:hint="Enter Amount"
+            android:maxLength="10"
+            android:inputType="number"
+            android:padding="@dimen/_8sdp"
+            android:textSize="@dimen/_15sdp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/aeps_submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:text="AEPS"
+            android:textSize="@dimen/_15sdp"
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="@dimen/_10sdp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/matm_submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:text="mATM"
+            android:textSize="@dimen/_15sdp"
+            android:textAllCaps="false"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="@dimen/_10sdp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/upi_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:text="UPI"
+            android:textSize="@dimen/_15sdp"
+            android:textAllCaps="false"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="@dimen/_10sdp"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnPair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pair"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/_31sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_15sdp"/>
+
+
+</RelativeLayout>

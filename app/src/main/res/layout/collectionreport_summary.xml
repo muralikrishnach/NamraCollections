@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+  <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Receipt No From: "
+                android:textColor="@android:color/black" 
+                android:textStyle="bold"/>
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvrecptNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Receipt No To: "
+                android:textColor="@android:color/black" />
+           <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvrecptNumberTo"
+                 android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                 android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Date:"
+                android:textColor="@android:color/black" />
+             <View
+                  android:layout_width="1dip"
+                  android:layout_height="fill_parent"
+                  android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                 android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+		<View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Center Name: "
+                android:textColor="@android:color/black" />
+                            <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvCenterName"
+               android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Regular Demand: "
+                android:textColor="@android:color/black" />
+             
+             <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvTotalRegDemand"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+		<View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="OD Demand: "
+                android:textColor="@android:color/black" />
+             
+             <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvTotalODDemand"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+		<View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+		
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Total Demand:"
+                android:textColor="@android:color/black" />
+             
+             <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvTotalDemand"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                 android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Number of Members:"
+                android:textColor="@android:color/black" />
+	                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+            <TextView
+                android:id="@+id/tvNOOFMem"
+                 android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                 android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Collection: "
+                android:textColor="@android:color/black" />
+                            <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvCollection"
+                 android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                 android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Amount to be Collected: "
+                android:textColor="@android:color/black" />
+            
+            <View
+			    android:layout_width="1dip"
+			    android:layout_height="fill_parent"
+			    android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvBalAmt"
+                 android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+		
+			<View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp" >
+
+            <Button
+                android:id="@+id/btnPrint"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Print" />
+
+            <Button
+                android:id="@+id/btnMenu"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Groups" />
+        </LinearLayout>
+   </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

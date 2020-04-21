@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/tvmemname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:text="Medium Text"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3e3e3e"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvmemname"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/etmemrating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvmemname"
+        android:layout_alignBottom="@+id/tvmemname"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/inputbox2"
+        android:ems="5"
+        android:inputType="number"
+        android:padding="5dp"
+        android:text="" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:text="Next" />
+
+</RelativeLayout>

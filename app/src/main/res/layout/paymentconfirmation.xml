@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+           	android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Member Name"
+            android:textColor="@android:color/black"/>
+        
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor" />
+
+        <TextView
+            android:id="@+id/tvMemebrName"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="memeber name"
+            android:textColor="#006699"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/saparetor" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Member Code"
+            android:textColor="@android:color/black" />
+        
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor" />
+
+        <TextView
+            android:id="@+id/tvMemebrCode"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="memeber name"
+            android:textColor="#006699" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/saparetor" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Demand date"
+            android:textColor="@android:color/black"/>
+        
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor" />
+
+        <TextView
+            android:id="@+id/tvdemandDate"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="memeber name"
+            android:textColor="#006699"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/saparetor" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Collected Amount"
+            android:textColor="@android:color/black" />
+        
+       <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/saparetor" />
+
+        <TextView
+            android:id="@+id/tvCollectedAmount"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="memeber name"
+            android:textColor="#006699"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/saparetor" />
+    
+
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnViewgroupdetails"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="View Group Details"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btnViewGroupMemebrs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="View Group Members"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

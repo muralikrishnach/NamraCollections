@@ -1,0 +1,1126 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jayam.impactapp" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:7:5-67
+9-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:7:22-64
+10    <uses-permission android:name="android.permission.CAMERA" />
+10-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:8:5-65
+10-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:8:22-62
+11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+11-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:9:5-75
+11-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:9:22-72
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:10:5-79
+12-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:10:22-76
+13    <uses-permission android:name="android.permission.SDCARD_WRITE" />
+13-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:11:5-71
+13-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:11:22-68
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:12:5-81
+14-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:12:22-78
+15    <uses-permission android:name="android.permission.BLUETOOTH" />
+15-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:13:5-68
+15-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:13:22-65
+16    <uses-permission android:name="READ_PHONE_STATE" />
+16-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:14:5-56
+16-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:14:22-53
+17    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+17-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:15:5-74
+17-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:15:22-71
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:17:5-81
+18-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:17:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:18:5-79
+19-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:18:22-76
+20    <uses-permission android:name="android.permission.CALL_PHONE" />
+20-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:19:5-69
+20-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:19:22-66
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:20:5-80
+21-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:20:22-77
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:21:5-76
+22-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:21:22-73
+23    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+23-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:15:5-17:47
+23-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:16:9-68
+24    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+24-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:24:5-78
+24-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:24:22-75
+25    <uses-permission android:name="android.hardware.camera" />
+25-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:28:5-63
+25-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:28:22-60
+26    <uses-permission android:name="android.hardware.camera.autofocus" />
+26-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:29:5-73
+26-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:29:22-70
+27
+28    <uses-feature
+28-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:31:5-33:35
+29        android:name="android.hardware.usb.host"
+29-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:32:9-49
+30        android:required="true" />
+30-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:33:9-32
+31
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\3bce469c67dd54931d858572d307b9ec\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:24:5-68
+32-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\3bce469c67dd54931d858572d307b9ec\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:24:22-65
+33    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+33-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:26:5-110
+33-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:26:22-107
+34    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+34-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+34-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:22-79
+35
+36    <application
+36-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:23:5-550:19
+37        android:name="com.jayam.impactapp.common.MfimoApp"
+37-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:25:9-40
+38        android:allowBackup="true"
+38-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:24:9-35
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+40        android:icon="@drawable/mfimo_icon"
+40-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:26:9-44
+41        android:label="@string/app_name"
+41-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:27:9-41
+42        android:networkSecurityConfig="@xml/network_security_config"
+42-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:35:18-78
+43        android:supportsRtl="true"
+43-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:29:9-35
+44        android:theme="@style/AppThemeone"
+44-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:28:9-43
+45        android:usesCleartextTraffic="true" >
+45-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:30:9-44
+46        <meta-data
+46-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:33:9-35:55
+47            android:name="com.google.android.geo.API_KEY"
+47-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:34:13-58
+48            android:value="@string/google_maps_key" />
+48-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:35:13-52
+49
+50        <activity
+50-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:37:9-47:20
+51            android:name="com.jayam.impactapp.loginActivity"
+51-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:38:13-42
+52            android:label="@string/app_name"
+52-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:39:13-45
+53            android:windowSoftInputMode="stateHidden" >
+53-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:41:13-54
+54            <intent-filter>
+54-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:42:13-46:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:43:17-69
+55-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:43:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:45:17-77
+57-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:45:27-74
+58            </intent-filter>
+59        </activity>
+60
+61        <meta-data
+61-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:49:9-51:69
+62            android:name="com.google.android.gms.version"
+62-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:50:13-58
+63            android:value="@integer/google_play_services_version" />
+63-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:51:13-66
+64
+65        <activity
+65-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:53:9-58:16
+66            android:name="com.jayam.impactapp.NavigationActivity"
+66-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:54:13-47
+67            android:label="@string/app_name"
+67-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:55:13-45
+68            android:theme="@style/AppFullScreenTheme" />
+68-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:57:13-54
+69        <activity
+69-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:59:9-62:16
+70            android:name="com.jayam.impactapp.Administration"
+70-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:60:13-43
+71            android:label="@string/app_name" />
+71-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:61:13-45
+72        <activity
+72-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:63:9-66:15
+73            android:name="com.jayam.impactapp.TransactionHistoryMemberwise"
+73-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:64:13-57
+74            android:label="@string/app_name" />
+74-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:65:13-45
+75        <activity
+75-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:67:9-70:15
+76            android:name="com.jayam.impactapp.LateCenters"
+76-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:68:13-40
+77            android:label="@string/app_name" />
+77-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:69:13-45
+78        <activity
+78-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:71:9-74:15
+79            android:name="com.jayam.impactapp.LateGroupMembers"
+79-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:72:13-45
+80            android:label="@string/app_name" />
+80-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:73:13-45
+81        <activity
+81-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:75:9-78:15
+82            android:name="com.jayam.impactapp.LateGroups"
+82-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:76:13-39
+83            android:label="@string/app_name" />
+83-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:77:13-45
+84        <activity
+84-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:79:9-82:15
+85            android:name="com.jayam.impactapp.LateMemeberDetails"
+85-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:80:13-47
+86            android:label="@string/app_name" />
+86-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:81:13-45
+87        <activity
+87-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:83:9-86:15
+88            android:name="com.jayam.impactapp.TransactionHistory"
+88-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:84:13-47
+89            android:label="@string/app_name" />
+89-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:85:13-45
+90        <activity
+90-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:87:9-90:16
+91            android:name="com.jayam.impactapp.Transactions"
+91-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:88:13-41
+92            android:label="@string/app_name" />
+92-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:89:13-45
+93        <activity
+93-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:91:9-94:16
+94            android:name="com.jayam.impactapp.MemberViewCycle"
+94-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:92:13-44
+95            android:label="@string/app_name" />
+95-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:93:13-45
+96        <activity
+96-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:95:9-98:16
+97            android:name="com.jayam.impactapp.DemandDates"
+97-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:96:13-40
+98            android:label="@string/app_name" />
+98-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:97:13-45
+99        <activity
+99-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:99:9-102:16
+100            android:name="com.jayam.impactapp.ProductSynch"
+100-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:100:13-41
+101            android:label="@string/app_name" />
+101-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:101:13-45
+102        <activity
+102-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:103:9-106:16
+103            android:name="com.jayam.impactapp.BorrowerSearch"
+103-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:104:13-43
+104            android:label="@string/app_name" />
+104-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:105:13-45
+105        <activity
+105-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:107:9-110:16
+106            android:name="com.jayam.impactapp.NewDemands"
+106-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:108:13-39
+107            android:label="@string/app_name" />
+107-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:109:13-45
+108        <activity
+108-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:111:9-114:16
+109            android:name="com.jayam.impactapp.RegularCollections"
+109-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:112:13-47
+110            android:label="@string/app_name" />
+110-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:113:13-45
+111        <activity
+111-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:115:9-118:16
+112            android:name="com.jayam.impactapp.CollectionDashbord"
+112-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:116:13-47
+113            android:label="@string/app_name" />
+113-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:117:13-45
+114        <activity
+114-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:119:9-122:16
+115            android:name="com.jayam.impactapp.NewDataSync"
+115-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:120:13-40
+116            android:label="@string/app_name" />
+116-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:121:13-45
+117        <activity
+117-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:125:9-128:16
+118            android:name="com.jayam.impactapp.GroupsAndCenters"
+118-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:126:13-45
+119            android:label="@string/app_name" />
+119-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:127:13-45
+120        <activity
+120-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:129:9-132:16
+121            android:name="com.jayam.impactapp.Centers"
+121-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:130:13-36
+122            android:label="@string/app_name" />
+122-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:131:13-45
+123        <activity
+123-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:133:9-136:16
+124            android:name="com.jayam.impactapp.CenterDetails"
+124-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:134:13-42
+125            android:label="@string/app_name" />
+125-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:135:13-45
+126        <activity
+126-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:137:9-140:16
+127            android:name="com.jayam.impactapp.DisplayRoute"
+127-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:138:13-41
+128            android:label="@string/app_name" />
+128-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:139:13-45
+129        <activity
+129-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:141:9-144:16
+130            android:name="com.jayam.impactapp.Groups"
+130-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:142:13-35
+131            android:label="@string/app_name" />
+131-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:143:13-45
+132        <activity
+132-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:145:9-148:16
+133            android:name="com.jayam.impactapp.GroupDetails"
+133-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:146:13-41
+134            android:label="@string/app_name" />
+134-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:147:13-45
+135        <activity
+135-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:149:9-152:16
+136            android:name="com.jayam.impactapp.GroupMembers"
+136-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:150:13-41
+137            android:label="@string/app_name" />
+137-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:151:13-45
+138        <activity
+138-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:153:9-156:16
+139            android:name="com.jayam.impactapp.MemeberDetails"
+139-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:154:13-43
+140            android:label="@string/app_name" />
+140-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:155:13-45
+141        <activity
+141-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:157:9-160:16
+142            android:name="com.jayam.impactapp.Paymentconfiramtion"
+142-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:158:13-48
+143            android:label="@string/app_name" />
+143-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:159:13-45
+144        <activity
+144-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:161:9-164:16
+145            android:name="com.jayam.impactapp.Attendense"
+145-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:162:13-39
+146            android:label="@string/app_name" />
+146-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:163:13-45
+147        <activity
+147-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:165:9-169:16
+148            android:name="com.jayam.impactapp.MeetingTime"
+148-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:166:13-40
+149            android:configChanges="keyboardHidden|orientation"
+149-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:167:13-63
+150            android:label="@string/app_name" />
+150-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:168:13-45
+151        <activity
+151-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:170:9-173:16
+152            android:name="com.jayam.impactapp.ConfirmationScreen"
+152-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:171:13-47
+153            android:label="@string/app_name" />
+153-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:172:13-45
+154        <activity
+154-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:174:9-177:16
+155            android:name="com.jayam.impactapp.TransactionACK"
+155-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:175:13-43
+156            android:label="@string/app_name" />
+156-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:176:13-45
+157        <activity
+157-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:178:9-181:16
+158            android:name="com.jayam.impactapp.printer.BluetoothChatActivity"
+158-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:179:13-58
+159            android:label="@string/app_name" />
+159-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:180:13-45
+160        <activity
+160-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:182:9-185:16
+161            android:name="com.jayam.impactapp.printer.DeviceListActivity"
+161-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:183:13-55
+162            android:label="@string/app_name" />
+162-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:184:13-45
+163        <activity
+163-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:186:9-189:16
+164            android:name="com.jayam.impactapp.ODDemands"
+164-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:187:13-38
+165            android:label="@string/app_name" />
+165-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:188:13-45
+166        <activity
+166-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:190:9-193:16
+167            android:name="com.jayam.impactapp.Centers_OD"
+167-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:191:13-39
+168            android:label="@string/app_name" />
+168-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:192:13-45
+169        <activity
+169-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:194:9-197:16
+170            android:name="com.jayam.impactapp.Groups_OD"
+170-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:195:13-38
+171            android:label="@string/app_name" />
+171-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:196:13-45
+172        <activity
+172-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:198:9-201:16
+173            android:name="com.jayam.impactapp.Members_OD"
+173-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:199:13-39
+174            android:label="@string/app_name" />
+174-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:200:13-45
+175        <activity
+175-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:202:9-205:16
+176            android:name="com.jayam.impactapp.MemberDetails_OD"
+176-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:203:13-45
+177            android:label="@string/app_name" />
+177-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:204:13-45
+178        <activity
+178-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:206:9-209:16
+179            android:name="com.jayam.impactapp.TransactionACK_OD"
+179-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:207:13-46
+180            android:label="@string/app_name" />
+180-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:208:13-45
+181        <activity
+181-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:210:9-213:16
+182            android:name="com.jayam.impactapp.Reports"
+182-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:211:13-36
+183            android:label="@string/app_name" />
+183-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:212:13-45
+184        <activity
+184-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:214:9-217:16
+185            android:name="com.jayam.impactapp.ReportDates_Regular"
+185-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:215:13-48
+186            android:label="@string/app_name" />
+186-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:216:13-45
+187        <activity
+187-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:218:9-221:16
+188            android:name="com.jayam.impactapp.ReportList"
+188-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:219:13-39
+189            android:label="@string/app_name" />
+189-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:220:13-45
+190        <activity
+190-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:222:9-225:16
+191            android:name="com.jayam.impactapp.CollectionReport"
+191-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:223:13-45
+192            android:label="@string/app_name" />
+192-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:224:13-45
+193        <activity
+193-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:226:9-229:16
+194            android:name="com.jayam.impactapp.CollectionReportSummary"
+194-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:227:13-52
+195            android:label="@string/app_name" />
+195-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:228:13-45
+196        <activity
+196-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:230:9-233:16
+197            android:name="com.jayam.impactapp.CollectionReport_Groups"
+197-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:231:13-52
+198            android:label="@string/app_name" />
+198-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:232:13-45
+199        <activity
+199-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:234:9-237:16
+200            android:name="com.jayam.impactapp.Utilities"
+200-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:235:13-38
+201            android:label="@string/app_name" />
+201-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:236:13-45
+202        <activity
+202-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:238:9-241:16
+203            android:name="com.jayam.impactapp.ChangePassword"
+203-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:239:13-43
+204            android:label="@string/app_name" />
+204-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:240:13-45
+205        <activity
+205-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:242:9-245:16
+206            android:name="com.jayam.impactapp.Collections_Reports_members"
+206-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:243:13-56
+207            android:label="@string/app_name" />
+207-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:244:13-45
+208        <activity
+208-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:246:9-249:16
+209            android:name="com.jayam.impactapp.CollectionReportSummary_Groups"
+209-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:247:13-59
+210            android:label="@string/app_name" />
+210-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:248:13-45
+211        <activity
+211-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:250:9-253:16
+212            android:name="com.jayam.impactapp.CollectionReport_MemberSummery"
+212-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:251:13-59
+213            android:label="@string/app_name" />
+213-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:252:13-45
+214        <activity
+214-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:254:9-257:16
+215            android:name="com.jayam.impactapp.SummaryReports_Regular"
+215-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:255:13-51
+216            android:label="@string/app_name" />
+216-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:256:13-45
+217        <activity
+217-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:258:9-261:16
+218            android:name="com.jayam.impactapp.ReportSummaryForRegular"
+218-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:259:13-52
+219            android:label="@string/app_name" />
+219-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:260:13-45
+220        <activity
+220-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:262:9-265:16
+221            android:name="com.jayam.impactapp.ReportDetailSummaryForRegular"
+221-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:263:13-58
+222            android:label="@string/app_name" />
+222-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:264:13-45
+223        <activity
+223-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:266:9-269:16
+224            android:name="com.jayam.impactapp.ReportList_For_OD"
+224-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:267:13-46
+225            android:label="@string/app_name" />
+225-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:268:13-45
+226        <activity
+226-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:270:9-273:16
+227            android:name="com.jayam.impactapp.CollectionReports_Centers_OD"
+227-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:271:13-57
+228            android:label="@string/app_name" />
+228-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:272:13-45
+229        <activity
+229-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:274:9-277:16
+230            android:name="com.jayam.impactapp.CollectionReports_Groups_OD"
+230-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:275:13-56
+231            android:label="@string/app_name" />
+231-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:276:13-45
+232        <activity
+232-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:278:9-281:16
+233            android:name="com.jayam.impactapp.CollectionReports_Members_OD"
+233-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:279:13-57
+234            android:label="@string/app_name" />
+234-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:280:13-45
+235        <activity
+235-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:282:9-285:16
+236            android:name="com.jayam.impactapp.CollectionReport_MemberDetails_OD"
+236-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:283:13-62
+237            android:label="@string/app_name" />
+237-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:284:13-45
+238        <activity
+238-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:286:9-289:16
+239            android:name="com.jayam.impactapp.SummaryReport_OD"
+239-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:287:13-45
+240            android:label="@string/app_name" />
+240-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:288:13-45
+241        <activity
+241-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:290:9-293:16
+242            android:name="com.jayam.impactapp.Groups_For_attendense"
+242-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:291:13-50
+243            android:label="@string/app_name" />
+243-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:292:13-45
+244        <activity
+244-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:294:9-297:16
+245            android:name="com.jayam.impactapp.Attendense_Centerwise"
+245-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:295:13-50
+246            android:label="@string/app_name" />
+246-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:296:13-45
+247        <activity
+247-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:298:9-302:16
+248            android:name="com.jayam.impactapp.MeetingTime_Centerwise"
+248-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:299:13-51
+249            android:configChanges="keyboardHidden|orientation"
+249-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:300:13-63
+250            android:label="@string/app_name" />
+250-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:301:13-45
+251        <activity
+251-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:303:9-306:16
+252            android:name="com.jayam.impactapp.ConfirmationScreen_Centerwise"
+252-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:304:13-58
+253            android:label="@string/app_name" />
+253-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:305:13-45
+254        <activity
+254-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:307:9-310:16
+255            android:name="com.jayam.impactapp.TransactionACK_Centerwise"
+255-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:308:13-54
+256            android:label="@string/app_name" />
+256-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:309:13-45
+257        <activity
+257-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:311:9-314:16
+258            android:name="com.jayam.impactapp.Groups_Centerwise"
+258-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:312:13-46
+259            android:label="@string/app_name" />
+259-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:313:13-45
+260        <activity
+260-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:315:9-318:16
+261            android:name="com.jayam.impactapp.GroupDetails_Centerwise"
+261-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:316:13-52
+262            android:label="@string/app_name" />
+262-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:317:13-45
+263        <activity
+263-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:319:9-322:16
+264            android:name="com.jayam.impactapp.ResetParameters"
+264-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:320:13-44
+265            android:label="@string/app_name" />
+265-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:321:13-45
+266        <activity
+266-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:323:9-326:16
+267            android:name="com.jayam.impactapp.AdvanceDemands"
+267-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:324:13-43
+268            android:label="@string/app_name" />
+268-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:325:13-45
+269        <activity
+269-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:327:9-330:16
+270            android:name="com.jayam.impactapp.AdvGroupsAndCenters"
+270-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:328:13-48
+271            android:label="@string/app_name" />
+271-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:329:13-45
+272        <activity
+272-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:331:9-334:16
+273            android:name="com.jayam.impactapp.AdvCenters"
+273-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:332:13-39
+274            android:label="@string/app_name" />
+274-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:333:13-45
+275        <activity
+275-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:335:9-338:16
+276            android:name="com.jayam.impactapp.AdvCenterDetails"
+276-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:336:13-45
+277            android:label="@string/app_name" />
+277-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:337:13-45
+278        <activity
+278-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:339:9-342:16
+279            android:name="com.jayam.impactapp.AdvGroups_centerwise"
+279-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:340:13-49
+280            android:label="@string/app_name" />
+280-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:341:13-45
+281        <activity
+281-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:343:9-346:16
+282            android:name="com.jayam.impactapp.AdvGroupDetails_Centerwise"
+282-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:344:13-55
+283            android:label="@string/app_name" />
+283-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:345:13-45
+284        <activity
+284-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:347:9-350:16
+285            android:name="com.jayam.impactapp.AdvGroupMembers"
+285-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:348:13-44
+286            android:label="@string/app_name" />
+286-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:349:13-45
+287        <activity
+287-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:351:9-354:16
+288            android:name="com.jayam.impactapp.AdvMemeberDetails"
+288-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:352:13-46
+289            android:label="@string/app_name" />
+289-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:353:13-45
+290        <activity
+290-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:355:9-358:16
+291            android:name="com.jayam.impactapp.AdvanceGroups"
+291-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:356:13-42
+292            android:label="@string/app_name" />
+292-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:357:13-45
+293        <activity
+293-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:359:9-362:16
+294            android:name="com.jayam.impactapp.AdvanceGroupDetails"
+294-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:360:13-48
+295            android:label="@string/app_name" />
+295-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:361:13-45
+296        <activity
+296-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:363:9-366:16
+297            android:name="com.jayam.impactapp.AdvancePaymentconfiramtion"
+297-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:364:13-55
+298            android:label="@string/app_name" />
+298-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:365:13-45
+299        <activity
+299-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:367:9-370:16
+300            android:name="com.jayam.impactapp.AdvanceConfirmationScreen_Centerwise"
+300-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:368:13-65
+301            android:label="@string/app_name" />
+301-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:369:13-45
+302        <activity
+302-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:371:9-374:16
+303            android:name="com.jayam.impactapp.AdvanceConfirmationScreen"
+303-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:372:13-54
+304            android:label="@string/app_name" />
+304-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:373:13-45
+305        <activity
+305-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:375:9-378:16
+306            android:name="com.jayam.impactapp.AdvTxnack"
+306-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:376:13-38
+307            android:label="@string/app_name" />
+307-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:377:13-45
+308        <activity
+308-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:379:9-382:16
+309            android:name="com.jayam.impactapp.AdvTxnack_CenterWise"
+309-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:380:13-49
+310            android:label="@string/app_name" />
+310-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:381:13-45
+311        <activity
+311-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:383:9-386:16
+312            android:name="com.jayam.impactapp.AdvanceReports"
+312-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:384:13-43
+313            android:label="@string/app_name" />
+313-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:385:13-45
+314        <activity
+314-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:387:9-390:16
+315            android:name="com.jayam.impactapp.AdvanceReports_center"
+315-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:388:13-50
+316            android:label="@string/app_name" />
+316-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:389:13-45
+317        <activity
+317-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:391:9-394:16
+318            android:name="com.jayam.impactapp.Advancereports_CenterDetails"
+318-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:392:13-57
+319            android:label="@string/app_name" />
+319-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:393:13-45
+320        <activity
+320-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:395:9-398:16
+321            android:name="com.jayam.impactapp.Advancereports_GroupDetails"
+321-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:396:13-56
+322            android:label="@string/app_name" />
+322-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:397:13-45
+323        <activity
+323-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:399:9-402:16
+324            android:name="com.jayam.impactapp.AdvanceReport_GroupsSummary"
+324-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:400:13-56
+325            android:label="@string/app_name" />
+325-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:401:13-45
+326        <activity
+326-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:403:9-406:16
+327            android:name="com.jayam.impactapp.AdvanceReports_Members"
+327-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:404:13-51
+328            android:label="@string/app_name" />
+328-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:405:13-45
+329        <activity
+329-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:407:9-410:16
+330            android:name="com.jayam.impactapp.Advancereports_MemberDetails"
+330-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:408:13-57
+331            android:label="@string/app_name" />
+331-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:409:13-45
+332        <activity
+332-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:411:9-414:16
+333            android:name="com.jayam.impactapp.AdvanceReports_Summary"
+333-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:412:13-51
+334            android:label="@string/app_name" />
+334-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:413:13-45
+335        <activity
+335-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:415:9-418:16
+336            android:name="com.jayam.impactapp.NPSConfirmationScreen_Centerwise"
+336-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:416:13-61
+337            android:label="@string/app_name" />
+337-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:417:13-45
+338        <activity
+338-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:419:9-422:16
+339            android:name="com.jayam.impactapp.NPSConfirmation"
+339-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:420:13-44
+340            android:label="@string/app_name" />
+340-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:421:13-45
+341        <activity
+341-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:423:9-426:16
+342            android:name="com.jayam.impactapp.Ftodreasons"
+342-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:424:13-40
+343            android:label="@string/app_name" />
+343-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:425:13-45
+344        <activity
+344-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:427:9-430:16
+345            android:name="com.jayam.impactapp.Ftodconfirmation"
+345-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:428:13-45
+346            android:label="@string/app_name" />
+346-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:429:13-45
+347        <activity
+347-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:431:9-434:16
+348            android:name="com.jayam.impactapp.Ftodreasonscenterwise"
+348-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:432:13-50
+349            android:label="@string/app_name" />
+349-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:433:13-45
+350        <activity
+350-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:435:9-438:16
+351            android:name="com.jayam.impactapp.FtodCenterWiseConfirmation"
+351-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:436:13-55
+352            android:label="@string/app_name" />
+352-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:437:13-45
+353        <activity
+353-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:439:9-442:16
+354            android:name="com.jayam.impactapp.FtodGroupWiseConfirmation"
+354-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:440:13-54
+355            android:label="@string/app_name" />
+355-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:441:13-45
+356        <activity
+356-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:443:9-446:16
+357            android:name="com.jayam.impactapp.LastReceiptPrintMenu"
+357-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:444:13-49
+358            android:label="@string/app_name" />
+358-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:445:13-45
+359        <activity
+359-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:447:9-450:16
+360            android:name="com.jayam.impactapp.ProbInCenterCW"
+360-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:448:13-43
+361            android:label="@string/app_name" />
+361-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:449:13-45
+362        <activity
+362-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:451:9-454:16
+363            android:name="com.jayam.impactapp.GroupDisciplineGW"
+363-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:452:13-46
+364            android:label="@string/app_name" />
+364-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:453:13-45
+365        <activity
+365-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:455:9-458:16
+366            android:name="com.jayam.impactapp.CollExperianceGW"
+366-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:456:13-45
+367            android:label="@string/app_name" />
+367-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:457:13-45
+368        <activity
+368-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:459:9-462:16
+369            android:name="com.jayam.impactapp.GroupDisciplineCW"
+369-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:460:13-46
+370            android:label="@string/app_name" />
+370-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:461:13-45
+371        <activity
+371-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:463:9-466:16
+372            android:name="com.jayam.impactapp.CollExperianceCW"
+372-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:464:13-45
+373            android:label="@string/app_name" />
+373-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:465:13-45
+374        <activity
+374-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:467:9-470:16
+375            android:name="com.jayam.impactapp.CollExpRmel"
+375-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:468:13-40
+376            android:label="@string/app_name" />
+376-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:469:13-45
+377        <activity
+377-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:471:9-474:16
+378            android:name="com.jayam.impactapp.CollectionPlace"
+378-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:472:13-44
+379            android:label="@string/app_name" />
+379-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:473:13-45
+380        <activity
+380-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:475:9-478:16
+381            android:name="com.jayam.impactapp.RepaymentMadeBy"
+381-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:476:13-44
+382            android:label="@string/app_name" />
+382-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:477:13-45
+383        <activity
+383-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:479:9-482:16
+384            android:name="com.jayam.impactapp.QomCenters"
+384-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:480:13-39
+385            android:label="@string/app_name" />
+385-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:481:13-45
+386        <activity
+386-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:483:9-486:16
+387            android:name="com.jayam.impactapp.QomCenterWise"
+387-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:484:13-42
+388            android:label="@string/app_name" />
+388-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:485:13-45
+389        <activity
+389-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:487:9-490:16
+390            android:name="com.jayam.impactapp.QomGroupWise"
+390-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:488:13-41
+391            android:label="@string/app_name" />
+391-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:489:13-45
+392        <activity
+392-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:491:9-494:16
+393            android:name="com.jayam.impactapp.RenewCenterWise"
+393-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:492:13-44
+394            android:label="@string/app_name" />
+394-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:493:13-45
+395        <activity
+395-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:495:9-498:16
+396            android:name="com.jayam.impactapp.RenewCenters"
+396-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:496:13-41
+397            android:label="@string/app_name" />
+397-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:497:13-45
+398        <activity
+398-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:499:9-502:16
+399            android:name="com.jayam.impactapp.RenewGroupWise"
+399-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:500:13-43
+400            android:label="@string/app_name" />
+400-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:501:13-45
+401        <activity
+401-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:503:9-506:16
+402            android:name="com.jayam.impactapp.ProbInCenterGW"
+402-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:504:13-43
+403            android:label="@string/app_name" />
+403-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:505:13-45
+404        <activity
+404-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:507:9-510:16
+405            android:name="com.jayam.impactapp.Group_Members"
+405-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:508:13-42
+406            android:label="@string/app_name" />
+406-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:509:13-45
+407        <activity
+407-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:511:9-514:16
+408            android:name="com.jayam.impactapp.CollExperianceMW"
+408-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:512:13-45
+409            android:label="@string/app_name" />
+409-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:513:13-45
+410        <activity
+410-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:515:9-518:16
+411            android:name="com.jayam.impactapp.QomMemberWise"
+411-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:516:13-42
+412            android:label="@string/app_name" />
+412-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:517:13-45
+413        <activity
+413-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:519:9-522:16
+414            android:name="com.jayam.LocationUtil.MyLocationUsingHelper"
+414-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:520:13-72
+415            android:label="@string/app_name" />
+415-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:521:13-45
+416        <activity
+416-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:523:9-526:16
+417            android:name="com.jayam.impactapp.RegularCbCheck"
+417-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:524:13-43
+418            android:label="@string/app_name" />
+418-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:525:13-45
+419        <activity
+419-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:527:9-530:16
+420            android:name="com.jayam.ODCASHLESSPending"
+420-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:528:13-55
+421            android:label="@string/app_name" />
+421-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:529:13-45
+422        <activity
+422-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:531:9-534:16
+423            android:name="com.jayam.impactapp.AdvanceCashLessPending"
+423-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:532:13-51
+424            android:label="@string/app_name" />
+424-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:533:13-45
+425
+426        <service
+426-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:536:9-538:38
+427            android:name="com.jayam.impactapp.webacceslayer.RegularScheduleService"
+427-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:537:13-65
+428            android:enabled="true" />
+428-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:538:13-35
+429        <service
+429-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:539:9-541:38
+430            android:name="com.jayam.impactapp.webacceslayer.ODRegularScheduleService"
+430-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:540:13-67
+431            android:enabled="true" />
+431-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:541:13-35
+432        <service
+432-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:542:9-544:38
+433            android:name="com.jayam.impactapp.webacceslayer.ADVRegularScheduleService"
+433-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:543:13-68
+434            android:enabled="true" />
+434-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:544:13-35
+435        <service
+435-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:545:9-547:38
+436            android:name="com.jayam.impactapp.webacceslayer.LateSchedilerService"
+436-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:546:13-63
+437            android:enabled="true" />
+437-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:547:13-35
+438
+439        <uses-library
+439-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:549:9-101
+440            android:name="org.apache.http.legacy"
+440-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:549:23-60
+441            android:required="false" />
+441-->E:\PPFM-13-4-20Sqliteissuecode\pplcollections\app\src\main\AndroidManifest.xml:549:61-85
+442
+443        <service
+443-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:36:9-43:19
+444            android:name="com.google.firebase.components.ComponentDiscoveryService"
+444-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:36:18-89
+445            android:exported="false" >
+445-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
+446            <meta-data
+446-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:37:13-39:85
+447                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+447-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:38:17-96
+448                android:value="com.google.firebase.components.ComponentRegistrar" />
+448-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:39:17-82
+449            <meta-data
+449-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:40:13-42:85
+450                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+450-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:41:17-111
+451                android:value="com.google.firebase.components.ComponentRegistrar" />
+451-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:42:17-82
+452            <meta-data
+452-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\3bce469c67dd54931d858572d307b9ec\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:28:13-30:85
+453                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+453-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\3bce469c67dd54931d858572d307b9ec\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:29:17-139
+454                android:value="com.google.firebase.components.ComponentRegistrar" />
+454-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\3bce469c67dd54931d858572d307b9ec\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:30:17-82
+455        </service>
+456
+457        <activity android:name="com.matm.matmsdk.Dashboard.DashBoardActivity" />
+457-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:45:9-81
+457-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:45:19-78
+458        <activity android:name="com.matm.matmsdk.DemoActivity" />
+458-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:46:9-66
+458-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:46:19-63
+459        <activity
+459-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:47:9-51:63
+460            android:name="com.matm.matmsdk.Dashboard.MainActivity"
+460-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:48:13-67
+461            android:screenOrientation="portrait"
+461-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:49:13-49
+462            android:theme="@style/AppTheme"
+462-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:50:13-44
+463            android:windowSoftInputMode="stateAlwaysHidden" />
+463-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:51:13-60
+464        <activity
+464-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:52:9-56:63
+465            android:name="com.matm.matmsdk.Bluetooth.BluetoothActivity"
+465-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:53:13-72
+466            android:screenOrientation="portrait"
+466-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:54:13-49
+467            android:theme="@style/BaseTheme"
+467-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:55:13-45
+468            android:windowSoftInputMode="stateAlwaysHidden" />
+468-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:56:13-60
+469        <activity
+469-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:57:9-60:63
+470            android:name="com.matm.matmsdk.ChooseCard.ChooseCardActivity"
+470-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:58:13-74
+471            android:screenOrientation="portrait"
+471-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:59:13-49
+472            android:windowSoftInputMode="stateAlwaysHidden" />
+472-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:60:13-60
+473        <activity
+473-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:61:9-64:63
+474            android:name="com.matm.matmsdk.Dashboard.FileDownLoadActivity"
+474-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:62:13-75
+475            android:screenOrientation="portrait"
+475-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:63:13-49
+476            android:windowSoftInputMode="stateAlwaysHidden" />
+476-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:64:13-60
+477        <activity
+477-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:65:9-68:63
+478            android:name="com.matm.matmsdk.UserProfile.UserProfileActivity"
+478-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:66:13-76
+479            android:screenOrientation="portrait"
+479-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:67:13-49
+480            android:windowSoftInputMode="stateAlwaysHidden" />
+480-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:68:13-60
+481        <activity
+481-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:69:9-71:52
+482            android:name="com.matm.matmsdk.transaction_report.TransactionStatusActivity"
+482-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:70:13-89
+483            android:screenOrientation="portrait" />
+483-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:71:13-49
+484        <activity
+484-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:72:9-85:20
+485            android:name="com.matm.matmsdk.MPOS.PosActivity"
+485-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:73:13-61
+486            android:label="MPOS"
+486-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:74:13-33
+487            android:noHistory="true"
+487-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:75:13-37
+488            android:theme="@style/ThemePoS" >
+488-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:76:13-44
+489
+490            <!--
+491                <intent-filter>
+492            <action android:name="android.intent.action.MAIN" />
+493
+494            <category android:name="android.intent.category.LAUNCHER" />
+495            </intent-filter>
+496            -->
+497        </activity>
+498        <activity
+498-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:86:9-89:47
+499            android:name="com.matm.matmsdk.Error.ErrorActivity"
+499-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:87:13-64
+500            android:label="@string/app_name"
+500-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:88:13-45
+501            android:theme="@style/AppTheme" />
+501-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:89:13-44
+502        <activity android:name="com.matm.matmsdk.upitransaction.UPIHomeActivity" />
+502-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:90:9-84
+502-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:90:19-81
+503        <activity android:name="com.matm.matmsdk.aepsmodule.AEPSHomeActivity" />
+503-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:91:9-81
+503-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:91:19-78
+504        <activity android:name="com.matm.matmsdk.aepsmodule.bankspinner.BankNameListActivity" />
+504-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:92:9-97
+504-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:92:19-94
+505        <activity android:name="com.matm.matmsdk.aepsmodule.transactionstatus.TransactionStatusActivity" />
+505-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:93:9-108
+505-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:93:19-105
+506        <activity android:name="com.matm.matmsdk.aepsmodule.AEPS2HomeActivity" />
+506-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:94:9-82
+506-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d96571ab0c6666e57338bb39f82a5f20\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:94:19-79
+507
+508        <receiver
+508-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:29:9-33:20
+509            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+509-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:30:13-85
+510            android:enabled="true"
+510-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:31:13-35
+511            android:exported="false" >
+511-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:32:13-37
+512        </receiver>
+513        <receiver
+513-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:34:9-42:20
+514            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+514-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:35:13-100
+515            android:enabled="true"
+515-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:36:13-35
+516            android:exported="true"
+516-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:37:13-36
+517            android:permission="android.permission.INSTALL_PACKAGES" >
+517-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:38:13-69
+518            <intent-filter>
+518-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:39:13-41:29
+519                <action android:name="com.android.vending.INSTALL_REFERRER" />
+519-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:40:17-79
+519-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:40:25-76
+520            </intent-filter>
+521        </receiver>
+522
+523        <service
+523-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:44:9-47:40
+524            android:name="com.google.android.gms.measurement.AppMeasurementService"
+524-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:45:13-84
+525            android:enabled="true"
+525-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:46:13-35
+526            android:exported="false" />
+526-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:47:13-37
+527        <service
+527-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:48:9-52:72
+528            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+528-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:49:13-87
+529            android:enabled="true"
+529-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:50:13-35
+530            android:exported="false"
+530-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:51:13-37
+531            android:permission="android.permission.BIND_JOB_SERVICE" />
+531-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\58b47ffc8ecaec38c3871b0535c72a5f\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:52:13-69
+532
+533        <receiver
+533-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+534            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+534-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+535            android:exported="true"
+535-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+536            android:permission="com.google.android.c2dm.permission.SEND" >
+536-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+537            <intent-filter>
+537-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+538                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+538-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
+538-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
+539            </intent-filter>
+540        </receiver>
+541        <!--
+542             FirebaseInstanceIdService performs security checks at runtime,
+543             no need for explicit permissions despite exported="true"
+544        -->
+545        <service
+545-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+546            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+546-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+547            android:exported="true" >
+547-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+548            <intent-filter android:priority="-500" >
+548-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+548-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+549                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+549-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+549-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4223ac7f00ddd9bbc56e4850f9fd8ee9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+550            </intent-filter>
+551        </service>
+552
+553        <activity
+553-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d9cc84ed4dbd04711fc186f1196dca0a\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+554            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+554-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d9cc84ed4dbd04711fc186f1196dca0a\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+555            android:exported="false"
+555-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d9cc84ed4dbd04711fc186f1196dca0a\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+556            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+556-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d9cc84ed4dbd04711fc186f1196dca0a\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+557
+558        <provider
+558-->[com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\db492d81b1b1968b794746a1a225750a\jetified-firebase-common-16.0.4\AndroidManifest.xml:10:9-14:39
+559            android:name="com.google.firebase.provider.FirebaseInitProvider"
+559-->[com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\db492d81b1b1968b794746a1a225750a\jetified-firebase-common-16.0.4\AndroidManifest.xml:11:13-77
+560            android:authorities="com.jayam.impactapp.firebaseinitprovider"
+560-->[com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\db492d81b1b1968b794746a1a225750a\jetified-firebase-common-16.0.4\AndroidManifest.xml:12:13-72
+561            android:exported="false"
+561-->[com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\db492d81b1b1968b794746a1a225750a\jetified-firebase-common-16.0.4\AndroidManifest.xml:13:13-37
+562            android:initOrder="100" />
+562-->[com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\db492d81b1b1968b794746a1a225750a\jetified-firebase-common-16.0.4\AndroidManifest.xml:14:13-36
+563        <provider
+563-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+564            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+564-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+565            android:authorities="com.jayam.impactapp.lifecycle-process"
+565-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+566            android:exported="false"
+566-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+567            android:multiprocess="true" />
+567-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+568    </application>
+569
+570</manifest>

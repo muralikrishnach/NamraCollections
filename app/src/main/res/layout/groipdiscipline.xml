@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+        <RelativeLayout
+            android:id="@+id/llBaseMiddle"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvproblems"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Rate Group Discipline?" />
+            
+            <RadioGroup 
+                android:id="@+id/rgGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvproblems"
+                android:orientation="vertical"
+                android:layout_alignLeft="@+id/tvproblems"
+                >
+                 <RadioButton 
+                    android:id="@+id/rgbtsel"
+                    android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Select"/>
+                <RadioButton 
+                    android:id="@+id/rgbtgud"
+                    android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good"/>
+                
+                <RadioButton 
+                    android:id="@+id/rgbtavg"
+                    android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avg"/>
+                
+                <RadioButton 
+                    android:id="@+id/rgbtbad"
+                    android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bad"/>
+                
+                
+            </RadioGroup>
+        </RelativeLayout>
+      
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Next" />
+
+</LinearLayout>

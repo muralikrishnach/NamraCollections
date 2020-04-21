@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:orientation="horizontal"
+    android:layout_margin="5dip"
+    android:gravity="center"
+     >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:textStyle="bold" 
+        android:textColor="@android:color/black"
+        android:id="@+id/tvDate"
+        android:layout_weight="1"/>
+    <ImageView 
+       android:layout_width="50dip"
+        android:layout_height="50dip" 
+        android:src="@drawable/downloaded"
+        android:layout_weight="0"
+        android:id="@+id/ivStatus"/>
+
+</LinearLayout>

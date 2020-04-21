@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvStarttime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dip"
+        android:text="Meeting Start Time:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black" />
+
+    <TimePicker
+        android:id="@+id/pickerstarttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+         />
+
+    <TextView
+        android:id="@+id/tvEndtime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dip"
+        android:text="Meeting End Time:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black" />
+
+    <TimePicker
+        android:id="@+id/pickerendtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnCaptureImage"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Capture Image"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="220dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Capture Group Photo"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</LinearLayout>

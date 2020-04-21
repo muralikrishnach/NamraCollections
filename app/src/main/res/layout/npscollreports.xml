@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    android:id="@+id/tvNPSRCenterName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Center Name"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNPSRCName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="123456"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tvNPSRGroupName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Group Name"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNPSRGName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="14568296"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:id="@+id/llNPSRMember" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Member Name"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNPSMName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="14568296"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:id="@+id/llNPSRenewalDate"  >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Renewal Date"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNPSRenewalDate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="14568296"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Total Renewal Amt"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNPSRTotReAmt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="14568296"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+             <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Collected Amount"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNPSRCollAmt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="14568296"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+             <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tvCollection"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Rnwl Amt. Due/Arrs"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNPSRBalRnAmt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="14568296"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+            
+              <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_weight="0">
+
+        <Button
+            android:id="@+id/btnNPSRPrint"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            android:text="Print" />
+
+        <Button
+            android:id="@+id/btnNPSRGroups"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            android:text="Groups" />
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

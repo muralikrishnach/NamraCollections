@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Members"
+            android:textColor="#006699"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="ATTN"
+                android:textColor="@android:color/black" 
+                android:id="@+id/tvAttendance"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingRight="5dip"
+                android:text="GLI"
+                android:textColor="@android:color/black"
+                android:id="@+id/tvGli" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="LATE"
+                android:textColor="@android:color/black"
+                android:id="@+id/tvLate" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/saparetor" />
+
+    <ListView
+        android:id="@+id/lvAttendense"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:cacheColorHint="@null"
+        android:fadingEdgeLength="0dip"
+        android:scrollbars="none" >
+    </ListView>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Next" />
+
+</LinearLayout>

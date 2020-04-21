@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        style="@style/VisitLayoutForTextLableAndEditText"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/centerid"
+            style="@style/VisitTextLables"
+            android:text="Center"
+            android:textColor="#a20859" />
+
+
+        <AutoCompleteTextView
+            android:id="@+id/autoselect"
+            style="@style/SpinnerBackgrond"
+            android:layout_weight="3"
+            android:background="@color/blue_shadow"
+            android:drawableRight="@null"
+            android:hint="Select"
+            android:singleLine="false" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/VisitLayoutForTextLableAndEditText"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/groupid"
+            style="@style/VisitTextLables"
+            android:text="Group"
+            android:textColor="#a20859" />
+
+
+        <AutoCompleteTextView
+            android:id="@+id/autoselecttwo"
+            style="@style/SpinnerBackgrond"
+            android:layout_weight="3"
+            android:background="@color/blue_shadow"
+            android:drawableRight="@null"
+            android:hint="Select"
+            android:singleLine="false" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/VisitLayoutForTextLableAndEditText"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/membed"
+            style="@style/VisitTextLables"
+            android:text="Member"
+            android:textColor="#a20859" />
+
+
+        <AutoCompleteTextView
+            android:id="@+id/automember"
+            style="@style/SpinnerBackgrond"
+            android:layout_weight="3"
+            android:background="@color/blue_shadow"
+            android:drawableRight="@null"
+            android:hint="Select"
+            android:singleLine="false" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000" />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a20859"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="5dip"
+                    android:text="Client Name"
+                    android:textColor="@color/white"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="5dip"
+                    android:text="AADHAAR ID"
+                    android:textColor="@color/white" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="5dip"
+                    android:text="Village/Locality"
+                    android:textColor="@color/white" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="5dip"
+                    android:text="Center No."
+                    android:textColor="@color/white" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="5dip"
+                    android:text="Group"
+                    android:textColor="@color/white" />
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:background="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="5dip"
+                    android:text="CB Summary"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000" />
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true">
+
+                <LinearLayout
+                    android:id="@+id/llfirstgridscroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        </HorizontalScrollView>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/llloandetails"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#000000" />
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#a20859"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:padding="5dip"
+                            android:text="Loan ID"
+                            android:textColor="@color/white"
+                            android:textStyle="normal" />
+
+                        <View
+                            android:layout_width="1dip"
+                            android:layout_height="match_parent"
+                            android:background="#000000" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:padding="5dip"
+                            android:text="Disb. Date"
+                            android:textColor="@color/white" />
+
+                        <View
+                            android:layout_width="1dip"
+                            android:layout_height="match_parent"
+                            android:background="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:padding="5dip"
+                            android:text="Loan Amount"
+                            android:textColor="@color/white" />
+
+                        <View
+                            android:layout_width="1dip"
+                            android:layout_height="match_parent"
+                            android:background="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:padding="5dip"
+                            android:text="No. of Installments"
+                            android:textColor="@color/white" />
+
+                        <View
+                            android:layout_width="1dip"
+                            android:layout_height="match_parent"
+                            android:background="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:padding="5dip"
+                            android:text="OS Amount"
+                            android:textColor="@color/white" />
+
+                        <View
+                            android:layout_width="1dip"
+                            android:layout_height="match_parent"
+                            android:background="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:padding="5dip"
+                            android:text="Form Status"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="#000000" />
+
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="210dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true">
+
+                        <LinearLayout
+                            android:id="@+id/llaprisal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:scrollbars="none"
+        android:fadingEdgeLength="0dip"
+        android:cacheColorHint="@null"
+        android:id="@+id/lvCenters"
+        android:layout_weight="1">
+    </ListView>
+    
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:visibility="gone"
+        android:text="Next" />
+    
+</LinearLayout>

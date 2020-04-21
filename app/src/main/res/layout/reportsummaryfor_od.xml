@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Collection Date: "
+                android:textColor="@android:color/black" />
+			
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+            
+            <TextView
+                android:id="@+id/tvcollectionDt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+        
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Agent: "
+                android:textColor="@android:color/black" />
+            
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvAgent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        
+         <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Total OD A/c's:"
+                android:textColor="@android:color/black" />
+            
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvtotalodacs"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Total OD Amount: "
+                android:textColor="@android:color/black" />
+            
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvtotalodamount"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        
+        <View
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"
+             android:background="@drawable/saparetor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Total Demand A/c's: "
+                android:textColor="@android:color/black" />
+            
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvdemandacs"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        
+        <View
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"
+             android:background="@drawable/saparetor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Total Demand Amount: "
+                android:textColor="@android:color/black" />
+            
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvDemandAmount"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        
+        <View
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"
+             android:background="@drawable/saparetor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Collection A/C's: "
+                android:textColor="@android:color/black" />
+            
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvCollectionacs"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        
+        <View
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"
+             android:background="@drawable/saparetor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Collection Amount: "
+                android:textColor="@android:color/black" />
+            
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvCollectionAmount"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        
+        <View
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"
+             android:background="@drawable/saparetor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="UnPaid A/C's: "
+                android:textColor="@android:color/black" />
+            
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvUnPaidAcs"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        
+        <View
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"
+             android:background="@drawable/saparetor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Bal. to be received: "
+                android:textColor="@android:color/black" />
+            
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvbaltobereceived"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        
+        <View
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"
+             android:background="@drawable/saparetor" />
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Attendance: "
+                android:textColor="@android:color/black" />
+            
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvattendace"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        
+        <View
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"
+             android:background="@drawable/saparetor" />
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Repayment % : "
+                android:textColor="@android:color/black" />
+            
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/saparetor" />
+
+            <TextView
+                android:id="@+id/tvRepayment"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="1234235325 "
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        
+        <View
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"
+             android:background="@drawable/saparetor" />
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Print"
+            android:id="@+id/btnPrint"
+             />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Main Menu"
+            android:id="@+id/btnMenu" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

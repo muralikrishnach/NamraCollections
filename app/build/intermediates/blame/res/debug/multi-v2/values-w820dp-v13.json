@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\Namraa\\NamraCollections\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "G:\\Namraa\\NamraCollections\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "7,8,9",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "312,371,414",
+                        "endColumns": "57,41,39",
+                        "endOffsets": "365,408,449"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,113,155",
+                        "endColumns": "57,41,39",
+                        "endOffsets": "108,150,190"
+                    }
+                }
+            ]
+        }
+    ]
+}

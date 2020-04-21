@@ -1,0 +1,1481 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:2:1-555:12
+INJECTED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:2:1-555:12
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:2:1-97:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\61286022a6ab4953b640d85e2b41a85c\jetified-play-services-location-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.ganfra:material-spinner:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\de35424d8cb346764a03e4da020a82f2\jetified-material-spinner-2.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\38d0b14110c3b6afe3e598d06dbd20df\material-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\edb6be63a9a522861e993e8bb884ceae\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d528e4a95537e6fd748364050a23264e\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\c034f7088c57e18a85dafc68b942945f\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\9978fcaad46c49428af056864886650a\jetified-android-networking-1.0.2\AndroidManifest.xml:18:1-27:12
+MERGED from [com.auth0.android:jwtdecode:1.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ec462d7955abc15f74d02d877a45b80b\jetified-jwtdecode-1.3.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.douglasspgyn:CircularCountdown:0.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\0e983aafc9931150aa14b68cd6ebfa36\jetified-CircularCountdown-0.3.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\f5bdf8930f5b0dade80802408310dda6\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [net.cachapa.expandablelayout:expandablelayout:2.9.2] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7aaaf3c029b38f9a520b66bcc2e552f7\expandablelayout-2.9.2\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\6c3d076a1e367dd45c106728fec4fd2b\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:10.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\edd5ef765de9aac173432b63df9cc977\butterknife-10.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\70c74e03a7e0317ffa121f845e0b77f6\sdp-android-1.0.6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.moos:Material-ProgressView:1.0.6] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\0859aee7adcea9994e6b534308a1c38e\jetified-Material-ProgressView-1.0.6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.datatheorem.android.trustkit:trustkit:1.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb996862c0dff7c7a5379fab9ec1ac58\jetified-trustkit-1.0.3\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:firebase-database:16.0.6] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cdc3629e2e378c21fe58141a6ed9f16f\jetified-firebase-database-16.0.6\AndroidManifest.xml:15:1-27:12
+MERGED from [com.google.firebase:firebase-core:16.0.7] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b0eed04cc9e9e5ca85ebd68d06bdf349\firebase-core-16.0.7\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4593a5e1f51611bc89ece48b50b5a566\jetified-play-services-measurement-api-16.3.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ac71b99a9ff0ade1ac05557779ab3879\jetified-firebase-analytics-impl-16.3.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d997d272ee18d229d790c8a69a57924d\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\a3acdec8b46532405a8411cfa7b67475\jetified-play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\0ea12cbeb4164436a77f67aaa5046d86\play-services-places-placereport-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\eacd7366eec595ccddc63c683ecb923e\jetified-firebase-common-16.0.4\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\0aab221082bbe557382dfded4fa9b8a5\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b31cef3651c8a3b67f4cd69d6224c674\jetified-play-services-measurement-base-16.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\25abdca3faff93581852d649b81c4ae6\jetified-play-services-stats-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b0b0aad22a0428ca0328c4cf952ba9f1\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\af25cbe92c9184d1ffdc3dd60f2f4d70\jetified-play-services-ads-identifier-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\510f55adf137b82750f6e33b7fdfc8c1\jetified-play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\1d93c655cdcaa19a3180f48e63f30b3d\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\093a9ec84bb9bf7be33a0e9b85506163\glide-4.11.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\e5d386f6e25bce9d50afbfa94472541a\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\df9a84c4655b7cf6fd3ecff2821fd9d3\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\a44642c3bddc1cd9ae77529ce5394be3\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\67e3a22614326cadf216274f01d6d423\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\3d66247cb3e229dc7753f5f4d3b35b4b\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42ab0a6c6504d7268c5e0e2422fb0679\butterknife-runtime-10.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7ae8c1d65b7331eeb350edf91287a16c\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\984e9edaa0792ad5f44429be517dd8ee\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\de3b4aff63e255359d6d83ac6fbdaff5\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b96b3435fb358bdd7f04f1152639314c\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\bf0848ee243e36dc13961016c6f63543\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\9572194aa98bde0ee13f87e0985824cf\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\39630329992cdfdccf96a8a2e735cd1c\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\985ff358bb91108c25d3fd24361b35b6\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\2dfde23a071269bfc073d57af77f7873\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\e7201af0ac6a1eb782d2b896d1ec4242\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\c8e365a5af96832a9cd28e0401c5aef5\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\9b9140e118d7f4f83e504277c0661cb2\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7b3b7b721ad53547c0e35001526b3ae3\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb37b7f790edcc9d7fe6d3e5314b8c56\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\9a29ee90fd211f611caccd9d338a3e44\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.databinding:databinding-adapters:3.5.2] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\08f73975d13bdf9d4e456cac7ddc9f6b\databinding-adapters-3.5.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.5.2] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\50984b50dbcc88b6a23109a16ececcc8\databinding-runtime-3.5.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\5bf5244b1332845473953802a5c09e04\gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\2408ced8daf1596b7f4eddd47404170f\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\e7284bace20bec096294b5474e153fbf\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\c073c929da6ad4e112abaac7d3212747\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\e72949b043b8df7a6068dab5e7cd21f2\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\22b9570a1ed0fca2142825daa9f62beb\lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\1bd2f6a321d0549948d7f1edb5f036d6\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\55566c395264c409f125230efea7fd76\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\f031147607d3aeb238f176a00d5e308c\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\2d1f640c1b4beb33089ff5c91bbd7f31\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\8506ddbc1ed30380944ad7f0369e4760\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\35d6382087ac1999db47004e3bf24934\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\8893b90c6f2a61edd1acfa898cb4cde1\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b5d9d378596bfe412a03537eb55d6c9e\firebase-database-collection-16.0.1\AndroidManifest.xml:2:1-7:12
+INJECTED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:2:1-555:12
+	package
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:4:5-34
+		INJECTED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:18:5-67
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:18:5-67
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:26:5-67
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.6] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cdc3629e2e378c21fe58141a6ed9f16f\jetified-firebase-database-16.0.6\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.6] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cdc3629e2e378c21fe58141a6ed9f16f\jetified-firebase-database-16.0.6\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ac71b99a9ff0ade1ac05557779ab3879\jetified-firebase-analytics-impl-16.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ac71b99a9ff0ade1ac05557779ab3879\jetified-firebase-analytics-impl-16.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.CAMERA
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:8:5-65
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:27:5-65
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:27:5-65
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:8:22-62
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:9:5-75
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:23:5-75
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:23:5-75
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:9:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:12:5-79
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:12:5-79
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:25:5-79
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:16.0.6] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cdc3629e2e378c21fe58141a6ed9f16f\jetified-firebase-database-16.0.6\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-database:16.0.6] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cdc3629e2e378c21fe58141a6ed9f16f\jetified-firebase-database-16.0.6\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ac71b99a9ff0ade1ac05557779ab3879\jetified-firebase-analytics-impl-16.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ac71b99a9ff0ade1ac05557779ab3879\jetified-firebase-analytics-impl-16.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.SDCARD_WRITE
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:11:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:12:5-81
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:13:5-81
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:13:5-68
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:19:5-68
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:13:22-65
+uses-permission#READ_PHONE_STATE
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:14:5-56
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:14:22-53
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:15:5-74
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:20:5-74
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:20:5-74
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:15:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:17:5-81
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:21:5-81
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:18:5-79
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:22:5-79
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.CALL_PHONE
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:19:5-69
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:19:22-66
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:20:5-80
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:14:5-80
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:20:22-77
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:21:22-73
+application
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:23:5-553:19
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:35:5-95:19
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:35:5-95:19
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\61286022a6ab4953b640d85e2b41a85c\jetified-play-services-location-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\61286022a6ab4953b640d85e2b41a85c\jetified-play-services-location-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\38d0b14110c3b6afe3e598d06dbd20df\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\38d0b14110c3b6afe3e598d06dbd20df\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.datatheorem.android.trustkit:trustkit:1.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb996862c0dff7c7a5379fab9ec1ac58\jetified-trustkit-1.0.3\AndroidManifest.xml:9:5-10:19
+MERGED from [com.datatheorem.android.trustkit:trustkit:1.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb996862c0dff7c7a5379fab9ec1ac58\jetified-trustkit-1.0.3\AndroidManifest.xml:9:5-10:19
+MERGED from [com.google.firebase:firebase-core:16.0.7] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b0eed04cc9e9e5ca85ebd68d06bdf349\firebase-core-16.0.7\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.7] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b0eed04cc9e9e5ca85ebd68d06bdf349\firebase-core-16.0.7\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4593a5e1f51611bc89ece48b50b5a566\jetified-play-services-measurement-api-16.3.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4593a5e1f51611bc89ece48b50b5a566\jetified-play-services-measurement-api-16.3.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ac71b99a9ff0ade1ac05557779ab3879\jetified-firebase-analytics-impl-16.3.0\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ac71b99a9ff0ade1ac05557779ab3879\jetified-firebase-analytics-impl-16.3.0\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d997d272ee18d229d790c8a69a57924d\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d997d272ee18d229d790c8a69a57924d\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\a3acdec8b46532405a8411cfa7b67475\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\a3acdec8b46532405a8411cfa7b67475\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\0ea12cbeb4164436a77f67aaa5046d86\play-services-places-placereport-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\0ea12cbeb4164436a77f67aaa5046d86\play-services-places-placereport-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\eacd7366eec595ccddc63c683ecb923e\jetified-firebase-common-16.0.4\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\eacd7366eec595ccddc63c683ecb923e\jetified-firebase-common-16.0.4\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\0aab221082bbe557382dfded4fa9b8a5\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\0aab221082bbe557382dfded4fa9b8a5\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b31cef3651c8a3b67f4cd69d6224c674\jetified-play-services-measurement-base-16.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b31cef3651c8a3b67f4cd69d6224c674\jetified-play-services-measurement-base-16.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\25abdca3faff93581852d649b81c4ae6\jetified-play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\25abdca3faff93581852d649b81c4ae6\jetified-play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b0b0aad22a0428ca0328c4cf952ba9f1\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b0b0aad22a0428ca0328c4cf952ba9f1\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\af25cbe92c9184d1ffdc3dd60f2f4d70\jetified-play-services-ads-identifier-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\af25cbe92c9184d1ffdc3dd60f2f4d70\jetified-play-services-ads-identifier-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\510f55adf137b82750f6e33b7fdfc8c1\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\510f55adf137b82750f6e33b7fdfc8c1\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\093a9ec84bb9bf7be33a0e9b85506163\glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\093a9ec84bb9bf7be33a0e9b85506163\glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\e5d386f6e25bce9d50afbfa94472541a\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\e5d386f6e25bce9d50afbfa94472541a\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\9a29ee90fd211f611caccd9d338a3e44\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\9a29ee90fd211f611caccd9d338a3e44\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\5bf5244b1332845473953802a5c09e04\gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\5bf5244b1332845473953802a5c09e04\gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:29:9-35
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:27:9-41
+	android:icon
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:26:9-43
+	android:allowBackup
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:24:9-35
+	android:theme
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:28:9-43
+	android:networkSecurityConfig
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:31:9-69
+	tools:replace
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:34:9-44
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:25:9-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:36:9-38:55
+	android:value
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:38:13-52
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:37:13-58
+activity#com.jayam.impactapp.loginActivity
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:40:9-50:20
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:42:13-45
+	android:windowSoftInputMode
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:44:13-54
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:41:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:45:13-49:29
+action#android.intent.action.MAIN
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:46:17-69
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:48:27-74
+meta-data#com.google.android.gms.version
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:52:9-54:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\510f55adf137b82750f6e33b7fdfc8c1\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\510f55adf137b82750f6e33b7fdfc8c1\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:54:13-66
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:53:13-58
+activity#com.jayam.impactapp.NavigationActivity
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:56:9-61:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:58:13-45
+	android:theme
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:60:13-54
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:57:13-47
+activity#com.jayam.impactapp.Administration
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:62:9-65:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:64:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:63:13-43
+activity#com.jayam.impactapp.TransactionHistoryMemberwise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:66:9-69:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:68:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:67:13-57
+activity#com.jayam.impactapp.LateCenters
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:70:9-73:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:72:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:71:13-40
+activity#com.jayam.impactapp.LateGroupMembers
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:74:9-77:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:76:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:75:13-45
+activity#com.jayam.impactapp.LateGroups
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:78:9-81:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:80:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:79:13-39
+activity#com.jayam.impactapp.LateMemeberDetails
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:82:9-85:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:84:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:83:13-47
+activity#com.jayam.impactapp.TransactionHistory
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:86:9-89:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:88:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:87:13-47
+activity#com.jayam.impactapp.Transactions
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:90:9-93:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:92:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:91:13-41
+activity#com.jayam.impactapp.MemberViewCycle
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:94:9-97:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:96:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:95:13-44
+activity#com.jayam.impactapp.DemandDates
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:98:9-101:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:100:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:99:13-40
+activity#com.jayam.impactapp.ProductSynch
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:102:9-105:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:104:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:103:13-41
+activity#com.jayam.impactapp.BorrowerSearch
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:106:9-109:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:108:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:107:13-43
+activity#com.jayam.impactapp.NewDemands
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:110:9-113:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:112:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:111:13-39
+activity#com.jayam.impactapp.RegularCollections
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:114:9-117:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:116:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:115:13-47
+activity#com.jayam.impactapp.CollectionDashbord
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:118:9-121:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:120:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:119:13-47
+activity#com.jayam.impactapp.NewDataSync
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:122:9-125:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:124:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:123:13-40
+activity#com.jayam.impactapp.GroupsAndCenters
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:128:9-131:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:130:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:129:13-45
+activity#com.jayam.impactapp.Centers
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:132:9-135:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:134:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:133:13-36
+activity#com.jayam.impactapp.CenterDetails
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:136:9-139:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:138:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:137:13-42
+activity#com.jayam.impactapp.DisplayRoute
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:140:9-143:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:142:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:141:13-41
+activity#com.jayam.impactapp.Groups
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:144:9-147:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:146:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:145:13-35
+activity#com.jayam.impactapp.GroupDetails
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:148:9-151:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:150:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:149:13-41
+activity#com.jayam.impactapp.GroupMembers
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:152:9-155:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:154:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:153:13-41
+activity#com.jayam.impactapp.MemeberDetails
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:156:9-159:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:158:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:157:13-43
+activity#com.jayam.impactapp.Paymentconfiramtion
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:160:9-163:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:162:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:161:13-48
+activity#com.jayam.impactapp.Attendense
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:164:9-167:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:166:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:165:13-39
+activity#com.jayam.impactapp.MeetingTime
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:168:9-172:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:171:13-45
+	android:configChanges
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:170:13-63
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:169:13-40
+activity#com.jayam.impactapp.ConfirmationScreen
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:173:9-176:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:175:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:174:13-47
+activity#com.jayam.impactapp.TransactionACK
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:177:9-180:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:179:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:178:13-43
+activity#com.jayam.impactapp.printer.BluetoothChatActivity
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:181:9-184:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:183:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:182:13-58
+activity#com.jayam.impactapp.printer.DeviceListActivity
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:185:9-188:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:187:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:186:13-55
+activity#com.jayam.impactapp.ODDemands
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:189:9-192:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:191:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:190:13-38
+activity#com.jayam.impactapp.Centers_OD
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:193:9-196:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:195:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:194:13-39
+activity#com.jayam.impactapp.Groups_OD
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:197:9-200:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:199:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:198:13-38
+activity#com.jayam.impactapp.Members_OD
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:201:9-204:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:203:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:202:13-39
+activity#com.jayam.impactapp.MemberDetails_OD
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:205:9-208:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:207:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:206:13-45
+activity#com.jayam.impactapp.TransactionACK_OD
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:209:9-212:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:211:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:210:13-46
+activity#com.jayam.impactapp.Reports
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:213:9-216:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:215:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:214:13-36
+activity#com.jayam.impactapp.ReportDates_Regular
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:217:9-220:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:219:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:218:13-48
+activity#com.jayam.impactapp.ReportList
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:221:9-224:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:223:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:222:13-39
+activity#com.jayam.impactapp.CollectionReport
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:225:9-228:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:227:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:226:13-45
+activity#com.jayam.impactapp.CollectionReportSummary
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:229:9-232:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:231:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:230:13-52
+activity#com.jayam.impactapp.CollectionReport_Groups
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:233:9-236:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:235:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:234:13-52
+activity#com.jayam.impactapp.Utilities
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:237:9-240:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:239:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:238:13-38
+activity#com.jayam.impactapp.ChangePassword
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:241:9-244:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:243:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:242:13-43
+activity#com.jayam.impactapp.Collections_Reports_members
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:245:9-248:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:247:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:246:13-56
+activity#com.jayam.impactapp.CollectionReportSummary_Groups
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:249:9-252:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:251:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:250:13-59
+activity#com.jayam.impactapp.CollectionReport_MemberSummery
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:253:9-256:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:255:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:254:13-59
+activity#com.jayam.impactapp.SummaryReports_Regular
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:257:9-260:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:259:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:258:13-51
+activity#com.jayam.impactapp.ReportSummaryForRegular
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:261:9-264:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:263:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:262:13-52
+activity#com.jayam.impactapp.ReportDetailSummaryForRegular
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:265:9-268:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:267:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:266:13-58
+activity#com.jayam.impactapp.ReportList_For_OD
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:269:9-272:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:271:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:270:13-46
+activity#com.jayam.impactapp.CollectionReports_Centers_OD
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:273:9-276:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:275:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:274:13-57
+activity#com.jayam.impactapp.CollectionReports_Groups_OD
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:277:9-280:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:279:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:278:13-56
+activity#com.jayam.impactapp.CollectionReports_Members_OD
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:281:9-284:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:283:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:282:13-57
+activity#com.jayam.impactapp.CollectionReport_MemberDetails_OD
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:285:9-288:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:287:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:286:13-62
+activity#com.jayam.impactapp.SummaryReport_OD
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:289:9-292:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:291:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:290:13-45
+activity#com.jayam.impactapp.Groups_For_attendense
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:293:9-296:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:295:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:294:13-50
+activity#com.jayam.impactapp.Attendense_Centerwise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:297:9-300:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:299:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:298:13-50
+activity#com.jayam.impactapp.MeetingTime_Centerwise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:301:9-305:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:304:13-45
+	android:configChanges
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:303:13-63
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:302:13-51
+activity#com.jayam.impactapp.ConfirmationScreen_Centerwise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:306:9-309:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:308:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:307:13-58
+activity#com.jayam.impactapp.TransactionACK_Centerwise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:310:9-313:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:312:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:311:13-54
+activity#com.jayam.impactapp.Groups_Centerwise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:314:9-317:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:316:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:315:13-46
+activity#com.jayam.impactapp.GroupDetails_Centerwise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:318:9-321:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:320:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:319:13-52
+activity#com.jayam.impactapp.ResetParameters
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:322:9-325:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:324:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:323:13-44
+activity#com.jayam.impactapp.AdvanceDemands
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:326:9-329:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:328:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:327:13-43
+activity#com.jayam.impactapp.AdvGroupsAndCenters
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:330:9-333:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:332:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:331:13-48
+activity#com.jayam.impactapp.AdvCenters
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:334:9-337:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:336:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:335:13-39
+activity#com.jayam.impactapp.AdvCenterDetails
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:338:9-341:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:340:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:339:13-45
+activity#com.jayam.impactapp.AdvGroups_centerwise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:342:9-345:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:344:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:343:13-49
+activity#com.jayam.impactapp.AdvGroupDetails_Centerwise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:346:9-349:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:348:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:347:13-55
+activity#com.jayam.impactapp.AdvGroupMembers
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:350:9-353:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:352:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:351:13-44
+activity#com.jayam.impactapp.AdvMemeberDetails
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:354:9-357:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:356:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:355:13-46
+activity#com.jayam.impactapp.AdvanceGroups
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:358:9-361:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:360:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:359:13-42
+activity#com.jayam.impactapp.AdvanceGroupDetails
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:362:9-365:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:364:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:363:13-48
+activity#com.jayam.impactapp.AdvancePaymentconfiramtion
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:366:9-369:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:368:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:367:13-55
+activity#com.jayam.impactapp.AdvanceConfirmationScreen_Centerwise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:370:9-373:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:372:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:371:13-65
+activity#com.jayam.impactapp.AdvanceConfirmationScreen
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:374:9-377:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:376:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:375:13-54
+activity#com.jayam.impactapp.AdvTxnack
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:378:9-381:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:380:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:379:13-38
+activity#com.jayam.impactapp.AdvTxnack_CenterWise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:382:9-385:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:384:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:383:13-49
+activity#com.jayam.impactapp.AdvanceReports
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:386:9-389:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:388:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:387:13-43
+activity#com.jayam.impactapp.AdvanceReports_center
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:390:9-393:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:392:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:391:13-50
+activity#com.jayam.impactapp.Advancereports_CenterDetails
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:394:9-397:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:396:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:395:13-57
+activity#com.jayam.impactapp.Advancereports_GroupDetails
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:398:9-401:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:400:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:399:13-56
+activity#com.jayam.impactapp.AdvanceReport_GroupsSummary
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:402:9-405:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:404:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:403:13-56
+activity#com.jayam.impactapp.AdvanceReports_Members
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:406:9-409:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:408:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:407:13-51
+activity#com.jayam.impactapp.Advancereports_MemberDetails
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:410:9-413:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:412:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:411:13-57
+activity#com.jayam.impactapp.AdvanceReports_Summary
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:414:9-417:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:416:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:415:13-51
+activity#com.jayam.impactapp.NPSConfirmationScreen_Centerwise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:418:9-421:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:420:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:419:13-61
+activity#com.jayam.impactapp.NPSConfirmation
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:422:9-425:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:424:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:423:13-44
+activity#com.jayam.impactapp.Ftodreasons
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:426:9-429:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:428:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:427:13-40
+activity#com.jayam.impactapp.Ftodconfirmation
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:430:9-433:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:432:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:431:13-45
+activity#com.jayam.impactapp.Ftodreasonscenterwise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:434:9-437:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:436:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:435:13-50
+activity#com.jayam.impactapp.FtodCenterWiseConfirmation
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:438:9-441:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:440:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:439:13-55
+activity#com.jayam.impactapp.FtodGroupWiseConfirmation
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:442:9-445:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:444:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:443:13-54
+activity#com.jayam.impactapp.LastReceiptPrintMenu
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:446:9-449:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:448:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:447:13-49
+activity#com.jayam.impactapp.ProbInCenterCW
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:450:9-453:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:452:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:451:13-43
+activity#com.jayam.impactapp.GroupDisciplineGW
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:454:9-457:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:456:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:455:13-46
+activity#com.jayam.impactapp.CollExperianceGW
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:458:9-461:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:460:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:459:13-45
+activity#com.jayam.impactapp.GroupDisciplineCW
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:462:9-465:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:464:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:463:13-46
+activity#com.jayam.impactapp.CollExperianceCW
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:466:9-469:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:468:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:467:13-45
+activity#com.jayam.impactapp.CollExpRmel
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:470:9-473:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:472:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:471:13-40
+activity#com.jayam.impactapp.CollectionPlace
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:474:9-477:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:476:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:475:13-44
+activity#com.jayam.impactapp.RepaymentMadeBy
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:478:9-481:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:480:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:479:13-44
+activity#com.jayam.impactapp.QomCenters
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:482:9-485:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:484:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:483:13-39
+activity#com.jayam.impactapp.QomCenterWise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:486:9-489:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:488:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:487:13-42
+activity#com.jayam.impactapp.QomGroupWise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:490:9-493:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:492:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:491:13-41
+activity#com.jayam.impactapp.RenewCenterWise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:494:9-497:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:496:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:495:13-44
+activity#com.jayam.impactapp.RenewCenters
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:498:9-501:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:500:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:499:13-41
+activity#com.jayam.impactapp.RenewGroupWise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:502:9-505:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:504:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:503:13-43
+activity#com.jayam.impactapp.ProbInCenterGW
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:506:9-509:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:508:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:507:13-43
+activity#com.jayam.impactapp.Group_Members
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:510:9-513:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:512:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:511:13-42
+activity#com.jayam.impactapp.CollExperianceMW
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:514:9-517:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:516:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:515:13-45
+activity#com.jayam.impactapp.QomMemberWise
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:518:9-521:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:520:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:519:13-42
+activity#com.jayam.LocationUtil.MyLocationUsingHelper
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:522:9-525:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:524:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:523:13-72
+activity#com.jayam.impactapp.RegularCbCheck
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:526:9-529:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:528:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:527:13-43
+activity#com.jayam.ODCASHLESSPending
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:530:9-533:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:532:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:531:13-55
+activity#com.jayam.impactapp.AdvanceCashLessPending
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:534:9-537:15
+	android:label
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:536:13-45
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:535:13-51
+service#com.jayam.impactapp.webacceslayer.RegularScheduleService
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:539:9-541:38
+	android:enabled
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:541:13-35
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:540:13-65
+service#com.jayam.impactapp.webacceslayer.ODRegularScheduleService
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:542:9-544:38
+	android:enabled
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:544:13-35
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:543:13-67
+service#com.jayam.impactapp.webacceslayer.ADVRegularScheduleService
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:545:9-547:38
+	android:enabled
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:547:13-35
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:546:13-68
+service#com.jayam.impactapp.webacceslayer.LateSchedilerService
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:548:9-550:38
+	android:enabled
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:550:13-35
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:549:13-63
+uses-library#org.apache.http.legacy
+ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:552:9-101
+	android:required
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:552:61-85
+	android:name
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:552:23-60
+uses-sdk
+INJECTED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml
+INJECTED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\61286022a6ab4953b640d85e2b41a85c\jetified-play-services-location-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\61286022a6ab4953b640d85e2b41a85c\jetified-play-services-location-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.github.ganfra:material-spinner:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\de35424d8cb346764a03e4da020a82f2\jetified-material-spinner-2.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.ganfra:material-spinner:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\de35424d8cb346764a03e4da020a82f2\jetified-material-spinner-2.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\38d0b14110c3b6afe3e598d06dbd20df\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\38d0b14110c3b6afe3e598d06dbd20df\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\edb6be63a9a522861e993e8bb884ceae\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\edb6be63a9a522861e993e8bb884ceae\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d528e4a95537e6fd748364050a23264e\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d528e4a95537e6fd748364050a23264e\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\c034f7088c57e18a85dafc68b942945f\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\c034f7088c57e18a85dafc68b942945f\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\9978fcaad46c49428af056864886650a\jetified-android-networking-1.0.2\AndroidManifest.xml:23:5-25:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\9978fcaad46c49428af056864886650a\jetified-android-networking-1.0.2\AndroidManifest.xml:23:5-25:41
+MERGED from [com.auth0.android:jwtdecode:1.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ec462d7955abc15f74d02d877a45b80b\jetified-jwtdecode-1.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.auth0.android:jwtdecode:1.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ec462d7955abc15f74d02d877a45b80b\jetified-jwtdecode-1.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.douglasspgyn:CircularCountdown:0.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\0e983aafc9931150aa14b68cd6ebfa36\jetified-CircularCountdown-0.3.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.douglasspgyn:CircularCountdown:0.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\0e983aafc9931150aa14b68cd6ebfa36\jetified-CircularCountdown-0.3.0\AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\f5bdf8930f5b0dade80802408310dda6\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\f5bdf8930f5b0dade80802408310dda6\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [net.cachapa.expandablelayout:expandablelayout:2.9.2] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7aaaf3c029b38f9a520b66bcc2e552f7\expandablelayout-2.9.2\AndroidManifest.xml:8:5-10:41
+MERGED from [net.cachapa.expandablelayout:expandablelayout:2.9.2] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7aaaf3c029b38f9a520b66bcc2e552f7\expandablelayout-2.9.2\AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\6c3d076a1e367dd45c106728fec4fd2b\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\6c3d076a1e367dd45c106728fec4fd2b\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.jakewharton:butterknife:10.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\edd5ef765de9aac173432b63df9cc977\butterknife-10.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\edd5ef765de9aac173432b63df9cc977\butterknife-10.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\70c74e03a7e0317ffa121f845e0b77f6\sdp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\70c74e03a7e0317ffa121f845e0b77f6\sdp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.moos:Material-ProgressView:1.0.6] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\0859aee7adcea9994e6b534308a1c38e\jetified-Material-ProgressView-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.moos:Material-ProgressView:1.0.6] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\0859aee7adcea9994e6b534308a1c38e\jetified-Material-ProgressView-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.datatheorem.android.trustkit:trustkit:1.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb996862c0dff7c7a5379fab9ec1ac58\jetified-trustkit-1.0.3\AndroidManifest.xml:7:5-44
+MERGED from [com.datatheorem.android.trustkit:trustkit:1.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb996862c0dff7c7a5379fab9ec1ac58\jetified-trustkit-1.0.3\AndroidManifest.xml:7:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.6] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cdc3629e2e378c21fe58141a6ed9f16f\jetified-firebase-database-16.0.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.6] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cdc3629e2e378c21fe58141a6ed9f16f\jetified-firebase-database-16.0.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-core:16.0.7] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b0eed04cc9e9e5ca85ebd68d06bdf349\firebase-core-16.0.7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.7] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b0eed04cc9e9e5ca85ebd68d06bdf349\firebase-core-16.0.7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4593a5e1f51611bc89ece48b50b5a566\jetified-play-services-measurement-api-16.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\4593a5e1f51611bc89ece48b50b5a566\jetified-play-services-measurement-api-16.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ac71b99a9ff0ade1ac05557779ab3879\jetified-firebase-analytics-impl-16.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ac71b99a9ff0ade1ac05557779ab3879\jetified-firebase-analytics-impl-16.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d997d272ee18d229d790c8a69a57924d\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\d997d272ee18d229d790c8a69a57924d\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\a3acdec8b46532405a8411cfa7b67475\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\a3acdec8b46532405a8411cfa7b67475\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\0ea12cbeb4164436a77f67aaa5046d86\play-services-places-placereport-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\0ea12cbeb4164436a77f67aaa5046d86\play-services-places-placereport-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\eacd7366eec595ccddc63c683ecb923e\jetified-firebase-common-16.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\eacd7366eec595ccddc63c683ecb923e\jetified-firebase-common-16.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\0aab221082bbe557382dfded4fa9b8a5\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\0aab221082bbe557382dfded4fa9b8a5\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b31cef3651c8a3b67f4cd69d6224c674\jetified-play-services-measurement-base-16.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b31cef3651c8a3b67f4cd69d6224c674\jetified-play-services-measurement-base-16.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\25abdca3faff93581852d649b81c4ae6\jetified-play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\25abdca3faff93581852d649b81c4ae6\jetified-play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b0b0aad22a0428ca0328c4cf952ba9f1\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b0b0aad22a0428ca0328c4cf952ba9f1\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\af25cbe92c9184d1ffdc3dd60f2f4d70\jetified-play-services-ads-identifier-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\af25cbe92c9184d1ffdc3dd60f2f4d70\jetified-play-services-ads-identifier-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\510f55adf137b82750f6e33b7fdfc8c1\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\510f55adf137b82750f6e33b7fdfc8c1\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\1d93c655cdcaa19a3180f48e63f30b3d\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\1d93c655cdcaa19a3180f48e63f30b3d\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\093a9ec84bb9bf7be33a0e9b85506163\glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\093a9ec84bb9bf7be33a0e9b85506163\glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\e5d386f6e25bce9d50afbfa94472541a\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\e5d386f6e25bce9d50afbfa94472541a\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\df9a84c4655b7cf6fd3ecff2821fd9d3\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\df9a84c4655b7cf6fd3ecff2821fd9d3\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\a44642c3bddc1cd9ae77529ce5394be3\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\a44642c3bddc1cd9ae77529ce5394be3\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\67e3a22614326cadf216274f01d6d423\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\67e3a22614326cadf216274f01d6d423\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\3d66247cb3e229dc7753f5f4d3b35b4b\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\3d66247cb3e229dc7753f5f4d3b35b4b\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42ab0a6c6504d7268c5e0e2422fb0679\butterknife-runtime-10.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42ab0a6c6504d7268c5e0e2422fb0679\butterknife-runtime-10.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7ae8c1d65b7331eeb350edf91287a16c\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7ae8c1d65b7331eeb350edf91287a16c\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\984e9edaa0792ad5f44429be517dd8ee\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\984e9edaa0792ad5f44429be517dd8ee\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\de3b4aff63e255359d6d83ac6fbdaff5\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\de3b4aff63e255359d6d83ac6fbdaff5\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b96b3435fb358bdd7f04f1152639314c\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b96b3435fb358bdd7f04f1152639314c\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\bf0848ee243e36dc13961016c6f63543\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\bf0848ee243e36dc13961016c6f63543\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\9572194aa98bde0ee13f87e0985824cf\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\9572194aa98bde0ee13f87e0985824cf\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\39630329992cdfdccf96a8a2e735cd1c\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\39630329992cdfdccf96a8a2e735cd1c\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\985ff358bb91108c25d3fd24361b35b6\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\985ff358bb91108c25d3fd24361b35b6\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\2dfde23a071269bfc073d57af77f7873\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\2dfde23a071269bfc073d57af77f7873\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\e7201af0ac6a1eb782d2b896d1ec4242\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\e7201af0ac6a1eb782d2b896d1ec4242\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\c8e365a5af96832a9cd28e0401c5aef5\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\c8e365a5af96832a9cd28e0401c5aef5\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\9b9140e118d7f4f83e504277c0661cb2\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\9b9140e118d7f4f83e504277c0661cb2\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7b3b7b721ad53547c0e35001526b3ae3\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7b3b7b721ad53547c0e35001526b3ae3\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb37b7f790edcc9d7fe6d3e5314b8c56\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb37b7f790edcc9d7fe6d3e5314b8c56\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\9a29ee90fd211f611caccd9d338a3e44\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\9a29ee90fd211f611caccd9d338a3e44\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-adapters:3.5.2] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\08f73975d13bdf9d4e456cac7ddc9f6b\databinding-adapters-3.5.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.5.2] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\08f73975d13bdf9d4e456cac7ddc9f6b\databinding-adapters-3.5.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.2] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\50984b50dbcc88b6a23109a16ececcc8\databinding-runtime-3.5.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.2] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\50984b50dbcc88b6a23109a16ececcc8\databinding-runtime-3.5.2\AndroidManifest.xml:22:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\5bf5244b1332845473953802a5c09e04\gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\5bf5244b1332845473953802a5c09e04\gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\2408ced8daf1596b7f4eddd47404170f\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\2408ced8daf1596b7f4eddd47404170f\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\e7284bace20bec096294b5474e153fbf\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\e7284bace20bec096294b5474e153fbf\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\c073c929da6ad4e112abaac7d3212747\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\c073c929da6ad4e112abaac7d3212747\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\e72949b043b8df7a6068dab5e7cd21f2\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\e72949b043b8df7a6068dab5e7cd21f2\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\22b9570a1ed0fca2142825daa9f62beb\lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\22b9570a1ed0fca2142825daa9f62beb\lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\1bd2f6a321d0549948d7f1edb5f036d6\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\1bd2f6a321d0549948d7f1edb5f036d6\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\55566c395264c409f125230efea7fd76\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\55566c395264c409f125230efea7fd76\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\f031147607d3aeb238f176a00d5e308c\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\f031147607d3aeb238f176a00d5e308c\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\2d1f640c1b4beb33089ff5c91bbd7f31\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\2d1f640c1b4beb33089ff5c91bbd7f31\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\8506ddbc1ed30380944ad7f0369e4760\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\8506ddbc1ed30380944ad7f0369e4760\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\35d6382087ac1999db47004e3bf24934\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\35d6382087ac1999db47004e3bf24934\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\8893b90c6f2a61edd1acfa898cb4cde1\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\8893b90c6f2a61edd1acfa898cb4cde1\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b5d9d378596bfe412a03537eb55d6c9e\firebase-database-collection-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\b5d9d378596bfe412a03537eb55d6c9e\firebase-database-collection-16.0.1\AndroidManifest.xml:5:5-44
+INJECTED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml
+INJECTED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml
+		ADDED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:15:5-17:47
+	tools:ignore
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:17:9-44
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:16:9-68
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:24:5-78
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:24:22-75
+uses-permission#android.hardware.camera
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:28:5-63
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:28:22-60
+uses-permission#android.hardware.camera.autofocus
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:29:5-73
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:29:22-70
+uses-feature#android.hardware.usb.host
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:31:5-33:35
+	android:required
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:33:9-32
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:32:9-49
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:36:9-43:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:36:18-89
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:37:13-39:85
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:39:17-82
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:38:17-96
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:40:13-42:85
+	android:value
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:42:17-82
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:41:17-111
+activity#com.matm.matmsdk.Dashboard.DashBoardActivity
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:45:9-81
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:45:19-78
+activity#com.matm.matmsdk.DemoActivity
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:46:9-66
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:46:19-63
+activity#com.matm.matmsdk.Dashboard.MainActivity
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:47:9-51:63
+	android:screenOrientation
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:49:13-49
+	android:windowSoftInputMode
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:51:13-60
+	android:theme
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:50:13-44
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:48:13-67
+activity#com.matm.matmsdk.Bluetooth.BluetoothActivity
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:52:9-56:63
+	android:screenOrientation
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:54:13-49
+	android:windowSoftInputMode
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:56:13-60
+	android:theme
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:55:13-45
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:53:13-72
+activity#com.matm.matmsdk.ChooseCard.ChooseCardActivity
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:57:9-60:63
+	android:screenOrientation
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:59:13-49
+	android:windowSoftInputMode
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:60:13-60
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:58:13-74
+activity#com.matm.matmsdk.Dashboard.FileDownLoadActivity
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:61:9-64:63
+	android:screenOrientation
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:63:13-49
+	android:windowSoftInputMode
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:64:13-60
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:62:13-75
+activity#com.matm.matmsdk.UserProfile.UserProfileActivity
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:65:9-68:63
+	android:screenOrientation
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:67:13-49
+	android:windowSoftInputMode
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:68:13-60
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:66:13-76
+activity#com.matm.matmsdk.transaction_report.TransactionStatusActivity
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:69:9-71:52
+	android:screenOrientation
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:71:13-49
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:70:13-89
+activity#com.matm.matmsdk.MPOS.PosActivity
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:72:9-85:20
+	android:label
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:74:13-33
+	android:noHistory
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:75:13-37
+	android:theme
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:76:13-44
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:73:13-61
+activity#com.matm.matmsdk.Error.ErrorActivity
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:86:9-89:47
+	android:label
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:88:13-45
+	android:theme
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:89:13-44
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:87:13-64
+activity#com.matm.matmsdk.upitransaction.UPIHomeActivity
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:90:9-84
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:90:19-81
+activity#com.matm.matmsdk.aepsmodule.AEPSHomeActivity
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:91:9-81
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:91:19-78
+activity#com.matm.matmsdk.aepsmodule.bankspinner.BankNameListActivity
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:92:9-97
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:92:19-94
+activity#com.matm.matmsdk.aepsmodule.transactionstatus.TransactionStatusActivity
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:93:9-108
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:93:19-105
+activity#com.matm.matmsdk.aepsmodule.AEPS2HomeActivity
+ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:94:9-82
+	android:name
+		ADDED from [com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:94:19-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ac71b99a9ff0ade1ac05557779ab3879\jetified-firebase-analytics-impl-16.3.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ac71b99a9ff0ade1ac05557779ab3879\jetified-firebase-analytics-impl-16.3.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ac71b99a9ff0ade1ac05557779ab3879\jetified-firebase-analytics-impl-16.3.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ac71b99a9ff0ade1ac05557779ab3879\jetified-firebase-analytics-impl-16.3.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ac71b99a9ff0ade1ac05557779ab3879\jetified-firebase-analytics-impl-16.3.0\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\ac71b99a9ff0ade1ac05557779ab3879\jetified-firebase-analytics-impl-16.3.0\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\a3acdec8b46532405a8411cfa7b67475\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\a3acdec8b46532405a8411cfa7b67475\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\a3acdec8b46532405a8411cfa7b67475\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\a3acdec8b46532405a8411cfa7b67475\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\eacd7366eec595ccddc63c683ecb923e\jetified-firebase-common-16.0.4\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\eacd7366eec595ccddc63c683ecb923e\jetified-firebase-common-16.0.4\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\eacd7366eec595ccddc63c683ecb923e\jetified-firebase-common-16.0.4\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\eacd7366eec595ccddc63c683ecb923e\jetified-firebase-common-16.0.4\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\eacd7366eec595ccddc63c683ecb923e\jetified-firebase-common-16.0.4\AndroidManifest.xml:11:13-77
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79

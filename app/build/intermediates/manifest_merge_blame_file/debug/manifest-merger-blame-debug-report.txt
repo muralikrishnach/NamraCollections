@@ -1,0 +1,1125 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jayam.impactapp" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:7:5-67
+9-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:7:22-64
+10    <uses-permission android:name="android.permission.CAMERA" />
+10-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:8:5-65
+10-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:8:22-62
+11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+11-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:9:5-75
+11-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:9:22-72
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:10:5-79
+12-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:10:22-76
+13    <uses-permission android:name="android.permission.SDCARD_WRITE" />
+13-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:11:5-71
+13-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:11:22-68
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:12:5-81
+14-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:12:22-78
+15    <uses-permission android:name="android.permission.BLUETOOTH" />
+15-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:13:5-68
+15-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:13:22-65
+16    <uses-permission android:name="READ_PHONE_STATE" />
+16-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:14:5-56
+16-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:14:22-53
+17    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+17-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:15:5-74
+17-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:15:22-71
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:17:5-81
+18-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:17:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:18:5-79
+19-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:18:22-76
+20    <uses-permission android:name="android.permission.CALL_PHONE" />
+20-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:19:5-69
+20-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:19:22-66
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:20:5-80
+21-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:20:22-77
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:21:5-76
+22-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:21:22-73
+23    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+23-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:15:5-17:47
+23-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:16:9-68
+24    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+24-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:24:5-78
+24-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:24:22-75
+25    <uses-permission android:name="android.hardware.camera" />
+25-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:28:5-63
+25-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:28:22-60
+26    <uses-permission android:name="android.hardware.camera.autofocus" />
+26-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:29:5-73
+26-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:29:22-70
+27
+28    <uses-feature
+28-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:31:5-33:35
+29        android:name="android.hardware.usb.host"
+29-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:32:9-49
+30        android:required="true" />
+30-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:33:9-32
+31
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:24:5-68
+32-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:24:22-65
+33    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+33-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:26:5-110
+33-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:26:22-107
+34    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+34-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+34-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:22-79
+35
+36    <application
+36-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:23:5-553:19
+37        android:name="com.jayam.impactapp.common.MfimoApp"
+37-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:25:9-40
+38        android:allowBackup="true"
+38-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:24:9-35
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.1.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@drawable/namraicon"
+41-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:26:9-43
+42        android:label="@string/app_name"
+42-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:27:9-41
+43        android:networkSecurityConfig="@xml/network_security_config"
+43-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:31:9-69
+44        android:supportsRtl="true"
+44-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:29:9-35
+45        android:theme="@style/AppThemeone" >
+45-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:28:9-43
+46        <meta-data
+46-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:36:9-38:55
+47            android:name="com.google.android.geo.API_KEY"
+47-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:37:13-58
+48            android:value="@string/google_maps_key" />
+48-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:38:13-52
+49
+50        <activity
+50-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:40:9-50:20
+51            android:name="com.jayam.impactapp.loginActivity"
+51-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:41:13-42
+52            android:label="@string/app_name"
+52-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:42:13-45
+53            android:windowSoftInputMode="stateHidden" >
+53-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:44:13-54
+54            <intent-filter>
+54-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:45:13-49:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:46:17-69
+55-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:46:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:48:17-77
+57-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:48:27-74
+58            </intent-filter>
+59        </activity>
+60
+61        <meta-data
+61-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:52:9-54:69
+62            android:name="com.google.android.gms.version"
+62-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:53:13-58
+63            android:value="@integer/google_play_services_version" />
+63-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:54:13-66
+64
+65        <activity
+65-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:56:9-61:15
+66            android:name="com.jayam.impactapp.NavigationActivity"
+66-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:57:13-47
+67            android:label="@string/app_name"
+67-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:58:13-45
+68            android:theme="@style/AppFullScreenTheme" />
+68-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:60:13-54
+69        <activity
+69-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:62:9-65:15
+70            android:name="com.jayam.impactapp.Administration"
+70-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:63:13-43
+71            android:label="@string/app_name" />
+71-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:64:13-45
+72        <activity
+72-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:66:9-69:15
+73            android:name="com.jayam.impactapp.TransactionHistoryMemberwise"
+73-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:67:13-57
+74            android:label="@string/app_name" />
+74-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:68:13-45
+75        <activity
+75-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:70:9-73:15
+76            android:name="com.jayam.impactapp.LateCenters"
+76-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:71:13-40
+77            android:label="@string/app_name" />
+77-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:72:13-45
+78        <activity
+78-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:74:9-77:15
+79            android:name="com.jayam.impactapp.LateGroupMembers"
+79-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:75:13-45
+80            android:label="@string/app_name" />
+80-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:76:13-45
+81        <activity
+81-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:78:9-81:15
+82            android:name="com.jayam.impactapp.LateGroups"
+82-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:79:13-39
+83            android:label="@string/app_name" />
+83-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:80:13-45
+84        <activity
+84-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:82:9-85:15
+85            android:name="com.jayam.impactapp.LateMemeberDetails"
+85-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:83:13-47
+86            android:label="@string/app_name" />
+86-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:84:13-45
+87        <activity
+87-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:86:9-89:15
+88            android:name="com.jayam.impactapp.TransactionHistory"
+88-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:87:13-47
+89            android:label="@string/app_name" />
+89-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:88:13-45
+90        <activity
+90-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:90:9-93:15
+91            android:name="com.jayam.impactapp.Transactions"
+91-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:91:13-41
+92            android:label="@string/app_name" />
+92-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:92:13-45
+93        <activity
+93-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:94:9-97:15
+94            android:name="com.jayam.impactapp.MemberViewCycle"
+94-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:95:13-44
+95            android:label="@string/app_name" />
+95-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:96:13-45
+96        <activity
+96-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:98:9-101:15
+97            android:name="com.jayam.impactapp.DemandDates"
+97-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:99:13-40
+98            android:label="@string/app_name" />
+98-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:100:13-45
+99        <activity
+99-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:102:9-105:15
+100            android:name="com.jayam.impactapp.ProductSynch"
+100-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:103:13-41
+101            android:label="@string/app_name" />
+101-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:104:13-45
+102        <activity
+102-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:106:9-109:15
+103            android:name="com.jayam.impactapp.BorrowerSearch"
+103-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:107:13-43
+104            android:label="@string/app_name" />
+104-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:108:13-45
+105        <activity
+105-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:110:9-113:15
+106            android:name="com.jayam.impactapp.NewDemands"
+106-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:111:13-39
+107            android:label="@string/app_name" />
+107-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:112:13-45
+108        <activity
+108-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:114:9-117:15
+109            android:name="com.jayam.impactapp.RegularCollections"
+109-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:115:13-47
+110            android:label="@string/app_name" />
+110-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:116:13-45
+111        <activity
+111-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:118:9-121:15
+112            android:name="com.jayam.impactapp.CollectionDashbord"
+112-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:119:13-47
+113            android:label="@string/app_name" />
+113-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:120:13-45
+114        <activity
+114-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:122:9-125:15
+115            android:name="com.jayam.impactapp.NewDataSync"
+115-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:123:13-40
+116            android:label="@string/app_name" />
+116-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:124:13-45
+117        <activity
+117-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:128:9-131:15
+118            android:name="com.jayam.impactapp.GroupsAndCenters"
+118-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:129:13-45
+119            android:label="@string/app_name" />
+119-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:130:13-45
+120        <activity
+120-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:132:9-135:15
+121            android:name="com.jayam.impactapp.Centers"
+121-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:133:13-36
+122            android:label="@string/app_name" />
+122-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:134:13-45
+123        <activity
+123-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:136:9-139:15
+124            android:name="com.jayam.impactapp.CenterDetails"
+124-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:137:13-42
+125            android:label="@string/app_name" />
+125-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:138:13-45
+126        <activity
+126-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:140:9-143:15
+127            android:name="com.jayam.impactapp.DisplayRoute"
+127-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:141:13-41
+128            android:label="@string/app_name" />
+128-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:142:13-45
+129        <activity
+129-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:144:9-147:15
+130            android:name="com.jayam.impactapp.Groups"
+130-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:145:13-35
+131            android:label="@string/app_name" />
+131-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:146:13-45
+132        <activity
+132-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:148:9-151:15
+133            android:name="com.jayam.impactapp.GroupDetails"
+133-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:149:13-41
+134            android:label="@string/app_name" />
+134-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:150:13-45
+135        <activity
+135-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:152:9-155:15
+136            android:name="com.jayam.impactapp.GroupMembers"
+136-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:153:13-41
+137            android:label="@string/app_name" />
+137-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:154:13-45
+138        <activity
+138-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:156:9-159:15
+139            android:name="com.jayam.impactapp.MemeberDetails"
+139-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:157:13-43
+140            android:label="@string/app_name" />
+140-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:158:13-45
+141        <activity
+141-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:160:9-163:15
+142            android:name="com.jayam.impactapp.Paymentconfiramtion"
+142-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:161:13-48
+143            android:label="@string/app_name" />
+143-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:162:13-45
+144        <activity
+144-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:164:9-167:15
+145            android:name="com.jayam.impactapp.Attendense"
+145-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:165:13-39
+146            android:label="@string/app_name" />
+146-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:166:13-45
+147        <activity
+147-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:168:9-172:15
+148            android:name="com.jayam.impactapp.MeetingTime"
+148-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:169:13-40
+149            android:configChanges="keyboardHidden|orientation"
+149-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:170:13-63
+150            android:label="@string/app_name" />
+150-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:171:13-45
+151        <activity
+151-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:173:9-176:15
+152            android:name="com.jayam.impactapp.ConfirmationScreen"
+152-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:174:13-47
+153            android:label="@string/app_name" />
+153-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:175:13-45
+154        <activity
+154-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:177:9-180:15
+155            android:name="com.jayam.impactapp.TransactionACK"
+155-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:178:13-43
+156            android:label="@string/app_name" />
+156-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:179:13-45
+157        <activity
+157-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:181:9-184:15
+158            android:name="com.jayam.impactapp.printer.BluetoothChatActivity"
+158-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:182:13-58
+159            android:label="@string/app_name" />
+159-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:183:13-45
+160        <activity
+160-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:185:9-188:15
+161            android:name="com.jayam.impactapp.printer.DeviceListActivity"
+161-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:186:13-55
+162            android:label="@string/app_name" />
+162-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:187:13-45
+163        <activity
+163-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:189:9-192:15
+164            android:name="com.jayam.impactapp.ODDemands"
+164-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:190:13-38
+165            android:label="@string/app_name" />
+165-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:191:13-45
+166        <activity
+166-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:193:9-196:15
+167            android:name="com.jayam.impactapp.Centers_OD"
+167-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:194:13-39
+168            android:label="@string/app_name" />
+168-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:195:13-45
+169        <activity
+169-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:197:9-200:15
+170            android:name="com.jayam.impactapp.Groups_OD"
+170-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:198:13-38
+171            android:label="@string/app_name" />
+171-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:199:13-45
+172        <activity
+172-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:201:9-204:15
+173            android:name="com.jayam.impactapp.Members_OD"
+173-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:202:13-39
+174            android:label="@string/app_name" />
+174-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:203:13-45
+175        <activity
+175-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:205:9-208:15
+176            android:name="com.jayam.impactapp.MemberDetails_OD"
+176-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:206:13-45
+177            android:label="@string/app_name" />
+177-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:207:13-45
+178        <activity
+178-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:209:9-212:15
+179            android:name="com.jayam.impactapp.TransactionACK_OD"
+179-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:210:13-46
+180            android:label="@string/app_name" />
+180-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:211:13-45
+181        <activity
+181-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:213:9-216:15
+182            android:name="com.jayam.impactapp.Reports"
+182-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:214:13-36
+183            android:label="@string/app_name" />
+183-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:215:13-45
+184        <activity
+184-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:217:9-220:15
+185            android:name="com.jayam.impactapp.ReportDates_Regular"
+185-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:218:13-48
+186            android:label="@string/app_name" />
+186-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:219:13-45
+187        <activity
+187-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:221:9-224:15
+188            android:name="com.jayam.impactapp.ReportList"
+188-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:222:13-39
+189            android:label="@string/app_name" />
+189-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:223:13-45
+190        <activity
+190-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:225:9-228:15
+191            android:name="com.jayam.impactapp.CollectionReport"
+191-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:226:13-45
+192            android:label="@string/app_name" />
+192-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:227:13-45
+193        <activity
+193-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:229:9-232:15
+194            android:name="com.jayam.impactapp.CollectionReportSummary"
+194-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:230:13-52
+195            android:label="@string/app_name" />
+195-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:231:13-45
+196        <activity
+196-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:233:9-236:15
+197            android:name="com.jayam.impactapp.CollectionReport_Groups"
+197-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:234:13-52
+198            android:label="@string/app_name" />
+198-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:235:13-45
+199        <activity
+199-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:237:9-240:15
+200            android:name="com.jayam.impactapp.Utilities"
+200-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:238:13-38
+201            android:label="@string/app_name" />
+201-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:239:13-45
+202        <activity
+202-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:241:9-244:15
+203            android:name="com.jayam.impactapp.ChangePassword"
+203-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:242:13-43
+204            android:label="@string/app_name" />
+204-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:243:13-45
+205        <activity
+205-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:245:9-248:15
+206            android:name="com.jayam.impactapp.Collections_Reports_members"
+206-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:246:13-56
+207            android:label="@string/app_name" />
+207-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:247:13-45
+208        <activity
+208-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:249:9-252:15
+209            android:name="com.jayam.impactapp.CollectionReportSummary_Groups"
+209-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:250:13-59
+210            android:label="@string/app_name" />
+210-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:251:13-45
+211        <activity
+211-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:253:9-256:15
+212            android:name="com.jayam.impactapp.CollectionReport_MemberSummery"
+212-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:254:13-59
+213            android:label="@string/app_name" />
+213-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:255:13-45
+214        <activity
+214-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:257:9-260:15
+215            android:name="com.jayam.impactapp.SummaryReports_Regular"
+215-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:258:13-51
+216            android:label="@string/app_name" />
+216-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:259:13-45
+217        <activity
+217-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:261:9-264:15
+218            android:name="com.jayam.impactapp.ReportSummaryForRegular"
+218-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:262:13-52
+219            android:label="@string/app_name" />
+219-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:263:13-45
+220        <activity
+220-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:265:9-268:15
+221            android:name="com.jayam.impactapp.ReportDetailSummaryForRegular"
+221-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:266:13-58
+222            android:label="@string/app_name" />
+222-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:267:13-45
+223        <activity
+223-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:269:9-272:15
+224            android:name="com.jayam.impactapp.ReportList_For_OD"
+224-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:270:13-46
+225            android:label="@string/app_name" />
+225-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:271:13-45
+226        <activity
+226-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:273:9-276:15
+227            android:name="com.jayam.impactapp.CollectionReports_Centers_OD"
+227-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:274:13-57
+228            android:label="@string/app_name" />
+228-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:275:13-45
+229        <activity
+229-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:277:9-280:15
+230            android:name="com.jayam.impactapp.CollectionReports_Groups_OD"
+230-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:278:13-56
+231            android:label="@string/app_name" />
+231-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:279:13-45
+232        <activity
+232-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:281:9-284:15
+233            android:name="com.jayam.impactapp.CollectionReports_Members_OD"
+233-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:282:13-57
+234            android:label="@string/app_name" />
+234-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:283:13-45
+235        <activity
+235-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:285:9-288:15
+236            android:name="com.jayam.impactapp.CollectionReport_MemberDetails_OD"
+236-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:286:13-62
+237            android:label="@string/app_name" />
+237-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:287:13-45
+238        <activity
+238-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:289:9-292:15
+239            android:name="com.jayam.impactapp.SummaryReport_OD"
+239-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:290:13-45
+240            android:label="@string/app_name" />
+240-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:291:13-45
+241        <activity
+241-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:293:9-296:15
+242            android:name="com.jayam.impactapp.Groups_For_attendense"
+242-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:294:13-50
+243            android:label="@string/app_name" />
+243-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:295:13-45
+244        <activity
+244-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:297:9-300:15
+245            android:name="com.jayam.impactapp.Attendense_Centerwise"
+245-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:298:13-50
+246            android:label="@string/app_name" />
+246-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:299:13-45
+247        <activity
+247-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:301:9-305:15
+248            android:name="com.jayam.impactapp.MeetingTime_Centerwise"
+248-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:302:13-51
+249            android:configChanges="keyboardHidden|orientation"
+249-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:303:13-63
+250            android:label="@string/app_name" />
+250-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:304:13-45
+251        <activity
+251-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:306:9-309:15
+252            android:name="com.jayam.impactapp.ConfirmationScreen_Centerwise"
+252-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:307:13-58
+253            android:label="@string/app_name" />
+253-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:308:13-45
+254        <activity
+254-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:310:9-313:15
+255            android:name="com.jayam.impactapp.TransactionACK_Centerwise"
+255-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:311:13-54
+256            android:label="@string/app_name" />
+256-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:312:13-45
+257        <activity
+257-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:314:9-317:15
+258            android:name="com.jayam.impactapp.Groups_Centerwise"
+258-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:315:13-46
+259            android:label="@string/app_name" />
+259-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:316:13-45
+260        <activity
+260-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:318:9-321:15
+261            android:name="com.jayam.impactapp.GroupDetails_Centerwise"
+261-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:319:13-52
+262            android:label="@string/app_name" />
+262-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:320:13-45
+263        <activity
+263-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:322:9-325:15
+264            android:name="com.jayam.impactapp.ResetParameters"
+264-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:323:13-44
+265            android:label="@string/app_name" />
+265-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:324:13-45
+266        <activity
+266-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:326:9-329:15
+267            android:name="com.jayam.impactapp.AdvanceDemands"
+267-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:327:13-43
+268            android:label="@string/app_name" />
+268-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:328:13-45
+269        <activity
+269-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:330:9-333:15
+270            android:name="com.jayam.impactapp.AdvGroupsAndCenters"
+270-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:331:13-48
+271            android:label="@string/app_name" />
+271-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:332:13-45
+272        <activity
+272-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:334:9-337:15
+273            android:name="com.jayam.impactapp.AdvCenters"
+273-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:335:13-39
+274            android:label="@string/app_name" />
+274-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:336:13-45
+275        <activity
+275-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:338:9-341:15
+276            android:name="com.jayam.impactapp.AdvCenterDetails"
+276-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:339:13-45
+277            android:label="@string/app_name" />
+277-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:340:13-45
+278        <activity
+278-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:342:9-345:15
+279            android:name="com.jayam.impactapp.AdvGroups_centerwise"
+279-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:343:13-49
+280            android:label="@string/app_name" />
+280-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:344:13-45
+281        <activity
+281-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:346:9-349:15
+282            android:name="com.jayam.impactapp.AdvGroupDetails_Centerwise"
+282-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:347:13-55
+283            android:label="@string/app_name" />
+283-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:348:13-45
+284        <activity
+284-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:350:9-353:15
+285            android:name="com.jayam.impactapp.AdvGroupMembers"
+285-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:351:13-44
+286            android:label="@string/app_name" />
+286-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:352:13-45
+287        <activity
+287-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:354:9-357:15
+288            android:name="com.jayam.impactapp.AdvMemeberDetails"
+288-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:355:13-46
+289            android:label="@string/app_name" />
+289-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:356:13-45
+290        <activity
+290-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:358:9-361:15
+291            android:name="com.jayam.impactapp.AdvanceGroups"
+291-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:359:13-42
+292            android:label="@string/app_name" />
+292-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:360:13-45
+293        <activity
+293-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:362:9-365:15
+294            android:name="com.jayam.impactapp.AdvanceGroupDetails"
+294-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:363:13-48
+295            android:label="@string/app_name" />
+295-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:364:13-45
+296        <activity
+296-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:366:9-369:15
+297            android:name="com.jayam.impactapp.AdvancePaymentconfiramtion"
+297-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:367:13-55
+298            android:label="@string/app_name" />
+298-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:368:13-45
+299        <activity
+299-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:370:9-373:15
+300            android:name="com.jayam.impactapp.AdvanceConfirmationScreen_Centerwise"
+300-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:371:13-65
+301            android:label="@string/app_name" />
+301-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:372:13-45
+302        <activity
+302-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:374:9-377:15
+303            android:name="com.jayam.impactapp.AdvanceConfirmationScreen"
+303-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:375:13-54
+304            android:label="@string/app_name" />
+304-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:376:13-45
+305        <activity
+305-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:378:9-381:15
+306            android:name="com.jayam.impactapp.AdvTxnack"
+306-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:379:13-38
+307            android:label="@string/app_name" />
+307-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:380:13-45
+308        <activity
+308-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:382:9-385:15
+309            android:name="com.jayam.impactapp.AdvTxnack_CenterWise"
+309-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:383:13-49
+310            android:label="@string/app_name" />
+310-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:384:13-45
+311        <activity
+311-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:386:9-389:15
+312            android:name="com.jayam.impactapp.AdvanceReports"
+312-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:387:13-43
+313            android:label="@string/app_name" />
+313-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:388:13-45
+314        <activity
+314-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:390:9-393:15
+315            android:name="com.jayam.impactapp.AdvanceReports_center"
+315-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:391:13-50
+316            android:label="@string/app_name" />
+316-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:392:13-45
+317        <activity
+317-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:394:9-397:15
+318            android:name="com.jayam.impactapp.Advancereports_CenterDetails"
+318-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:395:13-57
+319            android:label="@string/app_name" />
+319-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:396:13-45
+320        <activity
+320-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:398:9-401:15
+321            android:name="com.jayam.impactapp.Advancereports_GroupDetails"
+321-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:399:13-56
+322            android:label="@string/app_name" />
+322-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:400:13-45
+323        <activity
+323-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:402:9-405:15
+324            android:name="com.jayam.impactapp.AdvanceReport_GroupsSummary"
+324-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:403:13-56
+325            android:label="@string/app_name" />
+325-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:404:13-45
+326        <activity
+326-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:406:9-409:15
+327            android:name="com.jayam.impactapp.AdvanceReports_Members"
+327-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:407:13-51
+328            android:label="@string/app_name" />
+328-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:408:13-45
+329        <activity
+329-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:410:9-413:15
+330            android:name="com.jayam.impactapp.Advancereports_MemberDetails"
+330-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:411:13-57
+331            android:label="@string/app_name" />
+331-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:412:13-45
+332        <activity
+332-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:414:9-417:15
+333            android:name="com.jayam.impactapp.AdvanceReports_Summary"
+333-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:415:13-51
+334            android:label="@string/app_name" />
+334-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:416:13-45
+335        <activity
+335-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:418:9-421:15
+336            android:name="com.jayam.impactapp.NPSConfirmationScreen_Centerwise"
+336-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:419:13-61
+337            android:label="@string/app_name" />
+337-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:420:13-45
+338        <activity
+338-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:422:9-425:15
+339            android:name="com.jayam.impactapp.NPSConfirmation"
+339-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:423:13-44
+340            android:label="@string/app_name" />
+340-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:424:13-45
+341        <activity
+341-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:426:9-429:15
+342            android:name="com.jayam.impactapp.Ftodreasons"
+342-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:427:13-40
+343            android:label="@string/app_name" />
+343-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:428:13-45
+344        <activity
+344-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:430:9-433:15
+345            android:name="com.jayam.impactapp.Ftodconfirmation"
+345-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:431:13-45
+346            android:label="@string/app_name" />
+346-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:432:13-45
+347        <activity
+347-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:434:9-437:15
+348            android:name="com.jayam.impactapp.Ftodreasonscenterwise"
+348-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:435:13-50
+349            android:label="@string/app_name" />
+349-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:436:13-45
+350        <activity
+350-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:438:9-441:15
+351            android:name="com.jayam.impactapp.FtodCenterWiseConfirmation"
+351-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:439:13-55
+352            android:label="@string/app_name" />
+352-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:440:13-45
+353        <activity
+353-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:442:9-445:15
+354            android:name="com.jayam.impactapp.FtodGroupWiseConfirmation"
+354-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:443:13-54
+355            android:label="@string/app_name" />
+355-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:444:13-45
+356        <activity
+356-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:446:9-449:15
+357            android:name="com.jayam.impactapp.LastReceiptPrintMenu"
+357-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:447:13-49
+358            android:label="@string/app_name" />
+358-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:448:13-45
+359        <activity
+359-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:450:9-453:15
+360            android:name="com.jayam.impactapp.ProbInCenterCW"
+360-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:451:13-43
+361            android:label="@string/app_name" />
+361-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:452:13-45
+362        <activity
+362-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:454:9-457:15
+363            android:name="com.jayam.impactapp.GroupDisciplineGW"
+363-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:455:13-46
+364            android:label="@string/app_name" />
+364-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:456:13-45
+365        <activity
+365-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:458:9-461:15
+366            android:name="com.jayam.impactapp.CollExperianceGW"
+366-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:459:13-45
+367            android:label="@string/app_name" />
+367-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:460:13-45
+368        <activity
+368-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:462:9-465:15
+369            android:name="com.jayam.impactapp.GroupDisciplineCW"
+369-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:463:13-46
+370            android:label="@string/app_name" />
+370-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:464:13-45
+371        <activity
+371-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:466:9-469:15
+372            android:name="com.jayam.impactapp.CollExperianceCW"
+372-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:467:13-45
+373            android:label="@string/app_name" />
+373-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:468:13-45
+374        <activity
+374-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:470:9-473:15
+375            android:name="com.jayam.impactapp.CollExpRmel"
+375-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:471:13-40
+376            android:label="@string/app_name" />
+376-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:472:13-45
+377        <activity
+377-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:474:9-477:15
+378            android:name="com.jayam.impactapp.CollectionPlace"
+378-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:475:13-44
+379            android:label="@string/app_name" />
+379-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:476:13-45
+380        <activity
+380-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:478:9-481:15
+381            android:name="com.jayam.impactapp.RepaymentMadeBy"
+381-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:479:13-44
+382            android:label="@string/app_name" />
+382-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:480:13-45
+383        <activity
+383-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:482:9-485:15
+384            android:name="com.jayam.impactapp.QomCenters"
+384-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:483:13-39
+385            android:label="@string/app_name" />
+385-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:484:13-45
+386        <activity
+386-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:486:9-489:15
+387            android:name="com.jayam.impactapp.QomCenterWise"
+387-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:487:13-42
+388            android:label="@string/app_name" />
+388-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:488:13-45
+389        <activity
+389-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:490:9-493:15
+390            android:name="com.jayam.impactapp.QomGroupWise"
+390-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:491:13-41
+391            android:label="@string/app_name" />
+391-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:492:13-45
+392        <activity
+392-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:494:9-497:15
+393            android:name="com.jayam.impactapp.RenewCenterWise"
+393-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:495:13-44
+394            android:label="@string/app_name" />
+394-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:496:13-45
+395        <activity
+395-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:498:9-501:15
+396            android:name="com.jayam.impactapp.RenewCenters"
+396-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:499:13-41
+397            android:label="@string/app_name" />
+397-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:500:13-45
+398        <activity
+398-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:502:9-505:15
+399            android:name="com.jayam.impactapp.RenewGroupWise"
+399-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:503:13-43
+400            android:label="@string/app_name" />
+400-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:504:13-45
+401        <activity
+401-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:506:9-509:15
+402            android:name="com.jayam.impactapp.ProbInCenterGW"
+402-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:507:13-43
+403            android:label="@string/app_name" />
+403-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:508:13-45
+404        <activity
+404-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:510:9-513:15
+405            android:name="com.jayam.impactapp.Group_Members"
+405-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:511:13-42
+406            android:label="@string/app_name" />
+406-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:512:13-45
+407        <activity
+407-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:514:9-517:15
+408            android:name="com.jayam.impactapp.CollExperianceMW"
+408-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:515:13-45
+409            android:label="@string/app_name" />
+409-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:516:13-45
+410        <activity
+410-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:518:9-521:15
+411            android:name="com.jayam.impactapp.QomMemberWise"
+411-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:519:13-42
+412            android:label="@string/app_name" />
+412-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:520:13-45
+413        <activity
+413-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:522:9-525:15
+414            android:name="com.jayam.LocationUtil.MyLocationUsingHelper"
+414-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:523:13-72
+415            android:label="@string/app_name" />
+415-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:524:13-45
+416        <activity
+416-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:526:9-529:15
+417            android:name="com.jayam.impactapp.RegularCbCheck"
+417-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:527:13-43
+418            android:label="@string/app_name" />
+418-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:528:13-45
+419        <activity
+419-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:530:9-533:15
+420            android:name="com.jayam.ODCASHLESSPending"
+420-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:531:13-55
+421            android:label="@string/app_name" />
+421-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:532:13-45
+422        <activity
+422-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:534:9-537:15
+423            android:name="com.jayam.impactapp.AdvanceCashLessPending"
+423-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:535:13-51
+424            android:label="@string/app_name" />
+424-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:536:13-45
+425
+426        <service
+426-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:539:9-541:38
+427            android:name="com.jayam.impactapp.webacceslayer.RegularScheduleService"
+427-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:540:13-65
+428            android:enabled="true" />
+428-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:541:13-35
+429        <service
+429-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:542:9-544:38
+430            android:name="com.jayam.impactapp.webacceslayer.ODRegularScheduleService"
+430-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:543:13-67
+431            android:enabled="true" />
+431-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:544:13-35
+432        <service
+432-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:545:9-547:38
+433            android:name="com.jayam.impactapp.webacceslayer.ADVRegularScheduleService"
+433-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:546:13-68
+434            android:enabled="true" />
+434-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:547:13-35
+435        <service
+435-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:548:9-550:38
+436            android:name="com.jayam.impactapp.webacceslayer.LateSchedilerService"
+436-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:549:13-63
+437            android:enabled="true" />
+437-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:550:13-35
+438
+439        <uses-library
+439-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:552:9-101
+440            android:name="org.apache.http.legacy"
+440-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:552:23-60
+441            android:required="false" />
+441-->G:\Namraa\NamraCollections\app\src\main\AndroidManifest.xml:552:61-85
+442
+443        <service
+443-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:36:9-43:19
+444            android:name="com.google.firebase.components.ComponentDiscoveryService"
+444-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:36:18-89
+445            android:exported="false" >
+445-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
+446            <meta-data
+446-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:37:13-39:85
+447                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+447-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:38:17-96
+448                android:value="com.google.firebase.components.ComponentRegistrar" />
+448-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:39:17-82
+449            <meta-data
+449-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:40:13-42:85
+450                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+450-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:41:17-111
+451                android:value="com.google.firebase.components.ComponentRegistrar" />
+451-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:42:17-82
+452            <meta-data
+452-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:28:13-30:85
+453                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+453-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:29:17-139
+454                android:value="com.google.firebase.components.ComponentRegistrar" />
+454-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\75e73cef8b7ad672fcb043bf57199a96\jetified-firebase-measurement-connector-impl-17.0.5\AndroidManifest.xml:30:17-82
+455        </service>
+456
+457        <activity android:name="com.matm.matmsdk.Dashboard.DashBoardActivity" />
+457-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:45:9-81
+457-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:45:19-78
+458        <activity android:name="com.matm.matmsdk.DemoActivity" />
+458-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:46:9-66
+458-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:46:19-63
+459        <activity
+459-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:47:9-51:63
+460            android:name="com.matm.matmsdk.Dashboard.MainActivity"
+460-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:48:13-67
+461            android:screenOrientation="portrait"
+461-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:49:13-49
+462            android:theme="@style/AppTheme"
+462-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:50:13-44
+463            android:windowSoftInputMode="stateAlwaysHidden" />
+463-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:51:13-60
+464        <activity
+464-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:52:9-56:63
+465            android:name="com.matm.matmsdk.Bluetooth.BluetoothActivity"
+465-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:53:13-72
+466            android:screenOrientation="portrait"
+466-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:54:13-49
+467            android:theme="@style/BaseTheme"
+467-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:55:13-45
+468            android:windowSoftInputMode="stateAlwaysHidden" />
+468-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:56:13-60
+469        <activity
+469-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:57:9-60:63
+470            android:name="com.matm.matmsdk.ChooseCard.ChooseCardActivity"
+470-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:58:13-74
+471            android:screenOrientation="portrait"
+471-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:59:13-49
+472            android:windowSoftInputMode="stateAlwaysHidden" />
+472-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:60:13-60
+473        <activity
+473-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:61:9-64:63
+474            android:name="com.matm.matmsdk.Dashboard.FileDownLoadActivity"
+474-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:62:13-75
+475            android:screenOrientation="portrait"
+475-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:63:13-49
+476            android:windowSoftInputMode="stateAlwaysHidden" />
+476-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:64:13-60
+477        <activity
+477-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:65:9-68:63
+478            android:name="com.matm.matmsdk.UserProfile.UserProfileActivity"
+478-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:66:13-76
+479            android:screenOrientation="portrait"
+479-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:67:13-49
+480            android:windowSoftInputMode="stateAlwaysHidden" />
+480-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:68:13-60
+481        <activity
+481-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:69:9-71:52
+482            android:name="com.matm.matmsdk.transaction_report.TransactionStatusActivity"
+482-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:70:13-89
+483            android:screenOrientation="portrait" />
+483-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:71:13-49
+484        <activity
+484-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:72:9-85:20
+485            android:name="com.matm.matmsdk.MPOS.PosActivity"
+485-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:73:13-61
+486            android:label="MPOS"
+486-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:74:13-33
+487            android:noHistory="true"
+487-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:75:13-37
+488            android:theme="@style/ThemePoS" >
+488-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:76:13-44
+489
+490            <!--
+491                <intent-filter>
+492            <action android:name="android.intent.action.MAIN" />
+493
+494            <category android:name="android.intent.category.LAUNCHER" />
+495            </intent-filter>
+496            -->
+497        </activity>
+498        <activity
+498-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:86:9-89:47
+499            android:name="com.matm.matmsdk.Error.ErrorActivity"
+499-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:87:13-64
+500            android:label="@string/app_name"
+500-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:88:13-45
+501            android:theme="@style/AppTheme" />
+501-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:89:13-44
+502        <activity android:name="com.matm.matmsdk.upitransaction.UPIHomeActivity" />
+502-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:90:9-84
+502-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:90:19-81
+503        <activity android:name="com.matm.matmsdk.aepsmodule.AEPSHomeActivity" />
+503-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:91:9-81
+503-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:91:19-78
+504        <activity android:name="com.matm.matmsdk.aepsmodule.bankspinner.BankNameListActivity" />
+504-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:92:9-97
+504-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:92:19-94
+505        <activity android:name="com.matm.matmsdk.aepsmodule.transactionstatus.TransactionStatusActivity" />
+505-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:93:9-108
+505-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:93:19-105
+506        <activity android:name="com.matm.matmsdk.aepsmodule.AEPS2HomeActivity" />
+506-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:94:9-82
+506-->[com.gitlab.aeps_matm_sdk:matm_aeps_upi:1.1.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\fb9d12db0987b7f158490e1ede5f0b9e\jetified-matm_aeps_upi-1.1.3\AndroidManifest.xml:94:19-79
+507
+508        <receiver
+508-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:29:9-33:20
+509            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+509-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:30:13-85
+510            android:enabled="true"
+510-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:31:13-35
+511            android:exported="false" >
+511-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:32:13-37
+512        </receiver>
+513        <receiver
+513-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:34:9-42:20
+514            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+514-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:35:13-100
+515            android:enabled="true"
+515-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:36:13-35
+516            android:exported="true"
+516-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:37:13-36
+517            android:permission="android.permission.INSTALL_PACKAGES" >
+517-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:38:13-69
+518            <intent-filter>
+518-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:39:13-41:29
+519                <action android:name="com.android.vending.INSTALL_REFERRER" />
+519-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:40:17-79
+519-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:40:25-76
+520            </intent-filter>
+521        </receiver>
+522
+523        <service
+523-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:44:9-47:40
+524            android:name="com.google.android.gms.measurement.AppMeasurementService"
+524-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:45:13-84
+525            android:enabled="true"
+525-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:46:13-35
+526            android:exported="false" />
+526-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:47:13-37
+527        <service
+527-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:48:9-52:72
+528            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+528-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:49:13-87
+529            android:enabled="true"
+529-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:50:13-35
+530            android:exported="false"
+530-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:51:13-37
+531            android:permission="android.permission.BIND_JOB_SERVICE" />
+531-->[com.google.firebase:firebase-analytics:16.3.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\42a7adffdea7137e310fe5847eb27188\jetified-firebase-analytics-16.3.0\AndroidManifest.xml:52:13-69
+532
+533        <receiver
+533-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+534            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+534-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+535            android:exported="true"
+535-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+536            android:permission="com.google.android.c2dm.permission.SEND" >
+536-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+537            <intent-filter>
+537-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+538                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+538-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
+538-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
+539            </intent-filter>
+540        </receiver>
+541        <!--
+542             FirebaseInstanceIdService performs security checks at runtime,
+543             no need for explicit permissions despite exported="true"
+544        -->
+545        <service
+545-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+546            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+546-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+547            android:exported="true" >
+547-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+548            <intent-filter android:priority="-500" >
+548-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+548-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+549                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+549-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+549-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\cc7030851a5df05176f003efc84911a0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+550            </intent-filter>
+551        </service>
+552
+553        <activity
+553-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\a3acdec8b46532405a8411cfa7b67475\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+554            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+554-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\a3acdec8b46532405a8411cfa7b67475\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+555            android:exported="false"
+555-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\a3acdec8b46532405a8411cfa7b67475\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+556            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+556-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\a3acdec8b46532405a8411cfa7b67475\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+557
+558        <provider
+558-->[com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\eacd7366eec595ccddc63c683ecb923e\jetified-firebase-common-16.0.4\AndroidManifest.xml:10:9-14:39
+559            android:name="com.google.firebase.provider.FirebaseInitProvider"
+559-->[com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\eacd7366eec595ccddc63c683ecb923e\jetified-firebase-common-16.0.4\AndroidManifest.xml:11:13-77
+560            android:authorities="com.jayam.impactapp.firebaseinitprovider"
+560-->[com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\eacd7366eec595ccddc63c683ecb923e\jetified-firebase-common-16.0.4\AndroidManifest.xml:12:13-72
+561            android:exported="false"
+561-->[com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\eacd7366eec595ccddc63c683ecb923e\jetified-firebase-common-16.0.4\AndroidManifest.xml:13:13-37
+562            android:initOrder="100" />
+562-->[com.google.firebase:firebase-common:16.0.4] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\eacd7366eec595ccddc63c683ecb923e\jetified-firebase-common-16.0.4\AndroidManifest.xml:14:13-36
+563        <provider
+563-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+564            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+564-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+565            android:authorities="com.jayam.impactapp.lifecycle-process"
+565-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+566            android:exported="false"
+566-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+567            android:multiprocess="true" />
+567-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\administrator_pc\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+568    </application>
+569
+570</manifest>

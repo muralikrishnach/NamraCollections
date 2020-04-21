@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Member Name"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNPSMemebrName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="memeber name"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tvCenterCode_label"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Member Code"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNPSMemberCode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="memebr code"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tvCenterCode_labels"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Renewal Date"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNPSRenDate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="02102014"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+
+            
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tvCenterName_label"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Rnwl Instalment No"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNPSRnwlInstallNo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="22"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+
+            
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Amt. Collected"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvNpsAmtColl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2134244"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+ 
+              
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Rnwl Amt. Due/Arrs"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <EditText
+                    android:id="@+id/etNpsAmountTobeCollected"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/inputbox2"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:text="343243242343"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/saparetor" />
+
+            <LinearLayout
+                android:id="@+id/llpaidAmt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Paid Amount"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/saparetor" />
+
+                <TextView
+                    android:id="@+id/tvPaidAmount"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2134244"
+                    android:textColor="#006699"
+                    android:textStyle="bold" />
+            </LinearLayout>
+                        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:text="Save"
+                    android:textStyle="bold" />
+            </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+
+
+        
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\Namraa\\NamraCollections\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldpi-v4\\values-ldpi-v4.xml",
+            "map": [
+                {
+                    "source": "G:\\Namraa\\NamraCollections\\app\\src\\main\\res\\values-ldpi\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,8,9,10",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "92,151,384,441,484",
+                        "endColumns": "57,55,55,41,39",
+                        "endOffsets": "145,202,435,478,519"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,113,169,225,267",
+                        "endColumns": "57,55,55,41,39",
+                        "endOffsets": "108,164,220,262,302"
+                    }
+                }
+            ]
+        }
+    ]
+}

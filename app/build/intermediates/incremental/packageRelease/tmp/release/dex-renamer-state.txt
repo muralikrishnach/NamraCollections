@@ -1,0 +1,7 @@
+#Mon Apr 20 19:33:03 IST 2020
+base.0=E\:\\PPFM-13-4-20Sqliteissuecode\\pplcollections\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=E\:\\PPFM-13-4-20Sqliteissuecode\\pplcollections\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes2.dex

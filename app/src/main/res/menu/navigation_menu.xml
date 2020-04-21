@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <item android:id="@+id/btnTransaction"
+        android:icon="@drawable/collection"
+        android:title="@string/transactions"/>
+    <item android:id="@+id/btnrepay"
+        android:icon="@drawable/rupee"
+        android:title="@string/repdetails"/>
+    <item android:id="@+id/btndataSync"
+        android:icon="@drawable/synchdata"
+        android:title="@string/datasync"/>
+    <item android:id="@+id/btnReports"
+        android:icon="@drawable/rept"
+        android:title="@string/reports"/>
+    <item android:id="@+id/btnLastreceiptprint"
+        android:icon="@drawable/printing"
+        android:title="@string/lrp"/>
+    <item android:id="@+id/btntransactionhistory"
+        android:icon="@drawable/money"
+        android:title="@string/thistory"/>
+<!--    <item android:id="@+id/transactionhistory"-->
+<!--        android:icon="@drawable/money"-->
+<!--        android:title="@string/thistory"/>-->
+    <item android:id="@+id/btnlogout"
+        android:icon="@drawable/logout"
+        android:title="@string/logout"/>
+
+</menu>

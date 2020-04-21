@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/settings" />
+
+        <Button
+            android:id="@+id/btnResetParameter"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:text="@string/ResetParameters" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete" />
+
+        <Button
+            android:id="@+id/btnODData"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:text="@string/PurgeODData" />
+    </LinearLayout>
+    
+    <LinearLayout
+         android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete" />
+
+        <Button
+            android:id="@+id/btnLUCData"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+           
+            android:text="Purge LUC Data" />
+    </LinearLayout>
+
+</LinearLayout>

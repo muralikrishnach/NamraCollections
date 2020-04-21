@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+  >
+    
+    <LinearLayout 
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNewDemand"
+        android:textColor="@android:color/black"
+        android:text="Total Number of Regular Demands :"
+        android:padding="10dip"
+        android:layout_weight="0.30"/>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#006699"
+        android:text="--"
+        android:padding="10dip"
+         android:layout_weight="0.70"
+         android:id="@+id/tvToatalDemands"/>
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNewDemand1"
+        android:textColor="@android:color/black"
+        android:text="Amount to be Collected :"
+        android:padding="10dip"
+        android:layout_weight="0.30"/>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAmountTobeCollected"
+        android:textColor="#006699"
+        android:text="--"
+        android:padding="10dip"
+         android:layout_weight="0.70"
+         />
+    </LinearLayout>
+
+</LinearLayout>
